@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_site_page_texts",
+  "info": { "displayName": "Text", "icon": "pencil" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "description": "Where this text appears. For information only." },
+    "key": { "type": "string", "required": true, "description": "Do not change. This tells the website where the text goes." },
+    "en": { "type": "text" },
+    "fr": { "type": "text", "description": "Leave empty to use the built-in French." }
+  }
+}

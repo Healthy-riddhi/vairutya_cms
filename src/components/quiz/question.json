@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_quiz_questions",
+  "info": { "displayName": "Question", "icon": "question" },
+  "options": {},
+  "attributes": {
+    "prompt": { "type": "string", "required": true },
+    "answers": { "type": "component", "repeatable": true, "component": "quiz.answer", "required": true, "min": 2 }
+  }
+}

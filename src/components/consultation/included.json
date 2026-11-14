@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_consultation_includeds",
+  "info": { "displayName": "Included item", "icon": "check" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true }
+  }
+}

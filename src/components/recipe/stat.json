@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_recipe_stats",
+  "info": { "displayName": "Stat", "icon": "clock" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "bold": { "type": "boolean", "default": false }
+  }
+}

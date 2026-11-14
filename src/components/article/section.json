@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_article_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text",
+      "description": "Separate paragraphs with a blank line. Start lines with '- ' for bullets or '1. ' for numbers. Use **bold**, *italic* and [text](/link)."
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_quiz_sections",
+  "info": { "displayName": "Result section", "icon": "bulletList" },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "description": "For example: Skin Challenges" },
+    "body": { "type": "text", "description": "One line per bullet. Start a line with a label and a colon to make the label bold, for example: Food: warm, grounding meals" }
+  }
+}

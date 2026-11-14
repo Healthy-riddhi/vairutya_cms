@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consultation_requests",
+  "info": { "singularName": "consultation-request", "pluralName": "consultation-requests", "displayName": "Consultation Request" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "reference": { "type": "string", "unique": true },
+    "requestStatus": { "type": "enumeration", "enum": ["requested", "confirmed", "cancelled"], "default": "requested", "required": true, "description": "Setting this to confirmed emails the customer (once)." },
+    "name": { "type": "string" },
+    "email": { "type": "email" },
+    "phone": { "type": "string" },
+    "concern": { "type": "text" },
+    "date": { "type": "date", "required": true, "description": "You can change this before confirming, to offer another day." },
+    "slot": { "type": "string", "required": true, "regex": "^([01]\\d|2[0-3]):[0-5]\\d$", "description": "24-hour Indian time, for example 14:30. You can change it before confirming." },
+    "language": { "type": "enumeration", "enum": ["en", "fr"], "default": "en", "description": "The language of the customer's emails." },
+    "meetingLink": { "type": "string", "description": "Fill in BEFORE confirming: it goes in the email and on the confirmation page." },
+    "messageToCustomer": { "type": "text", "description": "Optional note for the customer. Fill in BEFORE confirming." },
+    "confirmedAt": { "type": "datetime" },
+    "confirmationEmailSentAt": { "type": "datetime", "description": "Clear this and save to send the confirmation email again." },
+    "adminNotes": { "type": "text" },
+    "token": { "type": "string", "unique": true, "description": "Do not change. It is part of the customer's link." }
+  }
+}

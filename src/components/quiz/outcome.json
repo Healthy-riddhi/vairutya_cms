@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quiz_outcomes",
+  "info": { "displayName": "Outcome", "icon": "star" },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "headline": { "type": "string" },
+    "emoji": { "type": "string" },
+    "color": { "type": "string", "default": "#6aab7e", "regex": "^#[0-9a-fA-F]{6}$" },
+    "description": { "type": "text" },
+    "tips": { "type": "text" },
+    "products": { "type": "component", "repeatable": true, "component": "quiz.suggestion" }
+  }
+}

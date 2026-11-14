@@ -1,0 +1,2828 @@
+[
+ {
+  "key": "Meta.title",
+  "page": "Meta",
+  "en": "Vairutya — Optimizing Human Performance",
+  "fr": "Vairutya — Optimiser la performance humaine"
+ },
+ {
+  "key": "Meta.description",
+  "page": "Meta",
+  "en": "Science-backed nutrition and biological rhythm alignment, rooted in Ayurveda and modern wellness research.",
+  "fr": "Nutrition fondée sur la science et alignement des rythmes biologiques, ancrés dans l’Ayurveda et la recherche moderne sur le bien-être."
+ },
+ {
+  "key": "Header.openMenu",
+  "page": "Header",
+  "en": "Open menu",
+  "fr": "Ouvrir le menu"
+ },
+ {
+  "key": "Header.changeLanguage",
+  "page": "Header",
+  "en": "Change language",
+  "fr": "Changer de langue"
+ },
+ {
+  "key": "Header.cart",
+  "page": "Header",
+  "en": "Cart",
+  "fr": "Panier"
+ },
+ {
+  "key": "Header.account",
+  "page": "Header",
+  "en": "My account",
+  "fr": "Mon compte"
+ },
+ {
+  "key": "Header.signIn",
+  "page": "Header",
+  "en": "Sign in",
+  "fr": "Se connecter"
+ },
+ {
+  "key": "Menu.shop",
+  "page": "Menu",
+  "en": "Shop",
+  "fr": "Boutique"
+ },
+ {
+  "key": "Menu.consultation",
+  "page": "Menu",
+  "en": "Consultation",
+  "fr": "Consultation"
+ },
+ {
+  "key": "Menu.product",
+  "page": "Menu",
+  "en": "Product",
+  "fr": "Produits"
+ },
+ {
+  "key": "Menu.quiz",
+  "page": "Menu",
+  "en": "Quiz",
+  "fr": "Quiz"
+ },
+ {
+  "key": "Menu.workshops",
+  "page": "Menu",
+  "en": "Workshops",
+  "fr": "Ateliers"
+ },
+ {
+  "key": "Menu.recipes",
+  "page": "Menu",
+  "en": "Recipes",
+  "fr": "Recettes"
+ },
+ {
+  "key": "Menu.blog",
+  "page": "Menu",
+  "en": "Blog",
+  "fr": "Blog"
+ },
+ {
+  "key": "Menu.close",
+  "page": "Menu",
+  "en": "Close menu",
+  "fr": "Fermer le menu"
+ },
+ {
+  "key": "Menu.home",
+  "page": "Menu",
+  "en": "Vairutya — home",
+  "fr": "Vairutya — accueil"
+ },
+ {
+  "key": "Menu.language",
+  "page": "Menu",
+  "en": "Language",
+  "fr": "Langue"
+ },
+ {
+  "key": "Footer.tagline",
+  "page": "Footer",
+  "en": "Optimizing human performance through science-backed nutrition and biological rhythm alignment.",
+  "fr": "Optimiser la performance humaine grâce à une nutrition fondée sur la science et à l’alignement des rythmes biologiques."
+ },
+ {
+  "key": "Footer.social",
+  "page": "Footer",
+  "en": "Social link",
+  "fr": "Lien vers un réseau social"
+ },
+ {
+  "key": "Footer.products",
+  "page": "Footer",
+  "en": "Products",
+  "fr": "Produits"
+ },
+ {
+  "key": "Footer.company",
+  "page": "Footer",
+  "en": "Company",
+  "fr": "Entreprise"
+ },
+ {
+  "key": "Footer.newsletter",
+  "page": "Footer",
+  "en": "Newsletter",
+  "fr": "Newsletter"
+ },
+ {
+  "key": "Footer.newsletterText",
+  "page": "Footer",
+  "en": "Get the latest research and product updates.",
+  "fr": "Recevez les dernières recherches et nouveautés produits."
+ },
+ {
+  "key": "Footer.rights",
+  "page": "Footer",
+  "en": "All rights reserved.",
+  "fr": "Tous droits réservés."
+ },
+ {
+  "key": "Footer.privacy",
+  "page": "Footer",
+  "en": "Privacy Policy",
+  "fr": "Politique de confidentialité"
+ },
+ {
+  "key": "Footer.terms",
+  "page": "Footer",
+  "en": "Terms of Service",
+  "fr": "Conditions d’utilisation"
+ },
+ {
+  "key": "Footer.shipping",
+  "page": "Footer",
+  "en": "Shipping",
+  "fr": "Livraison"
+ },
+ {
+  "key": "Footer.refunds",
+  "page": "Footer",
+  "en": "Refunds",
+  "fr": "Remboursements"
+ },
+ {
+  "key": "Footer.cookies",
+  "page": "Footer",
+  "en": "Cookie Settings",
+  "fr": "Paramètres des cookies"
+ },
+ {
+  "key": "Footer.links.metabolic",
+  "page": "Footer",
+  "en": "Metabolic Health",
+  "fr": "Santé métabolique"
+ },
+ {
+  "key": "Footer.links.gut",
+  "page": "Footer",
+  "en": "Gut Health",
+  "fr": "Santé intestinale"
+ },
+ {
+  "key": "Footer.links.mental",
+  "page": "Footer",
+  "en": "Mental Wellness",
+  "fr": "Bien-être mental"
+ },
+ {
+  "key": "Footer.links.sleep",
+  "page": "Footer",
+  "en": "Sleep Optimization",
+  "fr": "Optimisation du sommeil"
+ },
+ {
+  "key": "Footer.links.science",
+  "page": "Footer",
+  "en": "Our Science",
+  "fr": "Notre science"
+ },
+ {
+  "key": "Footer.links.about",
+  "page": "Footer",
+  "en": "About Us",
+  "fr": "À propos"
+ },
+ {
+  "key": "Footer.links.careers",
+  "page": "Footer",
+  "en": "Careers",
+  "fr": "Carrières"
+ },
+ {
+  "key": "Footer.links.contact",
+  "page": "Footer",
+  "en": "Contact",
+  "fr": "Contact"
+ },
+ {
+  "key": "Hero.headline",
+  "page": "Hero",
+  "en": "Unlock Your Personalized Health Journey",
+  "fr": "Révélez votre parcours de santé personnalisé"
+ },
+ {
+  "key": "Hero.subtext",
+  "page": "Hero",
+  "en": "Experience a new era of proactive wellness with data-driven insights tailored specifically to your unique biological profile.",
+  "fr": "Découvrez une nouvelle ère du bien-être proactif, grâce à des analyses fondées sur les données et adaptées à votre profil biologique unique."
+ },
+ {
+  "key": "Hero.button",
+  "page": "Hero",
+  "en": "Take the Health Quiz",
+  "fr": "Faire le quiz santé"
+ },
+ {
+  "key": "Hero.goToSlide",
+  "page": "Hero",
+  "en": "Go to slide {n}",
+  "fr": "Aller à la diapositive {n}"
+ },
+ {
+  "key": "Newsletter.title",
+  "page": "Newsletter",
+  "en": "Stay Informed, Stay Healthy",
+  "fr": "Restez informé, restez en bonne santé"
+ },
+ {
+  "key": "Newsletter.text",
+  "page": "Newsletter",
+  "en": "Join 20,000+ others receiving weekly expert health tips and exclusive product offers.",
+  "fr": "Rejoignez plus de 20 000 personnes qui reçoivent chaque semaine des conseils santé d’experts et des offres exclusives."
+ },
+ {
+  "key": "Newsletter.emailLabel",
+  "page": "Newsletter",
+  "en": "Email address",
+  "fr": "Adresse e-mail"
+ },
+ {
+  "key": "Newsletter.emailPlaceholder",
+  "page": "Newsletter",
+  "en": "Email Address",
+  "fr": "Adresse e-mail"
+ },
+ {
+  "key": "Newsletter.subscribe",
+  "page": "Newsletter",
+  "en": "Subscribe",
+  "fr": "S’abonner"
+ },
+ {
+  "key": "Newsletter.subscribing",
+  "page": "Newsletter",
+  "en": "Subscribing...",
+  "fr": "Inscription..."
+ },
+ {
+  "key": "Newsletter.success",
+  "page": "Newsletter",
+  "en": "Almost there! Check your inbox to confirm your subscription.",
+  "fr": "Presque terminé ! Consultez votre boîte de réception pour confirmer votre inscription."
+ },
+ {
+  "key": "Newsletter.privacy",
+  "page": "Newsletter",
+  "en": "Privacy respected. Unsubscribe anytime.",
+  "fr": "Votre vie privée est respectée. Désabonnement possible à tout moment."
+ },
+ {
+  "key": "Newsletter.join",
+  "page": "Newsletter",
+  "en": "Join",
+  "fr": "Rejoindre"
+ },
+ {
+  "key": "Newsletter.error",
+  "page": "Newsletter",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Shop.eyebrow",
+  "page": "Shop",
+  "en": "Shop",
+  "fr": "Boutique"
+ },
+ {
+  "key": "Shop.title",
+  "page": "Shop",
+  "en": "Ayurvedic Hair & Scalp Care",
+  "fr": "Soins ayurvédiques des cheveux et du cuir chevelu"
+ },
+ {
+  "key": "Shop.subtitle",
+  "page": "Shop",
+  "en": "Thoughtfully formulated essentials, rooted in tradition.",
+  "fr": "Des essentiels soigneusement formulés, ancrés dans la tradition."
+ },
+ {
+  "key": "Shop.empty",
+  "page": "Shop",
+  "en": "No products available right now. Please check back soon.",
+  "fr": "Aucun produit disponible pour le moment. Revenez bientôt."
+ },
+ {
+  "key": "Shop.add",
+  "page": "Shop",
+  "en": "Add to cart",
+  "fr": "Ajouter au panier"
+ },
+ {
+  "key": "Shop.added",
+  "page": "Shop",
+  "en": "Added ✓",
+  "fr": "Ajouté ✓"
+ },
+ {
+  "key": "Shop.newArrival",
+  "page": "Shop",
+  "en": "New Arrival",
+  "fr": "Nouveauté"
+ },
+ {
+  "key": "Shop.bestSeller",
+  "page": "Shop",
+  "en": "Best Seller",
+  "fr": "Meilleure vente"
+ },
+ {
+  "key": "Product.addToCart",
+  "page": "Product",
+  "en": "Add to Cart",
+  "fr": "Ajouter au panier"
+ },
+ {
+  "key": "Product.viewCart",
+  "page": "Product",
+  "en": "View Cart",
+  "fr": "Voir le panier"
+ },
+ {
+  "key": "Product.showImage",
+  "page": "Product",
+  "en": "Show image {n}",
+  "fr": "Afficher l’image {n}"
+ },
+ {
+  "key": "Product.benefits",
+  "page": "Product",
+  "en": "Benefits",
+  "fr": "Bienfaits"
+ },
+ {
+  "key": "Product.ingredients",
+  "page": "Product",
+  "en": "Ingredients",
+  "fr": "Ingrédients"
+ },
+ {
+  "key": "Product.howToUse",
+  "page": "Product",
+  "en": "How to Use",
+  "fr": "Mode d’emploi"
+ },
+ {
+  "key": "Product.newArrival",
+  "page": "Product",
+  "en": "New Arrival",
+  "fr": "Nouveauté"
+ },
+ {
+  "key": "Product.bestSeller",
+  "page": "Product",
+  "en": "Best Seller",
+  "fr": "Meilleure vente"
+ },
+ {
+  "key": "Cart.empty",
+  "page": "Cart",
+  "en": "Your cart is empty",
+  "fr": "Votre panier est vide"
+ },
+ {
+  "key": "Cart.emptyText",
+  "page": "Cart",
+  "en": "Add products from the shop to get started.",
+  "fr": "Ajoutez des produits depuis la boutique pour commencer."
+ },
+ {
+  "key": "Cart.browse",
+  "page": "Cart",
+  "en": "Browse Products",
+  "fr": "Découvrir les produits"
+ },
+ {
+  "key": "Cart.decrease",
+  "page": "Cart",
+  "en": "Decrease quantity",
+  "fr": "Diminuer la quantité"
+ },
+ {
+  "key": "Cart.increase",
+  "page": "Cart",
+  "en": "Increase quantity",
+  "fr": "Augmenter la quantité"
+ },
+ {
+  "key": "Cart.remove",
+  "page": "Cart",
+  "en": "Remove {name}",
+  "fr": "Retirer {name}"
+ },
+ {
+  "key": "Cart.summary",
+  "page": "Cart",
+  "en": "Order Summary",
+  "fr": "Récapitulatif de la commande"
+ },
+ {
+  "key": "Cart.shipping",
+  "page": "Cart",
+  "en": "Shipping",
+  "fr": "Livraison"
+ },
+ {
+  "key": "Cart.free",
+  "page": "Cart",
+  "en": "Free",
+  "fr": "Gratuite"
+ },
+ {
+  "key": "Cart.freeAway",
+  "page": "Cart",
+  "en": "Add {amount} more for free shipping.",
+  "fr": "Ajoutez {amount} pour bénéficier de la livraison gratuite."
+ },
+ {
+  "key": "Cart.total",
+  "page": "Cart",
+  "en": "Total",
+  "fr": "Total"
+ },
+ {
+  "key": "Cart.gst",
+  "page": "Cart",
+  "en": "Includes GST of {amount}",
+  "fr": "Dont GST (TVA indienne) de {amount}"
+ },
+ {
+  "key": "Cart.checking",
+  "page": "Cart",
+  "en": "Checking prices…",
+  "fr": "Vérification des prix…"
+ },
+ {
+  "key": "Cart.proceed",
+  "page": "Cart",
+  "en": "Proceed to Checkout",
+  "fr": "Passer à la commande"
+ },
+ {
+  "key": "Checkout.title",
+  "page": "Checkout",
+  "en": "Checkout",
+  "fr": "Commande"
+ },
+ {
+  "key": "Checkout.step1",
+  "page": "Checkout",
+  "en": "Shipping Address (India)",
+  "fr": "Adresse de livraison (Inde)"
+ },
+ {
+  "key": "Checkout.fullName",
+  "page": "Checkout",
+  "en": "Full name *",
+  "fr": "Nom complet *"
+ },
+ {
+  "key": "Checkout.fullNamePh",
+  "page": "Checkout",
+  "en": "Recipient's name",
+  "fr": "Nom du destinataire"
+ },
+ {
+  "key": "Checkout.phone",
+  "page": "Checkout",
+  "en": "Phone *",
+  "fr": "Téléphone *"
+ },
+ {
+  "key": "Checkout.address",
+  "page": "Checkout",
+  "en": "Address *",
+  "fr": "Adresse *"
+ },
+ {
+  "key": "Checkout.addressPh",
+  "page": "Checkout",
+  "en": "House / flat, street",
+  "fr": "N° de maison ou d’appartement, rue"
+ },
+ {
+  "key": "Checkout.line2",
+  "page": "Checkout",
+  "en": "Apartment, landmark (optional)",
+  "fr": "Complément d’adresse, point de repère (facultatif)"
+ },
+ {
+  "key": "Checkout.city",
+  "page": "Checkout",
+  "en": "City *",
+  "fr": "Ville *"
+ },
+ {
+  "key": "Checkout.state",
+  "page": "Checkout",
+  "en": "State *",
+  "fr": "État *"
+ },
+ {
+  "key": "Checkout.pin",
+  "page": "Checkout",
+  "en": "PIN code *",
+  "fr": "Code PIN *"
+ },
+ {
+  "key": "Checkout.continue",
+  "page": "Checkout",
+  "en": "Continue to Payment",
+  "fr": "Continuer vers le paiement"
+ },
+ {
+  "key": "Checkout.step2",
+  "page": "Checkout",
+  "en": "Review & Pay",
+  "fr": "Vérifier et payer"
+ },
+ {
+  "key": "Checkout.payInfo",
+  "page": "Checkout",
+  "en": "You'll pay securely in Razorpay's window (cards, UPI, netbanking). We never see your card details.",
+  "fr": "Vous paierez en toute sécurité dans la fenêtre Razorpay (cartes, UPI, banque en ligne). Nous ne voyons jamais vos données de carte."
+ },
+ {
+  "key": "Checkout.opening",
+  "page": "Checkout",
+  "en": "Opening payment…",
+  "fr": "Ouverture du paiement…"
+ },
+ {
+  "key": "Checkout.pay",
+  "page": "Checkout",
+  "en": "Pay {amount}",
+  "fr": "Payer {amount}"
+ },
+ {
+  "key": "Checkout.checking",
+  "page": "Checkout",
+  "en": "Checking prices…",
+  "fr": "Vérification des prix…"
+ },
+ {
+  "key": "Checkout.agree",
+  "page": "Checkout",
+  "en": "By paying you agree to our <terms>Terms</terms>, <shipping>Shipping</shipping> and <refund>Refund & Cancellation</refund> policies.",
+  "fr": "En payant, vous acceptez nos politiques : <terms>Conditions d’utilisation</terms>, <shipping>Livraison</shipping> et <refund>Remboursement et annulation</refund>."
+ },
+ {
+  "key": "Checkout.summary",
+  "page": "Checkout",
+  "en": "Order Summary ({count, plural, one {# item} other {# items}})",
+  "fr": "Récapitulatif ({count, plural, one {# article} other {# articles}})"
+ },
+ {
+  "key": "Checkout.qty",
+  "page": "Checkout",
+  "en": "Qty {n}",
+  "fr": "Qté {n}"
+ },
+ {
+  "key": "Checkout.subtotal",
+  "page": "Checkout",
+  "en": "Subtotal",
+  "fr": "Sous-total"
+ },
+ {
+  "key": "Checkout.shipping",
+  "page": "Checkout",
+  "en": "Shipping",
+  "fr": "Livraison"
+ },
+ {
+  "key": "Checkout.free",
+  "page": "Checkout",
+  "en": "Free",
+  "fr": "Gratuite"
+ },
+ {
+  "key": "Checkout.total",
+  "page": "Checkout",
+  "en": "Total",
+  "fr": "Total"
+ },
+ {
+  "key": "Checkout.gst",
+  "page": "Checkout",
+  "en": "Includes GST of {amount}",
+  "fr": "Dont GST (TVA indienne) de {amount}"
+ },
+ {
+  "key": "Checkout.edit",
+  "page": "Checkout",
+  "en": "(edit)",
+  "fr": "(modifier)"
+ },
+ {
+  "key": "Checkout.errGeneric",
+  "page": "Checkout",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Checkout.errLoad",
+  "page": "Checkout",
+  "en": "Couldn't load the payment window. Check your connection and try again.",
+  "fr": "Impossible de charger la fenêtre de paiement. Vérifiez votre connexion et réessayez."
+ },
+ {
+  "key": "Checkout.errConfirm",
+  "page": "Checkout",
+  "en": "Your payment went through, but we couldn't confirm it on screen yet. Check \"My orders\" in a minute. If it isn't there, contact us with order number {order}.",
+  "fr": "Votre paiement a bien été effectué, mais nous n’avons pas encore pu le confirmer à l’écran. Consultez « Mes commandes » dans une minute. Si elle n’y figure pas, contactez-nous en indiquant le numéro de commande {order}."
+ },
+ {
+  "key": "Checkout.errFailed",
+  "page": "Checkout",
+  "en": "The payment didn't go through. You can try again.",
+  "fr": "Le paiement n’a pas abouti. Vous pouvez réessayer."
+ },
+ {
+  "key": "Checkout.emptyTitle",
+  "page": "Checkout",
+  "en": "Your cart is empty",
+  "fr": "Votre panier est vide"
+ },
+ {
+  "key": "Checkout.browse",
+  "page": "Checkout",
+  "en": "Browse Products",
+  "fr": "Découvrir les produits"
+ },
+ {
+  "key": "Checkout.step1Fr",
+  "page": "Checkout",
+  "en": "Shipping Address (France)",
+  "fr": "Adresse de livraison (France)"
+ },
+ {
+  "key": "Checkout.postcodeFr",
+  "page": "Checkout",
+  "en": "Postcode *",
+  "fr": "Code postal *"
+ },
+ {
+  "key": "Checkout.frSoon",
+  "page": "Checkout",
+  "en": "Euro payments aren't open yet, so we can't take this order. Please check back soon.",
+  "fr": "Le paiement en euros n’est pas encore ouvert, nous ne pouvons donc pas encore prendre cette commande. Revenez bientôt."
+ },
+ {
+  "key": "Checkout.payInfoUpi",
+  "page": "Checkout",
+  "en": "You'll pay by UPI on the next screen, then tell us your UPI reference. We confirm your order once we see the payment.",
+  "fr": "Vous paierez par UPI à l’écran suivant, puis nous indiquerez votre référence UPI. Nous confirmons votre commande dès réception du paiement."
+ },
+ {
+  "key": "Checkout.continuePay",
+  "page": "Checkout",
+  "en": "Continue to UPI payment — {amount}",
+  "fr": "Continuer vers le paiement UPI — {amount}"
+ },
+ {
+  "key": "Orders.title",
+  "page": "Orders",
+  "en": "My orders",
+  "fr": "Mes commandes"
+ },
+ {
+  "key": "Orders.empty",
+  "page": "Orders",
+  "en": "You haven't placed any orders yet.",
+  "fr": "Vous n’avez pas encore passé de commande."
+ },
+ {
+  "key": "Orders.browse",
+  "page": "Orders",
+  "en": "Browse Products",
+  "fr": "Découvrir les produits"
+ },
+ {
+  "key": "Orders.items",
+  "page": "Orders",
+  "en": "{count, plural, one {# item} other {# items}}",
+  "fr": "{count, plural, one {# article} other {# articles}}"
+ },
+ {
+  "key": "Orders.allOrders",
+  "page": "Orders",
+  "en": "← All orders",
+  "fr": "← Toutes les commandes"
+ },
+ {
+  "key": "Orders.placed",
+  "page": "Orders",
+  "en": "Placed {date}",
+  "fr": "Passée le {date}"
+ },
+ {
+  "key": "Orders.tracking",
+  "page": "Orders",
+  "en": "Tracking",
+  "fr": "Suivi"
+ },
+ {
+  "key": "Orders.shipping",
+  "page": "Orders",
+  "en": "Shipping",
+  "fr": "Livraison"
+ },
+ {
+  "key": "Orders.free",
+  "page": "Orders",
+  "en": "Free",
+  "fr": "Gratuite"
+ },
+ {
+  "key": "Orders.total",
+  "page": "Orders",
+  "en": "Total",
+  "fr": "Total"
+ },
+ {
+  "key": "Orders.gst",
+  "page": "Orders",
+  "en": "Includes GST of {amount}",
+  "fr": "Dont GST (TVA indienne) de {amount}"
+ },
+ {
+  "key": "Orders.shippingTo",
+  "page": "Orders",
+  "en": "Shipping to",
+  "fr": "Livraison à"
+ },
+ {
+  "key": "Orders.country",
+  "page": "Orders",
+  "en": "India",
+  "fr": "Inde"
+ },
+ {
+  "key": "Orders.help",
+  "page": "Orders",
+  "en": "Need help? See our <ship>Shipping</ship> and <refund>Refund & Cancellation</refund> policies, or contact us with your order number.",
+  "fr": "Besoin d’aide ? Consultez nos politiques de <ship>livraison</ship> et de <refund>remboursement et d’annulation</refund>, ou contactez-nous en indiquant votre numéro de commande."
+ },
+ {
+  "key": "Orders.thanks",
+  "page": "Orders",
+  "en": "Thank you for your order",
+  "fr": "Merci pour votre commande"
+ },
+ {
+  "key": "Orders.confirming",
+  "page": "Orders",
+  "en": "We're confirming your payment",
+  "fr": "Nous confirmons votre paiement"
+ },
+ {
+  "key": "Orders.order",
+  "page": "Orders",
+  "en": "Order {number}",
+  "fr": "Commande {number}"
+ },
+ {
+  "key": "Orders.emailOnWay",
+  "page": "Orders",
+  "en": "A confirmation email is on its way to {email}.",
+  "fr": "Un e-mail de confirmation est en route vers {email}."
+ },
+ {
+  "key": "Orders.takeMinute",
+  "page": "Orders",
+  "en": "This can take a minute. Your order will appear in My orders once it's confirmed.",
+  "fr": "Cela peut prendre une minute. Votre commande apparaîtra dans « Mes commandes » dès sa confirmation."
+ },
+ {
+  "key": "Orders.view",
+  "page": "Orders",
+  "en": "View order",
+  "fr": "Voir la commande"
+ },
+ {
+  "key": "Orders.keep",
+  "page": "Orders",
+  "en": "Keep shopping",
+  "fr": "Continuer mes achats"
+ },
+ {
+  "key": "Orders.myOrders",
+  "page": "Orders",
+  "en": "My orders",
+  "fr": "Mes commandes"
+ },
+ {
+  "key": "Orders.completePayment",
+  "page": "Orders",
+  "en": "Complete payment",
+  "fr": "Finaliser le paiement"
+ },
+ {
+  "key": "Status.pending_payment",
+  "page": "Status",
+  "en": "Awaiting payment",
+  "fr": "En attente de paiement"
+ },
+ {
+  "key": "Status.paid",
+  "page": "Status",
+  "en": "Paid",
+  "fr": "Payée"
+ },
+ {
+  "key": "Status.processing",
+  "page": "Status",
+  "en": "Preparing your order",
+  "fr": "En préparation"
+ },
+ {
+  "key": "Status.shipped",
+  "page": "Status",
+  "en": "Shipped",
+  "fr": "Expédiée"
+ },
+ {
+  "key": "Status.delivered",
+  "page": "Status",
+  "en": "Delivered",
+  "fr": "Livrée"
+ },
+ {
+  "key": "Status.cancelled",
+  "page": "Status",
+  "en": "Cancelled",
+  "fr": "Annulée"
+ },
+ {
+  "key": "Status.payment_failed",
+  "page": "Status",
+  "en": "Payment failed",
+  "fr": "Paiement échoué"
+ },
+ {
+  "key": "Status.refunded",
+  "page": "Status",
+  "en": "Refunded",
+  "fr": "Remboursée"
+ },
+ {
+  "key": "Status.payment_submitted",
+  "page": "Status",
+  "en": "Payment being verified",
+  "fr": "Paiement en cours de vérification"
+ },
+ {
+  "key": "Account.tabs.overview",
+  "page": "Account",
+  "en": "Overview",
+  "fr": "Aperçu"
+ },
+ {
+  "key": "Account.tabs.orders",
+  "page": "Account",
+  "en": "Orders",
+  "fr": "Commandes"
+ },
+ {
+  "key": "Account.tabs.quizzes",
+  "page": "Account",
+  "en": "Quiz Results",
+  "fr": "Résultats des quiz"
+ },
+ {
+  "key": "Account.tabs.settings",
+  "page": "Account",
+  "en": "Settings",
+  "fr": "Paramètres"
+ },
+ {
+  "key": "Account.settings.profile.label",
+  "page": "Account",
+  "en": "Edit Profile",
+  "fr": "Modifier le profil"
+ },
+ {
+  "key": "Account.settings.profile.desc",
+  "page": "Account",
+  "en": "Update your name and phone number",
+  "fr": "Mettre à jour votre nom et votre téléphone"
+ },
+ {
+  "key": "Account.settings.password.label",
+  "page": "Account",
+  "en": "Change Password",
+  "fr": "Changer le mot de passe"
+ },
+ {
+  "key": "Account.settings.password.desc",
+  "page": "Account",
+  "en": "Choose a new password",
+  "fr": "Choisir un nouveau mot de passe"
+ },
+ {
+  "key": "Account.settings.email.label",
+  "page": "Account",
+  "en": "Email preferences",
+  "fr": "Préférences e-mail"
+ },
+ {
+  "key": "Account.settings.email.desc",
+  "page": "Account",
+  "en": "How to stop or change the emails you get",
+  "fr": "Comment arrêter ou modifier les e-mails que vous recevez"
+ },
+ {
+  "key": "Account.settings.privacy.label",
+  "page": "Account",
+  "en": "Your data",
+  "fr": "Vos données"
+ },
+ {
+  "key": "Account.settings.privacy.desc",
+  "page": "Account",
+  "en": "Download your data or delete your account",
+  "fr": "Télécharger vos données ou supprimer votre compte"
+ },
+ {
+  "key": "Account.settings.help.label",
+  "page": "Account",
+  "en": "Help & Support",
+  "fr": "Aide et assistance"
+ },
+ {
+  "key": "Account.settings.help.desc",
+  "page": "Account",
+  "en": "Contact us",
+  "fr": "Contactez-nous"
+ },
+ {
+  "key": "Account.generic",
+  "page": "Account",
+  "en": "Something went wrong.",
+  "fr": "Une erreur s’est produite."
+ },
+ {
+  "key": "Account.close",
+  "page": "Account",
+  "en": "Close",
+  "fr": "Fermer"
+ },
+ {
+  "key": "Account.fullName",
+  "page": "Account",
+  "en": "Full name *",
+  "fr": "Nom complet *"
+ },
+ {
+  "key": "Account.phoneOpt",
+  "page": "Account",
+  "en": "Phone (optional)",
+  "fr": "Téléphone (facultatif)"
+ },
+ {
+  "key": "Account.emailNote",
+  "page": "Account",
+  "en": "Your email is <b>{email}</b>. To change it, please <link>contact us</link>.",
+  "fr": "Votre adresse e-mail est <b>{email}</b>. Pour la modifier, veuillez <link>nous contacter</link>."
+ },
+ {
+  "key": "Account.saved",
+  "page": "Account",
+  "en": "Saved ✓",
+  "fr": "Enregistré ✓"
+ },
+ {
+  "key": "Account.saving",
+  "page": "Account",
+  "en": "Saving...",
+  "fr": "Enregistrement..."
+ },
+ {
+  "key": "Account.saveChanges",
+  "page": "Account",
+  "en": "Save changes",
+  "fr": "Enregistrer les modifications"
+ },
+ {
+  "key": "Account.mismatch",
+  "page": "Account",
+  "en": "The two new passwords don't match.",
+  "fr": "Les deux nouveaux mots de passe ne correspondent pas."
+ },
+ {
+  "key": "Account.currentPass",
+  "page": "Account",
+  "en": "Current password *",
+  "fr": "Mot de passe actuel *"
+ },
+ {
+  "key": "Account.newPass",
+  "page": "Account",
+  "en": "New password *",
+  "fr": "Nouveau mot de passe *"
+ },
+ {
+  "key": "Account.confirmPass",
+  "page": "Account",
+  "en": "Confirm new password *",
+  "fr": "Confirmez le nouveau mot de passe *"
+ },
+ {
+  "key": "Account.passHint",
+  "page": "Account",
+  "en": "At least 10 characters. A few words together works well.",
+  "fr": "10 caractères minimum. Quelques mots à la suite fonctionnent bien."
+ },
+ {
+  "key": "Account.passUpdated",
+  "page": "Account",
+  "en": "Password updated ✓",
+  "fr": "Mot de passe mis à jour ✓"
+ },
+ {
+  "key": "Account.updatePass",
+  "page": "Account",
+  "en": "Update password",
+  "fr": "Mettre à jour le mot de passe"
+ },
+ {
+  "key": "Account.downloadTitle",
+  "page": "Account",
+  "en": "Download your data",
+  "fr": "Télécharger vos données"
+ },
+ {
+  "key": "Account.downloadText",
+  "page": "Account",
+  "en": "A file with everything we hold about your account.",
+  "fr": "Un fichier contenant tout ce que nous détenons sur votre compte."
+ },
+ {
+  "key": "Account.download",
+  "page": "Account",
+  "en": "Download",
+  "fr": "Télécharger"
+ },
+ {
+  "key": "Account.deleteTitle",
+  "page": "Account",
+  "en": "Delete your account",
+  "fr": "Supprimer votre compte"
+ },
+ {
+  "key": "Account.deleteText",
+  "page": "Account",
+  "en": "This permanently removes your account and cannot be undone. Records we are legally required to keep, such as invoices, are kept without your profile. See our <link>Privacy Policy</link>.",
+  "fr": "Cette action supprime définitivement votre compte et est irréversible. Les documents que nous sommes légalement tenus de conserver, comme les factures, sont conservés sans votre profil. Consultez notre <link>Politique de confidentialité</link>."
+ },
+ {
+  "key": "Account.deleteBtn",
+  "page": "Account",
+  "en": "Delete my account",
+  "fr": "Supprimer mon compte"
+ },
+ {
+  "key": "Account.confirmPassword",
+  "page": "Account",
+  "en": "Enter your password to confirm",
+  "fr": "Saisissez votre mot de passe pour confirmer"
+ },
+ {
+  "key": "Account.deleting",
+  "page": "Account",
+  "en": "Deleting...",
+  "fr": "Suppression..."
+ },
+ {
+  "key": "Account.deleteFinal",
+  "page": "Account",
+  "en": "Permanently delete my account",
+  "fr": "Supprimer définitivement mon compte"
+ },
+ {
+  "key": "Account.member",
+  "page": "Account",
+  "en": "Member",
+  "fr": "Membre"
+ },
+ {
+  "key": "Account.signOut",
+  "page": "Account",
+  "en": "Sign Out",
+  "fr": "Se déconnecter"
+ },
+ {
+  "key": "Account.signingOut",
+  "page": "Account",
+  "en": "Signing out...",
+  "fr": "Déconnexion..."
+ },
+ {
+  "key": "Account.welcome",
+  "page": "Account",
+  "en": "Welcome, {name}",
+  "fr": "Bienvenue, {name}"
+ },
+ {
+  "key": "Account.memberSince",
+  "page": "Account",
+  "en": "Member since {date}",
+  "fr": "Membre depuis {date}"
+ },
+ {
+  "key": "Account.browse",
+  "page": "Account",
+  "en": "Browse the shop",
+  "fr": "Parcourir la boutique"
+ },
+ {
+  "key": "Account.browseDesc",
+  "page": "Account",
+  "en": "Handcrafted essentials",
+  "fr": "Essentiels artisanaux"
+ },
+ {
+  "key": "Account.takeQuiz",
+  "page": "Account",
+  "en": "Take a quiz",
+  "fr": "Faire un quiz"
+ },
+ {
+  "key": "Account.takeQuizDesc",
+  "page": "Account",
+  "en": "Discover your dosha",
+  "fr": "Découvrez votre dosha"
+ },
+ {
+  "key": "Account.book",
+  "page": "Account",
+  "en": "Book a consultation",
+  "fr": "Réserver une consultation"
+ },
+ {
+  "key": "Account.bookDesc",
+  "page": "Account",
+  "en": "1-on-1 guidance",
+  "fr": "Accompagnement individuel"
+ },
+ {
+  "key": "Account.noOrders",
+  "page": "Account",
+  "en": "No orders yet",
+  "fr": "Aucune commande pour le moment"
+ },
+ {
+  "key": "Account.noOrdersText",
+  "page": "Account",
+  "en": "When you place an order, it will appear here.",
+  "fr": "Lorsque vous passerez une commande, elle apparaîtra ici."
+ },
+ {
+  "key": "Account.noQuiz",
+  "page": "Account",
+  "en": "No quiz results yet",
+  "fr": "Aucun résultat de quiz pour le moment"
+ },
+ {
+  "key": "Account.noQuizText",
+  "page": "Account",
+  "en": "Take a quiz to see your dosha profile.",
+  "fr": "Faites un quiz pour découvrir votre profil dosha."
+ },
+ {
+  "key": "Account.emailPrefs",
+  "page": "Account",
+  "en": "Newsletter emails only reach you if you chose to receive them. Every one has an <b>Unsubscribe</b> link at the bottom that works in one click. Emails about your account, such as password resets, are always sent.",
+  "fr": "Les e-mails de newsletter ne vous parviennent que si vous avez choisi de les recevoir. Chacun comporte en bas un lien <b>Se désabonner</b> qui fonctionne en un clic. Les e-mails concernant votre compte, comme la réinitialisation du mot de passe, sont toujours envoyés."
+ },
+ {
+  "key": "Account.helpText",
+  "page": "Account",
+  "en": "We're happy to help. Send us a message from our <link>contact page</link> and we'll get back to you.",
+  "fr": "Nous sommes là pour vous aider. Envoyez-nous un message depuis notre <link>page de contact</link> et nous vous répondrons."
+ },
+ {
+  "key": "Auth.generic",
+  "page": "Auth",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Auth.signIn",
+  "page": "Auth",
+  "en": "Sign in",
+  "fr": "Se connecter"
+ },
+ {
+  "key": "Auth.createAccount",
+  "page": "Auth",
+  "en": "Create account",
+  "fr": "Créer un compte"
+ },
+ {
+  "key": "Auth.welcomeBack",
+  "page": "Auth",
+  "en": "Welcome back to your wellness journey.",
+  "fr": "Bon retour dans votre parcours bien-être."
+ },
+ {
+  "key": "Auth.startJourney",
+  "page": "Auth",
+  "en": "Start your personalised wellness journey.",
+  "fr": "Commencez votre parcours bien-être personnalisé."
+ },
+ {
+  "key": "Auth.confirmed",
+  "page": "Auth",
+  "en": "Email confirmed. You can sign in now.",
+  "fr": "E-mail confirmé. Vous pouvez maintenant vous connecter."
+ },
+ {
+  "key": "Auth.fullName",
+  "page": "Auth",
+  "en": "Full name *",
+  "fr": "Nom complet *"
+ },
+ {
+  "key": "Auth.namePh",
+  "page": "Auth",
+  "en": "Your name",
+  "fr": "Votre nom"
+ },
+ {
+  "key": "Auth.email",
+  "page": "Auth",
+  "en": "Email *",
+  "fr": "E-mail *"
+ },
+ {
+  "key": "Auth.password",
+  "page": "Auth",
+  "en": "Password *",
+  "fr": "Mot de passe *"
+ },
+ {
+  "key": "Auth.forgot",
+  "page": "Auth",
+  "en": "Forgot password?",
+  "fr": "Mot de passe oublié ?"
+ },
+ {
+  "key": "Auth.hide",
+  "page": "Auth",
+  "en": "Hide password",
+  "fr": "Masquer le mot de passe"
+ },
+ {
+  "key": "Auth.show",
+  "page": "Auth",
+  "en": "Show password",
+  "fr": "Afficher le mot de passe"
+ },
+ {
+  "key": "Auth.minChars",
+  "page": "Auth",
+  "en": "At least 10 characters. A few words together works well.",
+  "fr": "10 caractères minimum. Quelques mots à la suite fonctionnent bien."
+ },
+ {
+  "key": "Auth.sendAgain",
+  "page": "Auth",
+  "en": "Send it again",
+  "fr": "Renvoyer l’e-mail"
+ },
+ {
+  "key": "Auth.sentAgain",
+  "page": "Auth",
+  "en": "Sent again",
+  "fr": "Renvoyé"
+ },
+ {
+  "key": "Auth.wait",
+  "page": "Auth",
+  "en": "Please wait...",
+  "fr": "Veuillez patienter..."
+ },
+ {
+  "key": "Auth.signInBtn",
+  "page": "Auth",
+  "en": "Sign In",
+  "fr": "Se connecter"
+ },
+ {
+  "key": "Auth.createBtn",
+  "page": "Auth",
+  "en": "Create Account",
+  "fr": "Créer mon compte"
+ },
+ {
+  "key": "Auth.agree",
+  "page": "Auth",
+  "en": "By creating an account you agree to our <terms>Terms</terms> and <privacy>Privacy Policy</privacy>.",
+  "fr": "En créant un compte, vous acceptez nos <terms>Conditions d’utilisation</terms> et notre <privacy>Politique de confidentialité</privacy>."
+ },
+ {
+  "key": "Auth.noAccount",
+  "page": "Auth",
+  "en": "Don't have an account?",
+  "fr": "Pas encore de compte ?"
+ },
+ {
+  "key": "Auth.haveAccount",
+  "page": "Auth",
+  "en": "Already have an account?",
+  "fr": "Déjà un compte ?"
+ },
+ {
+  "key": "Auth.signUp",
+  "page": "Auth",
+  "en": "Sign up",
+  "fr": "S’inscrire"
+ },
+ {
+  "key": "Auth.checkInbox",
+  "page": "Auth",
+  "en": "Check your inbox",
+  "fr": "Consultez votre boîte de réception"
+ },
+ {
+  "key": "Auth.sentTo",
+  "page": "Auth",
+  "en": "If <b>{email}</b> is new to us, we've sent a link to confirm it. If you already have an account, just sign in, or reset your password.",
+  "fr": "Si <b>{email}</b> est nouvelle chez nous, nous avons envoyé un lien pour la confirmer. Si vous avez déjà un compte, connectez-vous simplement ou réinitialisez votre mot de passe."
+ },
+ {
+  "key": "Auth.sendEmailAgain",
+  "page": "Auth",
+  "en": "Send the email again",
+  "fr": "Renvoyer l’e-mail"
+ },
+ {
+  "key": "Auth.sentAgainInbox",
+  "page": "Auth",
+  "en": "Sent again — check your inbox",
+  "fr": "Renvoyé — consultez votre boîte de réception"
+ },
+ {
+  "key": "Auth.backToSignIn",
+  "page": "Auth",
+  "en": "Back to sign in",
+  "fr": "Retour à la connexion"
+ },
+ {
+  "key": "Auth.forgotTitle",
+  "page": "Auth",
+  "en": "Forgot your password?",
+  "fr": "Mot de passe oublié ?"
+ },
+ {
+  "key": "Auth.forgotIntro",
+  "page": "Auth",
+  "en": "Enter your email and we'll send you a reset link.",
+  "fr": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation."
+ },
+ {
+  "key": "Auth.sendLink",
+  "page": "Auth",
+  "en": "Send reset link",
+  "fr": "Envoyer le lien"
+ },
+ {
+  "key": "Auth.sending",
+  "page": "Auth",
+  "en": "Sending...",
+  "fr": "Envoi..."
+ },
+ {
+  "key": "Auth.forgotDone",
+  "page": "Auth",
+  "en": "If there's an account for <b>{email}</b>, we've sent a link to choose a new password. It only works for a short time.",
+  "fr": "S’il existe un compte pour <b>{email}</b>, nous avons envoyé un lien pour choisir un nouveau mot de passe. Il n’est valable que peu de temps."
+ },
+ {
+  "key": "Auth.updated",
+  "page": "Auth",
+  "en": "Password updated",
+  "fr": "Mot de passe mis à jour"
+ },
+ {
+  "key": "Auth.canSignIn",
+  "page": "Auth",
+  "en": "You can now sign in with your new password.",
+  "fr": "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe."
+ },
+ {
+  "key": "Auth.expired",
+  "page": "Auth",
+  "en": "This link has expired",
+  "fr": "Ce lien a expiré"
+ },
+ {
+  "key": "Auth.expiredText",
+  "page": "Auth",
+  "en": "Reset links only work once, for a short time. Request a new one and we'll email it right away.",
+  "fr": "Les liens de réinitialisation ne fonctionnent qu’une fois et pendant une courte durée. Demandez-en un nouveau et nous vous l’enverrons aussitôt."
+ },
+ {
+  "key": "Auth.newLink",
+  "page": "Auth",
+  "en": "Get a new link",
+  "fr": "Obtenir un nouveau lien"
+ },
+ {
+  "key": "Auth.choose",
+  "page": "Auth",
+  "en": "Choose a new password",
+  "fr": "Choisissez un nouveau mot de passe"
+ },
+ {
+  "key": "Auth.newPass",
+  "page": "Auth",
+  "en": "New password *",
+  "fr": "Nouveau mot de passe *"
+ },
+ {
+  "key": "Auth.confirmPass",
+  "page": "Auth",
+  "en": "Confirm new password *",
+  "fr": "Confirmez le nouveau mot de passe *"
+ },
+ {
+  "key": "Auth.mismatch",
+  "page": "Auth",
+  "en": "The two passwords don't match.",
+  "fr": "Les deux mots de passe ne correspondent pas."
+ },
+ {
+  "key": "Auth.saving",
+  "page": "Auth",
+  "en": "Saving...",
+  "fr": "Enregistrement..."
+ },
+ {
+  "key": "Auth.updatePass",
+  "page": "Auth",
+  "en": "Update password",
+  "fr": "Mettre à jour le mot de passe"
+ },
+ {
+  "key": "Contact.title",
+  "page": "Contact",
+  "en": "Contact Us",
+  "fr": "Nous contacter"
+ },
+ {
+  "key": "Contact.intro",
+  "page": "Contact",
+  "en": "Questions about a product, a workshop, or just want to say hello? We'd love to hear from you.",
+  "fr": "Une question sur un produit, un atelier, ou simplement envie de nous écrire ? Nous serons ravis de vous lire."
+ },
+ {
+  "key": "Contact.email",
+  "page": "Contact",
+  "en": "Email",
+  "fr": "E-mail"
+ },
+ {
+  "key": "Contact.phone",
+  "page": "Contact",
+  "en": "Phone",
+  "fr": "Téléphone"
+ },
+ {
+  "key": "Contact.studio",
+  "page": "Contact",
+  "en": "Studio",
+  "fr": "Studio"
+ },
+ {
+  "key": "Contact.studioValue",
+  "page": "Contact",
+  "en": "Ahmedabad, Gujarat, India",
+  "fr": "Ahmedabad, Gujarat, Inde"
+ },
+ {
+  "key": "Contact.sent",
+  "page": "Contact",
+  "en": "Message sent!",
+  "fr": "Message envoyé !"
+ },
+ {
+  "key": "Contact.sentText",
+  "page": "Contact",
+  "en": "We'll get back to you at {email} shortly.",
+  "fr": "Nous vous répondrons très bientôt à l’adresse {email}."
+ },
+ {
+  "key": "Contact.name",
+  "page": "Contact",
+  "en": "Name *",
+  "fr": "Nom *"
+ },
+ {
+  "key": "Contact.namePh",
+  "page": "Contact",
+  "en": "Your name",
+  "fr": "Votre nom"
+ },
+ {
+  "key": "Contact.emailLabel",
+  "page": "Contact",
+  "en": "Email *",
+  "fr": "E-mail *"
+ },
+ {
+  "key": "Contact.message",
+  "page": "Contact",
+  "en": "Message *",
+  "fr": "Message *"
+ },
+ {
+  "key": "Contact.messagePh",
+  "page": "Contact",
+  "en": "How can we help?",
+  "fr": "Comment pouvons-nous vous aider ?"
+ },
+ {
+  "key": "Contact.sending",
+  "page": "Contact",
+  "en": "Sending...",
+  "fr": "Envoi..."
+ },
+ {
+  "key": "Contact.send",
+  "page": "Contact",
+  "en": "Send Message",
+  "fr": "Envoyer le message"
+ },
+ {
+  "key": "Contact.generic",
+  "page": "Contact",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "About.title",
+  "page": "About",
+  "en": "About Us",
+  "fr": "À propos"
+ },
+ {
+  "key": "About.lead",
+  "page": "About",
+  "en": "Vairutya is an artisanal studio for mindful living, where ancestral wisdom meets contemporary restraint.",
+  "fr": "Vairutya est un atelier artisanal dédié à une vie consciente, où la sagesse ancestrale rencontre une retenue contemporaine."
+ },
+ {
+  "key": "About.tagline",
+  "page": "About",
+  "en": "Designed in France. Blooming in India.",
+  "fr": "Conçu en France. Épanoui en Inde."
+ },
+ {
+  "key": "About.philosophyTitle",
+  "page": "About",
+  "en": "The Philosophy",
+  "fr": "La philosophie"
+ },
+ {
+  "key": "About.philosophy1",
+  "page": "About",
+  "en": "Modern life is loud. Well-being has become an industry of excess — endless protocols, synthetic noise, and fleeting trends that pull us further from our own intuition.",
+  "fr": "La vie moderne est bruyante. Le bien-être est devenu une industrie de l’excès : protocoles sans fin, bruit synthétique et tendances éphémères qui nous éloignent de notre propre intuition."
+ },
+ {
+  "key": "About.philosophy2",
+  "page": "About",
+  "en": "This studio was conceived as a quiet counterweight. Born in 2023 as an intimate Health Management Club and refined over years of rigorous design discipline in France, the house emerged from a singular conviction: true luxury is biological ease. It is the clarity of a body in rhythm, the stillness of an unhurried ritual, and the permanence of objects made with intention.",
+  "fr": "Cet atelier est né comme un contrepoids discret. Fondée en 2023 sous la forme d’un Health Management Club intimiste, puis affinée pendant des années d’une rigoureuse discipline du design en France, la maison est née d’une conviction unique : le véritable luxe est l’aisance biologique. C’est la clarté d’un corps en rythme, le calme d’un rituel sans précipitation et la permanence d’objets créés avec intention."
+ },
+ {
+  "key": "About.philosophy3",
+  "page": "About",
+  "en": "Today, realized as a full-scale living studio in India, we translate timeless natural science into modern daily practice — stripped of dogma, elevated in form, and built for the way we live now.",
+  "fr": "Aujourd’hui, devenue un véritable atelier vivant en Inde, nous traduisons une science naturelle intemporelle en pratique quotidienne moderne, débarrassée du dogme, élevée dans sa forme et pensée pour notre façon de vivre aujourd’hui."
+ },
+ {
+  "key": "About.ethosTitle",
+  "page": "About",
+  "en": "The Studio Ethos",
+  "fr": "L’éthos de l’atelier"
+ },
+ {
+  "key": "About.ethosIntro",
+  "page": "About",
+  "en": "Existing at the intersection of ancient Indian wisdom and French editorial minimalism, we do not build rules to complicate life, nor formulations to create dependence. Every object, botanical blend, and ritual is guided by three quiet principles:",
+  "fr": "À la croisée de l’ancienne sagesse indienne et du minimalisme éditorial français, nous ne créons ni règles qui compliquent la vie, ni formulations qui créent de la dépendance. Chaque objet, mélange botanique et rituel est guidé par trois principes discrets :"
+ },
+ {
+  "key": "About.principle1Title",
+  "page": "About",
+  "en": "Clarity Over Noise",
+  "fr": "La clarté plutôt que le bruit"
+ },
+ {
+  "key": "About.principle1Text",
+  "page": "About",
+  "en": "Stripping away the non-essential until only what genuinely serves the body and senses remains.",
+  "fr": "Écarter le superflu jusqu’à ne garder que ce qui sert véritablement le corps et les sens."
+ },
+ {
+  "key": "About.principle2Title",
+  "page": "About",
+  "en": "Self-Reliance",
+  "fr": "L’autonomie"
+ },
+ {
+  "key": "About.principle2Text",
+  "page": "About",
+  "en": "Designing tools, recipes and rituals that return individuals to their own natural rhythm and intuition.",
+  "fr": "Concevoir des outils, des recettes et des rituels qui ramènent chacun à son propre rythme naturel et à son intuition."
+ },
+ {
+  "key": "About.principle3Title",
+  "page": "About",
+  "en": "Artisanal Permanence",
+  "fr": "La permanence artisanale"
+ },
+ {
+  "key": "About.principle3Text",
+  "page": "About",
+  "en": "Honoring pure materials, unhurried processes, and thoughtful form made to endure.",
+  "fr": "Honorer les matériaux purs, les processus sans hâte et les formes réfléchies, faites pour durer."
+ },
+ {
+  "key": "Careers.title",
+  "page": "Careers",
+  "en": "Careers",
+  "fr": "Carrières"
+ },
+ {
+  "key": "Careers.text",
+  "page": "Careers",
+  "en": "We're not actively hiring right now, but we're always happy to hear from people passionate about wellness, Ayurveda, and science-backed nutrition. Reach out via our <link>contact page</link> and we'll keep your details on file.",
+  "fr": "Nous ne recrutons pas activement pour le moment, mais nous sommes toujours heureux d’échanger avec des personnes passionnées par le bien-être, l’Ayurveda et la nutrition fondée sur la science. Écrivez-nous via notre <link>page de contact</link> et nous conserverons vos coordonnées."
+ },
+ {
+  "key": "Science.title",
+  "page": "Science",
+  "en": "Our Science",
+  "fr": "Notre science"
+ },
+ {
+  "key": "Science.p1",
+  "page": "Science",
+  "en": "Every recommendation on Vairutya is grounded in two complementary frameworks: modern nutritional and biological research, and centuries-old Ayurvedic understanding of the body's doshas.",
+  "fr": "Chaque recommandation de Vairutya s’appuie sur deux cadres complémentaires : la recherche moderne en nutrition et en biologie, et la compréhension ayurvédique, vieille de plusieurs siècles, des doshas du corps."
+ },
+ {
+  "key": "Science.p2",
+  "page": "Science",
+  "en": "Our quizzes translate Ayurvedic concepts like Vata, Pitta, and Kapha into practical insights about digestion, stress response, hormonal rhythm, and circadian alignment — all supported by current research on gut health, cortisol regulation, and sleep science.",
+  "fr": "Nos quiz traduisent des notions ayurvédiques comme Vata, Pitta et Kapha en enseignements pratiques sur la digestion, la réponse au stress, le rythme hormonal et l’alignement circadien, le tout étayé par la recherche actuelle sur la santé intestinale, la régulation du cortisol et la science du sommeil."
+ },
+ {
+  "key": "Science.p3",
+  "page": "Science",
+  "en": "We work with certified Ayurvedic practitioners and continuously review our product formulations and workshop content against both traditional texts and peer-reviewed research.",
+  "fr": "Nous travaillons avec des praticiens ayurvédiques certifiés et vérifions en continu nos formulations de produits et le contenu de nos ateliers à la lumière des textes traditionnels comme des recherches évaluées par les pairs."
+ },
+ {
+  "key": "Consultation.fallbackTitle",
+  "page": "Consultation",
+  "en": "Expert Guidance, Personalised for You",
+  "fr": "Un accompagnement d’expert, personnalisé pour vous"
+ },
+ {
+  "key": "Consultation.fallbackText",
+  "page": "Consultation",
+  "en": "Connect 1:1 with our certified Ayurvedic practitioners to receive a wellness plan rooted in your unique biological profile.",
+  "fr": "Échangez en tête-à-tête avec nos praticiens ayurvédiques certifiés pour recevoir un plan de bien-être adapté à votre profil biologique unique."
+ },
+ {
+  "key": "Consultation.howItWorks",
+  "page": "Consultation",
+  "en": "How it works",
+  "fr": "Comment ça marche"
+ },
+ {
+  "key": "Consultation.chooseTitle",
+  "page": "Consultation",
+  "en": "Choose your date and time",
+  "fr": "Choisissez votre date et votre horaire"
+ },
+ {
+  "key": "Consultation.step1",
+  "page": "Consultation",
+  "en": "Select a date",
+  "fr": "Choisissez une date"
+ },
+ {
+  "key": "Consultation.step2",
+  "page": "Consultation",
+  "en": "Pick a time slot",
+  "fr": "Choisissez un créneau"
+ },
+ {
+  "key": "Consultation.step3",
+  "page": "Consultation",
+  "en": "Your details",
+  "fr": "Vos coordonnées"
+ },
+ {
+  "key": "Consultation.fullName",
+  "page": "Consultation",
+  "en": "Full name *",
+  "fr": "Nom complet *"
+ },
+ {
+  "key": "Consultation.namePh",
+  "page": "Consultation",
+  "en": "Your name",
+  "fr": "Votre nom"
+ },
+ {
+  "key": "Consultation.mobile",
+  "page": "Consultation",
+  "en": "Mobile number *",
+  "fr": "Numéro de mobile *"
+ },
+ {
+  "key": "Consultation.email",
+  "page": "Consultation",
+  "en": "Email *",
+  "fr": "E-mail *"
+ },
+ {
+  "key": "Consultation.concern",
+  "page": "Consultation",
+  "en": "Main concern (optional)",
+  "fr": "Motif principal (facultatif)"
+ },
+ {
+  "key": "Consultation.concernPh",
+  "page": "Consultation",
+  "en": "Describe your primary health or wellness concern...",
+  "fr": "Décrivez votre principale préoccupation de santé ou de bien-être..."
+ },
+ {
+  "key": "Consultation.sending",
+  "page": "Consultation",
+  "en": "Sending...",
+  "fr": "Envoi..."
+ },
+ {
+  "key": "Consultation.request",
+  "page": "Consultation",
+  "en": "Request Booking",
+  "fr": "Demander un rendez-vous"
+ },
+ {
+  "key": "Consultation.received",
+  "page": "Consultation",
+  "en": "Request received!",
+  "fr": "Demande reçue !"
+ },
+ {
+  "key": "Consultation.receivedText",
+  "page": "Consultation",
+  "en": "Your consultation on <b>{date}</b> at <b>{slot}</b> has been requested. We'll confirm your slot by email shortly — we've sent a note to {email}.",
+  "fr": "Votre consultation du <b>{date}</b> à <b>{slot}</b> a bien été demandée. Nous confirmerons votre créneau par e-mail sous peu — nous avons envoyé un message à {email}."
+ },
+ {
+  "key": "Consultation.back",
+  "page": "Consultation",
+  "en": "Back to Home",
+  "fr": "Retour à l’accueil"
+ },
+ {
+  "key": "Consultation.generic",
+  "page": "Consultation",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Consultation.prevMonth",
+  "page": "Consultation",
+  "en": "Previous month",
+  "fr": "Mois précédent"
+ },
+ {
+  "key": "Consultation.nextMonth",
+  "page": "Consultation",
+  "en": "Next month",
+  "fr": "Mois suivant"
+ },
+ {
+  "key": "Consultation.tzNote",
+  "page": "Consultation",
+  "en": "Times are shown in Indian Standard Time (IST).",
+  "fr": "Les horaires sont indiqués en heure de l’Inde (IST)."
+ },
+ {
+  "key": "Consultation.tzParis",
+  "page": "Consultation",
+  "en": "{slot} IST is {paris} in Paris.",
+  "fr": "{slot} (heure de l’Inde) correspond à {paris} à Paris."
+ },
+ {
+  "key": "Consultation.pickDate",
+  "page": "Consultation",
+  "en": "Choose a date first to see the available times.",
+  "fr": "Choisissez d’abord une date pour voir les horaires disponibles."
+ },
+ {
+  "key": "Consultation.noSlots",
+  "page": "Consultation",
+  "en": "There are no open time slots right now. Please check back soon or <link>contact us</link>.",
+  "fr": "Aucun créneau n’est ouvert pour le moment. Revenez bientôt ou <link>contactez-nous</link>."
+ },
+ {
+  "key": "Consultation.taken",
+  "page": "Consultation",
+  "en": "Sorry, that time was just taken. Please choose another.",
+  "fr": "Désolé, ce créneau vient d’être pris. Veuillez en choisir un autre."
+ },
+ {
+  "key": "Home.guidanceTitle",
+  "page": "Home",
+  "en": "Expert Guidance",
+  "fr": "Accompagnement d’experts"
+ },
+ {
+  "key": "Home.guidanceText",
+  "page": "Home",
+  "en": "Book a 1:1 session with our certified health consultants to get a personalized plan tailored to your unique biology.",
+  "fr": "Réservez une séance individuelle avec nos consultants santé certifiés pour obtenir un plan personnalisé, adapté à votre biologie unique."
+ },
+ {
+  "key": "Home.guidanceButton",
+  "page": "Home",
+  "en": "Book a Consultation",
+  "fr": "Réserver une consultation"
+ },
+ {
+  "key": "Home.workshopsTitle",
+  "page": "Home",
+  "en": "Upcoming Workshops",
+  "fr": "Ateliers à venir"
+ },
+ {
+  "key": "Home.workshopsText",
+  "page": "Home",
+  "en": "Join our expert-led sessions to deepen your wellness journey.",
+  "fr": "Rejoignez nos sessions animées par des experts pour approfondir votre parcours bien-être."
+ },
+ {
+  "key": "Home.insightsTitle",
+  "page": "Home",
+  "en": "Expert Insights",
+  "fr": "Éclairages d’experts"
+ },
+ {
+  "key": "Home.insightsText",
+  "page": "Home",
+  "en": "The latest guides and scientific breakthroughs in wellness.",
+  "fr": "Les derniers guides et avancées scientifiques en matière de bien-être."
+ },
+ {
+  "key": "Home.readArticle",
+  "page": "Home",
+  "en": "Read article",
+  "fr": "Lire l’article"
+ },
+ {
+  "key": "Home.articleCount",
+  "page": "Home",
+  "en": "{count, plural, one {# article} other {# articles}}",
+  "fr": "{count, plural, one {# article} other {# articles}}"
+ },
+ {
+  "key": "Blog.intro",
+  "page": "Blog",
+  "en": "Insights rooted in Ayurveda and modern wellness science.",
+  "fr": "Des éclairages ancrés dans l’Ayurveda et la science moderne du bien-être."
+ },
+ {
+  "key": "Recipes.subtitle",
+  "page": "Recipes",
+  "en": "Simple, nourishing recipes rooted in Ayurvedic principles.",
+  "fr": "Des recettes simples et nourrissantes, ancrées dans les principes ayurvédiques."
+ },
+ {
+  "key": "Recipes.open",
+  "page": "Recipes",
+  "en": "Open the book",
+  "fr": "Ouvrir le livre"
+ },
+ {
+  "key": "Recipes.close",
+  "page": "Recipes",
+  "en": "Close the book",
+  "fr": "Fermer le livre"
+ },
+ {
+  "key": "Recipes.prev",
+  "page": "Recipes",
+  "en": "Previous recipe",
+  "fr": "Recette précédente"
+ },
+ {
+  "key": "Recipes.next",
+  "page": "Recipes",
+  "en": "Next recipe",
+  "fr": "Recette suivante"
+ },
+ {
+  "key": "Recipes.progress",
+  "page": "Recipes",
+  "en": "Recipe {s} of {n}",
+  "fr": "Recette {s} sur {n}"
+ },
+ {
+  "key": "Recipes.goTo",
+  "page": "Recipes",
+  "en": "Go to {title}",
+  "fr": "Aller à {title}"
+ },
+ {
+  "key": "Recipes.coverLine1",
+  "page": "Recipes",
+  "en": "The Recipe",
+  "fr": "Le livre"
+ },
+ {
+  "key": "Recipes.coverLine2",
+  "page": "Recipes",
+  "en": "Book",
+  "fr": "de recettes"
+ },
+ {
+  "key": "Recipes.coverOpen",
+  "page": "Recipes",
+  "en": "Open",
+  "fr": "Ouvrir"
+ },
+ {
+  "key": "Recipes.fig",
+  "page": "Recipes",
+  "en": "Fig. {n} — {title}",
+  "fr": "Fig. {n} — {title}"
+ },
+ {
+  "key": "Recipes.view",
+  "page": "Recipes",
+  "en": "View recipe",
+  "fr": "Voir la recette"
+ },
+ {
+  "key": "Recipes.generic",
+  "page": "Recipes",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Recipes.done",
+  "page": "Recipes",
+  "en": "Check your inbox!",
+  "fr": "Consultez votre boîte de réception !"
+ },
+ {
+  "key": "Recipes.doneText",
+  "page": "Recipes",
+  "en": "We've sent the recipe PDF to {email}.",
+  "fr": "Nous avons envoyé le PDF de la recette à {email}."
+ },
+ {
+  "key": "Recipes.downloadIntro",
+  "page": "Recipes",
+  "en": "Instantly download the recipes as a free PDF below.",
+  "fr": "Téléchargez instantanément les recettes en PDF gratuit ci-dessous."
+ },
+ {
+  "key": "Recipes.name",
+  "page": "Recipes",
+  "en": "Name",
+  "fr": "Nom"
+ },
+ {
+  "key": "Recipes.email",
+  "page": "Recipes",
+  "en": "Email",
+  "fr": "E-mail"
+ },
+ {
+  "key": "Recipes.download",
+  "page": "Recipes",
+  "en": "Download",
+  "fr": "Télécharger"
+ },
+ {
+  "key": "Recipes.consent",
+  "page": "Recipes",
+  "en": "Also send me the Vairutya newsletter (optional — you can unsubscribe any time).",
+  "fr": "Envoyez-moi aussi la newsletter Vairutya (facultatif — vous pouvez vous désabonner à tout moment)."
+ },
+ {
+  "key": "Quiz.listTitle",
+  "page": "Quiz",
+  "en": "Know Your Body",
+  "fr": "Connaissez votre corps"
+ },
+ {
+  "key": "Quiz.listIntro",
+  "page": "Quiz",
+  "en": "Each quiz is rooted in Ayurvedic wisdom and modern wellness science. Take one to begin understanding yourself more deeply.",
+  "fr": "Chaque quiz s’appuie sur la sagesse ayurvédique et la science moderne du bien-être. Faites-en un pour commencer à mieux vous comprendre."
+ },
+ {
+  "key": "Quiz.empty",
+  "page": "Quiz",
+  "en": "No quizzes available right now. Please check back soon.",
+  "fr": "Aucun quiz disponible pour le moment. Revenez bientôt."
+ },
+ {
+  "key": "Quiz.start",
+  "page": "Quiz",
+  "en": "Start quiz",
+  "fr": "Commencer le quiz"
+ },
+ {
+  "key": "Quiz.metaTitle",
+  "page": "Quiz",
+  "en": "Quizzes — Vairutya",
+  "fr": "Quiz — Vairutya"
+ },
+ {
+  "key": "Quiz.close",
+  "page": "Quiz",
+  "en": "Close quiz",
+  "fr": "Fermer le quiz"
+ },
+ {
+  "key": "Quiz.question",
+  "page": "Quiz",
+  "en": "Question {n} of {total}",
+  "fr": "Question {n} sur {total}"
+ },
+ {
+  "key": "Quiz.next",
+  "page": "Quiz",
+  "en": "Next",
+  "fr": "Suivant"
+ },
+ {
+  "key": "Quiz.submit",
+  "page": "Quiz",
+  "en": "Submit",
+  "fr": "Valider"
+ },
+ {
+  "key": "Quiz.suggested",
+  "page": "Quiz",
+  "en": "Suggested Products",
+  "fr": "Produits suggérés"
+ },
+ {
+  "key": "Quiz.retake",
+  "page": "Quiz",
+  "en": "Retake Quiz",
+  "fr": "Refaire le quiz"
+ },
+ {
+  "key": "Quiz.aboutTitle",
+  "page": "Quiz",
+  "en": "About you",
+  "fr": "À propos de vous"
+ },
+ {
+  "key": "Quiz.firstName",
+  "page": "Quiz",
+  "en": "First name *",
+  "fr": "Prénom *"
+ },
+ {
+  "key": "Quiz.firstNamePh",
+  "page": "Quiz",
+  "en": "First name",
+  "fr": "Prénom"
+ },
+ {
+  "key": "Quiz.email",
+  "page": "Quiz",
+  "en": "Email *",
+  "fr": "E-mail *"
+ },
+ {
+  "key": "Quiz.age",
+  "page": "Quiz",
+  "en": "Age group",
+  "fr": "Tranche d’âge"
+ },
+ {
+  "key": "Quiz.identity",
+  "page": "Quiz",
+  "en": "How do you identify?",
+  "fr": "Comment vous identifiez-vous ?"
+ },
+ {
+  "key": "Quiz.country",
+  "page": "Quiz",
+  "en": "Country",
+  "fr": "Pays"
+ },
+ {
+  "key": "Quiz.motivation",
+  "page": "Quiz",
+  "en": "Main motivation today",
+  "fr": "Motivation principale aujourd’hui"
+ },
+ {
+  "key": "Quiz.select",
+  "page": "Quiz",
+  "en": "Select...",
+  "fr": "Sélectionner..."
+ },
+ {
+  "key": "Quiz.selectCountry",
+  "page": "Quiz",
+  "en": "Select country...",
+  "fr": "Sélectionner un pays..."
+ },
+ {
+  "key": "Quiz.consent",
+  "page": "Quiz",
+  "en": "Send me wellness tips and offers from Vairutya (optional — you can unsubscribe any time).",
+  "fr": "Envoyez-moi des conseils bien-être et des offres de Vairutya (facultatif — vous pouvez vous désabonner à tout moment)."
+ },
+ {
+  "key": "Quiz.results",
+  "page": "Quiz",
+  "en": "See Results",
+  "fr": "Voir les résultats"
+ },
+ {
+  "key": "Quiz.ages.u18",
+  "page": "Quiz",
+  "en": "Under 18",
+  "fr": "Moins de 18 ans"
+ },
+ {
+  "key": "Quiz.ages.a1824",
+  "page": "Quiz",
+  "en": "18–24",
+  "fr": "18–24 ans"
+ },
+ {
+  "key": "Quiz.ages.a2534",
+  "page": "Quiz",
+  "en": "25–34",
+  "fr": "25–34 ans"
+ },
+ {
+  "key": "Quiz.ages.a3544",
+  "page": "Quiz",
+  "en": "35–44",
+  "fr": "35–44 ans"
+ },
+ {
+  "key": "Quiz.ages.a4554",
+  "page": "Quiz",
+  "en": "45–54",
+  "fr": "45–54 ans"
+ },
+ {
+  "key": "Quiz.ages.a55",
+  "page": "Quiz",
+  "en": "55+",
+  "fr": "55 ans et plus"
+ },
+ {
+  "key": "Quiz.identities.woman",
+  "page": "Quiz",
+  "en": "Woman",
+  "fr": "Femme"
+ },
+ {
+  "key": "Quiz.identities.man",
+  "page": "Quiz",
+  "en": "Man",
+  "fr": "Homme"
+ },
+ {
+  "key": "Quiz.identities.nonbinary",
+  "page": "Quiz",
+  "en": "Non-binary",
+  "fr": "Non binaire"
+ },
+ {
+  "key": "Quiz.identities.none",
+  "page": "Quiz",
+  "en": "Prefer not to say",
+  "fr": "Je préfère ne pas répondre"
+ },
+ {
+  "key": "Quiz.countries.in",
+  "page": "Quiz",
+  "en": "India",
+  "fr": "Inde"
+ },
+ {
+  "key": "Quiz.countries.us",
+  "page": "Quiz",
+  "en": "United States",
+  "fr": "États-Unis"
+ },
+ {
+  "key": "Quiz.countries.uk",
+  "page": "Quiz",
+  "en": "United Kingdom",
+  "fr": "Royaume-Uni"
+ },
+ {
+  "key": "Quiz.countries.ca",
+  "page": "Quiz",
+  "en": "Canada",
+  "fr": "Canada"
+ },
+ {
+  "key": "Quiz.countries.au",
+  "page": "Quiz",
+  "en": "Australia",
+  "fr": "Australie"
+ },
+ {
+  "key": "Quiz.countries.other",
+  "page": "Quiz",
+  "en": "Other",
+  "fr": "Autre"
+ },
+ {
+  "key": "Quiz.motivations.growth",
+  "page": "Quiz",
+  "en": "Hair growth",
+  "fr": "Croissance des cheveux"
+ },
+ {
+  "key": "Quiz.motivations.fall",
+  "page": "Quiz",
+  "en": "Reduce hair fall",
+  "fr": "Réduire la chute des cheveux"
+ },
+ {
+  "key": "Quiz.motivations.scalp",
+  "page": "Quiz",
+  "en": "Scalp health",
+  "fr": "Santé du cuir chevelu"
+ },
+ {
+  "key": "Quiz.motivations.shine",
+  "page": "Quiz",
+  "en": "Shine & texture",
+  "fr": "Brillance et texture"
+ },
+ {
+  "key": "Quiz.motivations.wellness",
+  "page": "Quiz",
+  "en": "General wellness",
+  "fr": "Bien-être général"
+ },
+ {
+  "key": "Quiz.disclaimer",
+  "page": "Quiz",
+  "en": "This quiz offers general wellness insight based on Ayurvedic tradition. It is not medical advice or a diagnosis. If you have a health concern, please speak to a qualified professional.",
+  "fr": "Ce quiz propose un éclairage général sur le bien-être, fondé sur la tradition ayurvédique. Il ne constitue ni un avis médical ni un diagnostic. Si vous avez un problème de santé, parlez-en à un professionnel qualifié."
+ },
+ {
+  "key": "Refund.title",
+  "page": "Refund",
+  "en": "Refund & Cancellation Policy",
+  "fr": "Politique de remboursement et d’annulation"
+ },
+ {
+  "key": "Refund.cancelTitle",
+  "page": "Refund",
+  "en": "Order cancellation",
+  "fr": "Annulation de commande"
+ },
+ {
+  "key": "Refund.cancel",
+  "page": "Refund",
+  "en": "If you wish to cancel your order, write to us at sales@vairutya.com within 24 hours of placing the order.",
+  "fr": "Si vous souhaitez annuler votre commande, écrivez-nous à sales@vairutya.com dans les 24 heures suivant la passation de la commande."
+ },
+ {
+  "key": "Refund.refundTitle",
+  "page": "Refund",
+  "en": "Refunds",
+  "fr": "Remboursements"
+ },
+ {
+  "key": "Refund.refund",
+  "page": "Refund",
+  "en": "Refunds are only processed for fulfilment errors, such as incorrectly shipped or missing items. The amount is refunded to the original mode of payment within 7 business days of the refund being initiated.",
+  "fr": "Les remboursements ne sont effectués qu’en cas d’erreur d’exécution de notre part, par exemple un article expédié par erreur ou manquant. Le montant est remboursé par le mode de paiement d’origine dans un délai de 7 jours ouvrés à compter du lancement du remboursement."
+ },
+ {
+  "key": "Refund.returnsTitle",
+  "page": "Refund",
+  "en": "Returns & exchanges",
+  "fr": "Retours et échanges"
+ },
+ {
+  "key": "Refund.r1",
+  "page": "Refund",
+  "en": "Each creation made for Vairutya goes through stringent quality checks.",
+  "fr": "Chaque création conçue et réalisée pour Vairutya fait l’objet de contrôles qualité rigoureux."
+ },
+ {
+  "key": "Refund.r2",
+  "page": "Refund",
+  "en": "Small variations in finish and detail are natural characteristics of the handmade process, and are not defects.",
+  "fr": "De légères variations de finition et de détails sont des caractéristiques naturelles du travail artisanal et ne constituent pas des défauts."
+ },
+ {
+  "key": "Refund.r3",
+  "page": "Refund",
+  "en": "Any purchase can be exchanged for a different creation. If what you'd like isn't available, we'll give you a studio credit valid for 6 months.",
+  "fr": "Tout achat peut être échangé contre une autre création. Si l’article souhaité n’est pas disponible, nous vous proposerons un avoir de studio valable 6 mois."
+ },
+ {
+  "key": "Refund.r4",
+  "page": "Refund",
+  "en": "To start an exchange or return, email care@vairutya.com with your order number handy. You'll find your order number under My orders in your account.",
+  "fr": "Pour demander un échange ou un retour, écrivez à care@vairutya.com en indiquant votre numéro de commande. Vous le trouverez dans « Mes commandes » de votre compte."
+ },
+ {
+  "key": "Refund.r5",
+  "page": "Refund",
+  "en": "Vairutya reserves the right not to accept returns if the product has been used or damaged by the customer.",
+  "fr": "Vairutya se réserve le droit de refuser un retour si le produit a été utilisé ou endommagé par le client."
+ },
+ {
+  "key": "Refund.contactTitle",
+  "page": "Refund",
+  "en": "Questions",
+  "fr": "Questions"
+ },
+ {
+  "key": "Refund.contact",
+  "page": "Refund",
+  "en": "For any questions about a product or your order, contact our team at care@vairutya.com.",
+  "fr": "Pour toute question sur un produit ou sur votre commande, contactez notre équipe à care@vairutya.com."
+ },
+ {
+  "key": "Refund.businessTitle",
+  "page": "Refund",
+  "en": "Business details",
+  "fr": "Informations légales"
+ },
+ {
+  "key": "Refund.business",
+  "page": "Refund",
+  "en": "[LEGAL BUSINESS NAME]\n[REGISTERED ADDRESS]\n[GSTIN, if applicable]",
+  "fr": "[RAISON SOCIALE]\n[ADRESSE DU SIÈGE]\n[GSTIN, le cas échéant]"
+ },
+ {
+  "key": "Shipping.title",
+  "page": "Shipping",
+  "en": "Shipping Policy",
+  "fr": "Politique de livraison"
+ },
+ {
+  "key": "Shipping.intro",
+  "page": "Shipping",
+  "en": "We currently ship within India only. International shipping will be announced here when available.",
+  "fr": "Nous livrons actuellement uniquement en Inde. La livraison à l’international sera annoncée ici dès qu’elle sera disponible."
+ },
+ {
+  "key": "Shipping.processingTitle",
+  "page": "Shipping",
+  "en": "Processing time",
+  "fr": "Délai de préparation"
+ },
+ {
+  "key": "Shipping.processing",
+  "page": "Shipping",
+  "en": "Orders are prepared and dispatched within [2–3] working days of payment. Because each piece is handcrafted, processing may occasionally take a little longer; we will email you if so.",
+  "fr": "Les commandes sont préparées et expédiées sous [2 à 3] jours ouvrés après le paiement. Chaque pièce étant faite à la main, la préparation peut parfois prendre un peu plus de temps ; nous vous préviendrons par e-mail le cas échéant."
+ },
+ {
+  "key": "Shipping.deliveryTitle",
+  "page": "Shipping",
+  "en": "Delivery time",
+  "fr": "Délai de livraison"
+ },
+ {
+  "key": "Shipping.delivery",
+  "page": "Shipping",
+  "en": "Delivery within India usually takes [5–7] working days after dispatch, via [COURIER NAME].",
+  "fr": "La livraison en Inde prend généralement [5 à 7] jours ouvrés après l’expédition, via [NOM DU TRANSPORTEUR]."
+ },
+ {
+  "key": "Shipping.chargesTitle",
+  "page": "Shipping",
+  "en": "Shipping charges",
+  "fr": "Frais de livraison"
+ },
+ {
+  "key": "Shipping.charges",
+  "page": "Shipping",
+  "en": "The shipping charge, and any free-shipping threshold, is shown in your cart and at checkout before you pay.",
+  "fr": "Les frais de livraison, ainsi que tout seuil de livraison gratuite, sont indiqués dans votre panier et lors de la commande avant le paiement."
+ },
+ {
+  "key": "Shipping.trackingTitle",
+  "page": "Shipping",
+  "en": "Tracking",
+  "fr": "Suivi"
+ },
+ {
+  "key": "Shipping.tracking",
+  "page": "Shipping",
+  "en": "When your order ships, we email you the carrier and tracking number. You can also find them under My orders in your account.",
+  "fr": "Dès l’expédition de votre commande, nous vous envoyons par e-mail le transporteur et le numéro de suivi. Vous les trouvez aussi dans « Mes commandes », dans votre compte."
+ },
+ {
+  "key": "Shipping.issuesTitle",
+  "page": "Shipping",
+  "en": "Delivery issues",
+  "fr": "Problèmes de livraison"
+ },
+ {
+  "key": "Shipping.issues",
+  "page": "Shipping",
+  "en": "Please enter a complete address and a phone number the courier can reach. If a parcel is delayed, lost or arrives damaged, contact us at care@vairutya.com with your order number.",
+  "fr": "Veuillez saisir une adresse complète et un numéro de téléphone joignable par le transporteur. En cas de retard, de perte ou de colis endommagé, contactez-nous à care@vairutya.com en indiquant votre numéro de commande."
+ },
+ {
+  "key": "Shipping.businessTitle",
+  "page": "Shipping",
+  "en": "Business details",
+  "fr": "Informations légales"
+ },
+ {
+  "key": "Shipping.business",
+  "page": "Shipping",
+  "en": "[LEGAL BUSINESS NAME]\n[REGISTERED ADDRESS]\n[GSTIN, if applicable]",
+  "fr": "[RAISON SOCIALE]\n[ADRESSE DU SIÈGE]\n[GSTIN, le cas échéant]"
+ },
+ {
+  "key": "Workshops.title",
+  "page": "Workshops",
+  "en": "Workshops",
+  "fr": "Ateliers"
+ },
+ {
+  "key": "Workshops.intro",
+  "page": "Workshops",
+  "en": "Guided experiences rooted in Ayurveda and modern wellness — designed to help you understand yourself more deeply and live more intentionally.",
+  "fr": "Des expériences guidées, ancrées dans l’Ayurveda et le bien-être moderne, pour vous aider à mieux vous comprendre et à vivre avec plus d’intention."
+ },
+ {
+  "key": "Workshops.learnMore",
+  "page": "Workshops",
+  "en": "Learn more",
+  "fr": "En savoir plus"
+ },
+ {
+  "key": "Workshops.booked",
+  "page": "Workshops",
+  "en": "Session Booked!",
+  "fr": "Séance réservée !"
+ },
+ {
+  "key": "Workshops.back",
+  "page": "Workshops",
+  "en": "Back to Home",
+  "fr": "Retour à l’accueil"
+ },
+ {
+  "key": "Workshops.about",
+  "page": "Workshops",
+  "en": "About this Workshop",
+  "fr": "À propos de cet atelier"
+ },
+ {
+  "key": "Workshops.menu",
+  "page": "Workshops",
+  "en": "Menu",
+  "fr": "Menu"
+ },
+ {
+  "key": "Workshops.notes",
+  "page": "Workshops",
+  "en": "Notes",
+  "fr": "Notes"
+ },
+ {
+  "key": "Workshops.selectTitle",
+  "page": "Workshops",
+  "en": "Select Date & Time",
+  "fr": "Choisissez une date et un horaire"
+ },
+ {
+  "key": "Workshops.book",
+  "page": "Workshops",
+  "en": "Book your Session — {price}",
+  "fr": "Réserver votre séance — {price}"
+ },
+ {
+  "key": "Workshops.private",
+  "page": "Workshops",
+  "en": "Workshops can be privatised for groups. <link>Contact us</link> for reservations.",
+  "fr": "Les ateliers peuvent être privatisés pour des groupes. <link>Contactez-nous</link> pour toute réservation."
+ },
+ {
+  "key": "ConsultationStatus.confirmedTitle",
+  "page": "ConsultationStatus",
+  "en": "Your consultation is confirmed",
+  "fr": "Votre consultation est confirmée"
+ },
+ {
+  "key": "ConsultationStatus.confirmedText",
+  "page": "ConsultationStatus",
+  "en": "Hi {name}, we're looking forward to speaking with you.",
+  "fr": "Bonjour {name}, nous avons hâte d’échanger avec vous."
+ },
+ {
+  "key": "ConsultationStatus.when",
+  "page": "ConsultationStatus",
+  "en": "When",
+  "fr": "Quand"
+ },
+ {
+  "key": "ConsultationStatus.timeIst",
+  "page": "ConsultationStatus",
+  "en": "{time} IST (India Standard Time)",
+  "fr": "{time} IST (heure de l’Inde)"
+ },
+ {
+  "key": "ConsultationStatus.timeParis",
+  "page": "ConsultationStatus",
+  "en": "{time} in Paris",
+  "fr": "{time} à Paris"
+ },
+ {
+  "key": "ConsultationStatus.reference",
+  "page": "ConsultationStatus",
+  "en": "Reference {ref}",
+  "fr": "Référence {ref}"
+ },
+ {
+  "key": "ConsultationStatus.join",
+  "page": "ConsultationStatus",
+  "en": "Join your call",
+  "fr": "Rejoindre l’appel"
+ },
+ {
+  "key": "ConsultationStatus.change",
+  "page": "ConsultationStatus",
+  "en": "Need to change your slot? Reply to your confirmation email or <link>contact us</link>.",
+  "fr": "Besoin de changer de créneau ? Répondez à votre e-mail de confirmation ou <link>contactez-nous</link>."
+ },
+ {
+  "key": "ConsultationStatus.pendingTitle",
+  "page": "ConsultationStatus",
+  "en": "We've received your request",
+  "fr": "Nous avons bien reçu votre demande"
+ },
+ {
+  "key": "ConsultationStatus.pendingText",
+  "page": "ConsultationStatus",
+  "en": "You asked for {date} at {time} IST. We'll confirm your slot by email shortly. Refresh this page once you have our confirmation to see it here.",
+  "fr": "Vous avez demandé le {date} à {time} (heure de l’Inde). Nous confirmerons votre créneau par e-mail sous peu. Actualisez cette page une fois notre confirmation reçue pour la voir ici."
+ },
+ {
+  "key": "ConsultationStatus.cancelledTitle",
+  "page": "ConsultationStatus",
+  "en": "This consultation is no longer scheduled",
+  "fr": "Cette consultation n’est plus planifiée"
+ },
+ {
+  "key": "ConsultationStatus.cancelledText",
+  "page": "ConsultationStatus",
+  "en": "If you'd still like a consultation, you can choose a new time.",
+  "fr": "Si vous souhaitez toujours une consultation, vous pouvez choisir un nouvel horaire."
+ },
+ {
+  "key": "ConsultationStatus.rebook",
+  "page": "ConsultationStatus",
+  "en": "Choose a new time",
+  "fr": "Choisir un nouvel horaire"
+ },
+ {
+  "key": "ConsultationStatus.notFoundTitle",
+  "page": "ConsultationStatus",
+  "en": "We couldn't find this request",
+  "fr": "Nous n’avons pas retrouvé cette demande"
+ },
+ {
+  "key": "ConsultationStatus.notFoundText",
+  "page": "ConsultationStatus",
+  "en": "The link may be incomplete. Please use the link in your email, or contact us.",
+  "fr": "Le lien est peut-être incomplet. Utilisez le lien de votre e-mail ou contactez-nous."
+ },
+ {
+  "key": "ConsultationStatus.contact",
+  "page": "ConsultationStatus",
+  "en": "Contact us",
+  "fr": "Nous contacter"
+ },
+ {
+  "key": "ConsultationStatus.home",
+  "page": "ConsultationStatus",
+  "en": "Back to Home",
+  "fr": "Retour à l’accueil"
+ },
+ {
+  "key": "Pay.title",
+  "page": "Pay",
+  "en": "Complete your payment",
+  "fr": "Finalisez votre paiement"
+ },
+ {
+  "key": "Pay.intro",
+  "page": "Pay",
+  "en": "Pay the exact amount below by UPI, then enter your UPI reference so we can confirm your order.",
+  "fr": "Payez le montant exact ci-dessous par UPI, puis saisissez votre référence UPI afin que nous confirmions votre commande."
+ },
+ {
+  "key": "Pay.order",
+  "page": "Pay",
+  "en": "Order {number}",
+  "fr": "Commande {number}"
+ },
+ {
+  "key": "Pay.amount",
+  "page": "Pay",
+  "en": "Amount to pay",
+  "fr": "Montant à payer"
+ },
+ {
+  "key": "Pay.step1",
+  "page": "Pay",
+  "en": "Pay by UPI",
+  "fr": "Payer par UPI"
+ },
+ {
+  "key": "Pay.scan",
+  "page": "Pay",
+  "en": "Scan this QR code with any UPI app",
+  "fr": "Scannez ce QR code avec n’importe quelle application UPI"
+ },
+ {
+  "key": "Pay.openApp",
+  "page": "Pay",
+  "en": "Pay in my UPI app",
+  "fr": "Payer dans mon application UPI"
+ },
+ {
+  "key": "Pay.orId",
+  "page": "Pay",
+  "en": "Or pay to this UPI ID",
+  "fr": "Ou payez à cet identifiant UPI"
+ },
+ {
+  "key": "Pay.copy",
+  "page": "Pay",
+  "en": "Copy",
+  "fr": "Copier"
+ },
+ {
+  "key": "Pay.copied",
+  "page": "Pay",
+  "en": "Copied",
+  "fr": "Copié"
+ },
+ {
+  "key": "Pay.note",
+  "page": "Pay",
+  "en": "Add {number} in the payment note so we can match it.",
+  "fr": "Indiquez {number} dans la note du paiement pour que nous puissions le retrouver."
+ },
+ {
+  "key": "Pay.step2",
+  "page": "Pay",
+  "en": "Tell us you've paid",
+  "fr": "Dites-nous que vous avez payé"
+ },
+ {
+  "key": "Pay.utrLabel",
+  "page": "Pay",
+  "en": "UPI reference (UTR) *",
+  "fr": "Référence UPI (UTR) *"
+ },
+ {
+  "key": "Pay.utrHelp",
+  "page": "Pay",
+  "en": "A number shown in your UPI app after paying, under the transaction details (usually 12 digits).",
+  "fr": "Un numéro affiché dans votre application UPI après le paiement, dans les détails de la transaction (en général 12 chiffres)."
+ },
+ {
+  "key": "Pay.utrPh",
+  "page": "Pay",
+  "en": "e.g. 412345678901",
+  "fr": "ex. 412345678901"
+ },
+ {
+  "key": "Pay.submit",
+  "page": "Pay",
+  "en": "I've paid",
+  "fr": "J’ai payé"
+ },
+ {
+  "key": "Pay.submitting",
+  "page": "Pay",
+  "en": "Sending...",
+  "fr": "Envoi..."
+ },
+ {
+  "key": "Pay.invalid",
+  "page": "Pay",
+  "en": "Please enter the reference from your UPI app (letters and numbers, at least 8).",
+  "fr": "Veuillez saisir la référence de votre application UPI (lettres et chiffres, 8 caractères minimum)."
+ },
+ {
+  "key": "Pay.generic",
+  "page": "Pay",
+  "en": "Something went wrong. Please try again.",
+  "fr": "Une erreur s’est produite. Veuillez réessayer."
+ },
+ {
+  "key": "Pay.verifyingTitle",
+  "page": "Pay",
+  "en": "We're verifying your payment",
+  "fr": "Nous vérifions votre paiement"
+ },
+ {
+  "key": "Pay.verifyingText",
+  "page": "Pay",
+  "en": "We've received your reference {utr}. We'll email you as soon as your payment is confirmed. Your order then shows as paid in My orders.",
+  "fr": "Nous avons bien reçu votre référence {utr}. Nous vous écrirons dès que votre paiement sera confirmé. Votre commande apparaîtra alors comme payée dans « Mes commandes »."
+ },
+ {
+  "key": "Pay.wrongRef",
+  "page": "Pay",
+  "en": "Entered the wrong reference? Send it again:",
+  "fr": "Mauvaise référence saisie ? Renvoyez-la :"
+ },
+ {
+  "key": "Pay.viewOrder",
+  "page": "Pay",
+  "en": "View my order",
+  "fr": "Voir ma commande"
+ },
+ {
+  "key": "Pay.closedTitle",
+  "page": "Pay",
+  "en": "This order is closed",
+  "fr": "Cette commande est clôturée"
+ },
+ {
+  "key": "Pay.closedText",
+  "page": "Pay",
+  "en": "It is no longer waiting for payment. You can place a new order from the shop.",
+  "fr": "Elle n’attend plus de paiement. Vous pouvez passer une nouvelle commande depuis la boutique."
+ },
+ {
+  "key": "Pay.shop",
+  "page": "Pay",
+  "en": "Back to shop",
+  "fr": "Retour à la boutique"
+ },
+ {
+  "key": "Pay.notSetUp",
+  "page": "Pay",
+  "en": "UPI payment details aren't set up yet. Please contact us.",
+  "fr": "Les informations de paiement UPI ne sont pas encore configurées. Veuillez nous contacter."
+ }
+]

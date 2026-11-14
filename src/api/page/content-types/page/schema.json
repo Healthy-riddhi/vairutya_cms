@@ -1,0 +1,11 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": { "singularName": "page", "pluralName": "pages", "displayName": "Pages" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "name": { "type": "string", "required": true, "unique": true },
+    "path": { "type": "string", "description": "The address on the website, for your reference." },
+    "texts": { "type": "component", "repeatable": true, "component": "site.page-text" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_quiz_answers",
+  "info": { "displayName": "Answer", "icon": "check" },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "outcomeName": { "type": "string", "required": true }
+  }
+}

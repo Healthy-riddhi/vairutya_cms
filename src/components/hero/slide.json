@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hero_slides",
+  "info": { "displayName": "Slide", "icon": "picture" },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "alt": { "type": "string", "default": "" },
+    "headline": { "type": "string" },
+    "subtext": { "type": "text" },
+    "buttonLabel": { "type": "string" },
+    "buttonLink": { "type": "string" },
+    "visible": { "type": "boolean", "default": true }
+  }
+}

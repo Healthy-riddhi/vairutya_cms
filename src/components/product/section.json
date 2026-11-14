@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_product_sections",
+  "info": { "displayName": "Section", "icon": "align-left" },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "body": { "type": "text", "required": true }
+  }
+}

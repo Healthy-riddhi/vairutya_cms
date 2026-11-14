@@ -1,0 +1,13 @@
+{
+  "kind": "singleType",
+  "collectionName": "consultation_availabilities",
+  "info": { "singularName": "consultation-availability", "pluralName": "consultation-availabilities", "displayName": "Consultation Availability" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "acceptingRequests": { "type": "boolean", "default": true, "description": "Turn off to hide all dates, for example while you are away." },
+    "maxDaysAhead": { "type": "integer", "default": 60, "min": 1, "max": 365, "description": "How many days ahead customers can book." },
+    "minNoticeHours": { "type": "integer", "default": 24, "min": 0, "max": 720, "description": "A slot disappears this many hours before it starts." },
+    "weeklyHours": { "type": "component", "repeatable": true, "component": "consultation.day-hours" },
+    "overrides": { "type": "component", "repeatable": true, "component": "consultation.date-override" }
+  }
+}

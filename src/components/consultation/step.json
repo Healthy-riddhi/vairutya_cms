@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_consultation_steps",
+  "info": { "displayName": "Journey step", "icon": "walk" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true }
+  }
+}

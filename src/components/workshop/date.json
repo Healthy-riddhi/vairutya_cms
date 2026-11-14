@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_workshop_dates",
+  "info": { "displayName": "Date", "icon": "calendar" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "value": { "type": "string", "required": true, "description": "Short code, e.g. may29" }
+  }
+}

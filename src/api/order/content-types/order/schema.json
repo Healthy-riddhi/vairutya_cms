@@ -1,0 +1,133 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "orderNumber": {
+      "type": "string",
+      "unique": true
+    },
+    "orderStatus": {
+      "type": "enumeration",
+      "enum": [
+        "pending_payment",
+        "payment_submitted",
+        "paid",
+        "processing",
+        "shipped",
+        "delivered",
+        "cancelled",
+        "payment_failed",
+        "refunded"
+      ],
+      "default": "pending_payment",
+      "required": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "email": {
+      "type": "email"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "IN",
+        "FR"
+      ]
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "INR",
+        "EUR"
+      ]
+    },
+    "subtotalMinor": {
+      "type": "integer"
+    },
+    "shippingMinor": {
+      "type": "integer"
+    },
+    "taxIncludedMinor": {
+      "type": "integer"
+    },
+    "totalMinor": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "json"
+    },
+    "shippingAddress": {
+      "type": "json"
+    },
+    "razorpayOrderId": {
+      "type": "string",
+      "unique": true
+    },
+    "razorpayPaymentId": {
+      "type": "string"
+    },
+    "paidAt": {
+      "type": "datetime"
+    },
+    "carrier": {
+      "type": "string"
+    },
+    "trackingNumber": {
+      "type": "string"
+    },
+    "shippedAt": {
+      "type": "datetime"
+    },
+    "shippedEmailSentAt": {
+      "type": "datetime"
+    },
+    "adminNotes": {
+      "type": "text"
+    },
+    "paymentMethod": {
+      "type": "enumeration",
+      "enum": [
+        "razorpay",
+        "upi_manual"
+      ],
+      "default": "razorpay"
+    },
+    "utr": {
+      "type": "string",
+      "description": "The UPI reference the customer gave. Check it, and the amount, in your bank or UPI app before setting the status to paid."
+    },
+    "paymentSubmittedAt": {
+      "type": "datetime"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "fr"
+      ],
+      "default": "en",
+      "description": "The language of the customer's emails."
+    },
+    "paidEmailSentAt": {
+      "type": "datetime",
+      "description": "Clear this and save to send the payment confirmation email again."
+    }
+  }
+}

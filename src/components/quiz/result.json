@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_quiz_results",
+  "info": { "displayName": "Result", "icon": "star" },
+  "options": {},
+  "attributes": {
+    "matches": { "type": "string", "required": true, "description": "Which answers lead here. One outcome name (Vata), a tie (Vata+Pitta, any order) or all for a three-way tie." },
+    "headline": { "type": "string", "required": true },
+    "description": { "type": "text", "description": "Separate paragraphs with a blank line." },
+    "sections": { "type": "component", "repeatable": true, "component": "quiz.section" },
+    "products": { "type": "component", "repeatable": true, "component": "quiz.suggestion" }
+  }
+}

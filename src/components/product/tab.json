@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_tabs",
+  "info": { "displayName": "Detail tab", "icon": "layout", "description": "A custom tab on the product page" },
+  "options": {},
+  "attributes": {
+    "tabId": { "type": "string", "required": true },
+    "label": { "type": "string", "required": true },
+    "sections": { "type": "component", "repeatable": true, "component": "product.section" },
+    "specs": { "type": "component", "repeatable": true, "component": "product.spec" },
+    "noteHeading": { "type": "string" },
+    "noteBody": { "type": "text" }
+  }
+}

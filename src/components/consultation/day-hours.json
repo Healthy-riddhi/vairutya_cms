@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_consultation_day_hours",
+  "info": { "displayName": "Weekly hours", "icon": "calendar" },
+  "options": {},
+  "attributes": {
+    "weekday": { "type": "enumeration", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "required": true },
+    "times": { "type": "text", "description": "Start times in 24-hour format, in Indian time, separated by commas. Example: 09:00, 10:30, 14:00. Leave empty if you are closed that day." }
+  }
+}

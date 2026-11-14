@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_details",
+  "info": {
+    "singularName": "business-detail",
+    "pluralName": "business-details",
+    "displayName": "Business Details"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "string",
+      "description": "Shown on the Contact page."
+    },
+    "phone": {
+      "type": "string",
+      "description": "Shown on the Contact page, for example +91 98765 43210."
+    },
+    "studio": {
+      "type": "string",
+      "description": "Shown on the Contact page, for example Ahmedabad, Gujarat, India."
+    },
+    "legalName": {
+      "type": "string",
+      "description": "Shown at the bottom of the Shipping and Refund policies."
+    },
+    "registeredAddress": {
+      "type": "text"
+    },
+    "gstin": {
+      "type": "string"
+    },
+    "upiId": {
+      "type": "string",
+      "description": "The UPI ID customers pay to, for example vairutya@okhdfcbank."
+    },
+    "upiPayeeName": {
+      "type": "string",
+      "description": "The name shown in the customer's UPI app. Defaults to Vairutya."
+    },
+    "paymentNote": {
+      "type": "text",
+      "description": "Optional extra line shown on the payment page."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_quiz_suggestions",
+  "info": { "displayName": "Suggested product", "icon": "shoppingCart" },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "buttonLabel": { "type": "string" },
+    "link": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "highlighted": { "type": "boolean", "default": false }
+  }
+}

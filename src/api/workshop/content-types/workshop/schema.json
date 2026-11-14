@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshops",
+  "info": { "singularName": "workshop", "pluralName": "workshops", "displayName": "Workshop" },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "title": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "slug": { "type": "uid", "targetField": "title", "required": true, "pluginOptions": { "i18n": { "localized": false } } },
+    "category": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "description": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } },
+    "heroImage": { "type": "media", "multiple": false, "allowedTypes": ["images"], "pluginOptions": { "i18n": { "localized": false } } },
+    "schedule": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "ctaLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "durationLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "priceLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": false } } },
+    "about": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } },
+    "menu": { "type": "component", "repeatable": true, "component": "shared.line", "pluginOptions": { "i18n": { "localized": true } } },
+    "notes": { "type": "component", "repeatable": true, "component": "shared.line", "pluginOptions": { "i18n": { "localized": true } } },
+    "dates": { "type": "component", "repeatable": true, "component": "workshop.date", "pluginOptions": { "i18n": { "localized": true } } }
+  }
+}

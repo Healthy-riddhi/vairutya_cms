@@ -1,0 +1,8 @@
+{
+  "collectionName": "components_shared_lines",
+  "info": { "displayName": "Line", "icon": "bulletList", "description": "A single short line of text (used for lists)" },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true }
+  }
+}

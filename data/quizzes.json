@@ -1,0 +1,2070 @@
+{
+ "quizzes": [
+  {
+   "slug": "skin-type",
+   "icon": "skin",
+   "en": {
+    "title": "Ayurvedic Skin Type Quiz",
+    "description": "Learn what your skin is really telling you and find the nourishment it genuinely needs.",
+    "instructions": "Choose the option that describes your skin's usual state (not temporary conditions).",
+    "resultTitle": "Your Skin Type",
+    "profileTitle": "Your Skin Profile",
+    "balanceTitle": "Your Dosha Balance"
+   },
+   "fr": {
+    "title": "Quiz ayurvédique : type de peau",
+    "description": "Découvrez ce que votre peau vous dit vraiment et trouvez la nourriture dont elle a réellement besoin.",
+    "instructions": "Choisissez l’option qui décrit l’état habituel de votre peau (et non des conditions temporaires).",
+    "resultTitle": "Votre type de peau",
+    "profileTitle": "Votre profil de peau",
+    "balanceTitle": "Votre équilibre des doshas"
+   },
+   "questions": [
+    {
+     "en": {
+      "prompt": "How does your skin typically feel to the touch?",
+      "answers": [
+       "Dry, thin, rough, or tight",
+       "Warm, sensitive, prone to redness",
+       "Oily, thick, and smooth"
+      ]
+     },
+     "fr": {
+      "prompt": "Quelle est la sensation habituelle de ta peau au toucher ?",
+      "answers": [
+       "Sèche, fine, rugueuse ou tendue",
+       "Chaude, sensible, sujette aux rougeurs",
+       "Grasse, épaisse et lisse"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How does your skin react to weather changes?",
+      "answers": [
+       "Becomes very dry or flaky in cold/dry weather",
+       "Gets irritated or red in hot weather",
+       "Becomes greasy or clammy in humid weather"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment ta peau réagit-elle aux changements de météo ?",
+      "answers": [
+       "Devient très sèche ou squameuse par temps froid et sec",
+       "S’irrite ou rougit facilement par temps chaud",
+       "Devient grasse ou moite par temps humide"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What kind of skincare products does your skin seem to love the most?",
+      "answers": [
+       "Rich and creamy – My skin drinks up thick moisturizers, oils, or balms. It feels better with deeply nourishing products.",
+       "Light and cooling – I prefer refreshing textures like gels, mists, or aloe vera. My skin feels calm with light, soothing products.",
+       "Light and oil-free – I go for lightweight, non-greasy products that help reduce shine and keep my skin feeling clean and fresh."
+      ]
+     },
+     "fr": {
+      "prompt": "Quel type de soins ta peau semble préférer ?",
+      "answers": [
+       "Riche et crémeux – Ma peau adore les crèmes épaisses, les huiles ou les baumes. Elle se sent mieux avec des produits nourrissants en profondeur.",
+       "Léger et rafraîchissant – Je préfère les textures comme les gels, les brumes ou l’aloe vera. Ma peau se calme avec des produits légers et apaisants.",
+       "Léger et non gras – Je privilégie les produits fluides et non comédogènes qui réduisent la brillance et laissent la peau propre et fraîche."
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How would you describe your skin tone and sensitivity?",
+      "answers": [
+       "Uneven tone, prone to dullness and dryness",
+       "Reddish or flushed easily, sensitive to sun",
+       "Even tone, not easily irritated"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment décrirais-tu le teint et la sensibilité de ta peau ?",
+      "answers": [
+       "Teint irrégulier, tendance à la sécheresse et au teint terne",
+       "Tendance à rougir facilement, très sensible au soleil",
+       "Teint uniforme, peu sujette aux irritations"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Which skin issue do you most commonly experience?",
+      "answers": [
+       "Dry patches, premature wrinkles",
+       "Rashes, acne, inflammation",
+       "Clogged pores, excessive oiliness"
+      ]
+     },
+     "fr": {
+      "prompt": "Quel problème de peau rencontres-tu le plus souvent ?",
+      "answers": [
+       "Zones sèches, ridules ou signes de vieillissement précoce",
+       "Boutons, rougeurs, inflammations",
+       "Pores obstrués, excès de sébum"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How often do you get pimples or acne?",
+      "answers": [
+       "Rarely, but may have dry breakouts",
+       "Frequently, especially red or inflamed ones",
+       "Occasionally, mostly blackheads or whiteheads"
+      ]
+     },
+     "fr": {
+      "prompt": "À quelle fréquence as-tu des boutons ou de l’acné ?",
+      "answers": [
+       "Rarement, mais parfois des boutons secs",
+       "Fréquemment, surtout rouges ou enflammés",
+       "De temps en temps, surtout des points noirs ou blancs"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How would you describe your general temperament?",
+      "answers": [
+       "Anxious, quick-moving, creative",
+       "Intense, driven, perfectionist",
+       "Calm, steady, easy-going"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment décrirais-tu ton tempérament général ?",
+      "answers": [
+       "Anxieux(se), rapide, créatif(ve)",
+       "Intense, ambitieux(se), perfectionniste",
+       "Calme, posé(e), détendu(e)"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How’s your digestion and metabolism?",
+      "answers": [
+       "Irregular appetite and digestion",
+       "Strong appetite, easily gets hungry",
+       "Slow metabolism, tendency to gain weight easily"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment sont ton appétit et ta digestion ?",
+      "answers": [
+       "Irréguliers, digestion parfois difficile",
+       "Fort appétit, sensation de faim fréquente",
+       "Métabolisme lent, tendance à prendre facilement du poids"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How does your skin feel at the end of the day (without products)?",
+      "answers": [
+       "Tight, dull, or flaky – needs more moisture",
+       "A bit red, flushed, or inflamed – needs calming",
+       "Shiny, greasy, or sticky – needs cleansing"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment se sent ta peau en fin de journée (sans produits) ?",
+      "answers": [
+       "Tiraillée, terne ou sèche – elle manque d’hydratation",
+       "Légèrement rouge, échauffée ou irritée – elle a besoin d’apaisement",
+       "Brillante, grasse ou collante – elle a besoin d’être purifiée"
+      ]
+     }
+    }
+   ],
+   "results": [
+    {
+     "matches": "Vata",
+     "en": {
+      "headline": "Vata-Dominant Skin (Air + Ether)",
+      "description": "Creative, expressive, quick to learn - but can feel anxious, cold, or scattered when imbalanced.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Dryness, insomnia, irregular digestion, poor circulation"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Warm, moist, grounding meals (soups, stews); avoid raw and cold foods\nRoutine: Keep consistent sleep, meal, and self-care times\nExercise: Gentle, steady movement (Hatha yoga, tai chi, walking)\nStress relief: Oil massages (abhyanga), warm baths, soft music, slow breathing"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Vata (Air + Éther)",
+      "description": "Créative, expressive, rapide à apprendre - mais peut se sentir anxieuse, dispersée ou avoir froid en cas de déséquilibre.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Sécheresse (peau, cheveux), insomnie, digestion irrégulière, mauvaise circulation"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Plats chauds, humides et nourrissants (soupes, ragoûts) ; éviter les aliments crus ou froids\nRoutine: Heures régulières pour manger, dormir, se reposer\nExercice: Yoga doux, tai-chi, marche\nGestion du stress: Bain chaud, massage à l’huile, musique apaisante, respiration lente"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta",
+     "en": {
+      "headline": "Pitta-Dominant Skin (Fire + Water)",
+      "description": "Driven, focused, passionate, often with sharp intellect - but may overheat emotionally or physically.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Inflammation, rashes, acne, irritability, sensitivity to sun"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Cooling, fresh, lightly cooked foods (cucumber, coconut, mint); avoid spicy, fried foods\nRoutine: Stay cool, avoid midday sun, include breaks\nExercise: Moderate movement (swimming, evening walks, yin yoga)\nStress relief: Cooling mists, meditation, time in nature, pranayama (shitali or chandra bhedana)"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Pitta (Feu + Eau)",
+      "description": "Déterminée, concentrée, passionnée, avec un esprit vif - mais peut surchauffer émotionnellement ou physiquement.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Inflammations, rougeurs, acné, irritabilité, hypersensibilité au soleil"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Aliments frais et apaisants (concombre, noix de coco, menthe) ; éviter les plats épicés ou frits\nRoutine: Éviter le soleil intense, prendre des pauses\nExercice: Natation, promenade le soir, yoga doux\nGestion du stress: Brumes rafraîchissantes, méditation, nature, respiration fraîche (shitali)"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Kapha",
+     "en": {
+      "headline": "Kapha-Dominant Skin (Earth + Water)",
+      "description": "Calm, grounded, compassionate, with naturally soft and glowing skin — but may feel heavy or lethargic.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Oily skin, sluggish digestion, water retention, lack of motivation"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Light, dry, warm meals with spices (ginger, turmeric); reduce dairy and sugar\nRoutine: Rise early, avoid daytime naps, stay mentally and physically active\nExercise: Energizing cardio, power yoga, dance, hiking\nStress relief: Uplifting music, dry brushing, aromatherapy (eucalyptus, rosemary)"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Kapha (Terre + Eau)",
+      "description": "Calme, stable, compatissante, avec une peau naturellement douce — mais peut se sentir lourde ou fatiguée.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Peau grasse, digestion lente, rétention d’eau, inertie mentale"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Légère, chaude, épicée (gingembre, curcuma) ; limiter les produits laitiers et sucrés\nRoutine: Se lever tôt, éviter les siestes, rester actif(ve)\nExercice: Sport dynamique, yoga actif, danse, randonnée\nGestion du stress: Musique stimulante, brossage à sec, huiles essentielles toniques (romarin)"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Pitta",
+     "en": {
+      "headline": "Vata-Pitta Dominant Skin",
+      "description": "Creative + focused, energetic and expressive — but easily stressed or overheated.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Dry + sensitive skin, prone to redness, irritation, hormonal acne"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Warm, slightly cooling meals (cooked veggies, sweet spices)\nRoutine: Balance movement with stillness; avoid extremes\nExercise: Mindful movement like slow yoga, swimming, Pilates\nStress relief: Meditation, moderate routine, gentle self-care rituals"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Vata-Pitta",
+      "description": "Créatif(ve) + concentré(e), plein(e) d’énergie — mais sensible au stress et à la surchauffe.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Peau sèche et sensible, rougeurs, acné inflammatoire"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Plats chauds mais apaisants (légumes cuits, épices douces)\nRoutine: Éviter les extrêmes ; alterner mouvement et repos\nExercice: Yoga lent, natation, Pilates\nGestion du stress: Méditation, soins doux, stabilité dans les routines"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Kapha",
+     "en": {
+      "headline": "Vata-Kapha Dominant Skin",
+      "description": "Dreamy, grounded, introspective - skin can be both dry and congested.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Dull complexion, flaky skin with underlying oiliness, sluggish elimination"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Warm, spicy, light yet nourishing meals\nRoutine: Energizing morning routine, avoid stagnation\nExercise: Brisk walking, dance, vinyasa yoga\nStress relief: Self-massage with warming oils (mustard or sesame), upbeat music"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Vata-Kapha",
+      "description": "Rêveur(se), stable, introspectif(ve) - la peau peut être sèche mais congestionnée.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Teint terne, zones squameuses + pores obstrués, digestion lente"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Plats chauds, légers mais nutritifs, épices douces\nRoutine: Matins dynamiques, éviter l’inactivité\nExercice: Marche rapide, yoga vinyasa, danse\nGestion du stress: Auto-massage avec huiles chaudes (sésame, moutarde), musique motivante"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta+Kapha",
+     "en": {
+      "headline": "Pitta-Kapha Dominant Skin",
+      "description": "Strong-willed and grounded, with radiant yet oily skin - but may experience congestion or inflammation.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "Acne-prone, shiny skin, heat and moisture imbalance"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Skin",
+        "body": "Food: Light, cooling, dry foods; reduce dairy, fried, and oily meals\nRoutine: Prioritize lightness — in food, activity, and mindset\nExercise: Cardiovascular with cooling finish (e.g., walk after run)\nStress relief: Cooling oils (coconut), pranayama, evening self-care"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau à dominance Pitta-Kapha",
+      "description": "Volontaire et stable, peau éclatante mais grasse — peut cumuler chaleur et congestion.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Peau brillante, acné, inflammations cutanées"
+       },
+       {
+        "heading": "Astuces Ayurvédiques pour une Peau Équilibrée",
+        "body": "Alimentation: Plats frais, légers, non gras ; limiter le lait et les fritures\nRoutine: Favoriser la légèreté sous toutes ses formes\nExercice: Activités cardio modérées suivies de refroidissement (marche)\nGestion du stress: Huiles rafraîchissantes (coco), respiration, soins du soir"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "all",
+     "en": {
+      "headline": "Tridoshic Skin (Balanced)",
+      "description": "Well-balanced, adaptable, resilient - skin is generally healthy and harmonious, but needs seasonal and lifestyle tuning.",
+      "sections": [
+       {
+        "heading": "Skin Challenges",
+        "body": "May become dry, oily, or irritated depending on weather, diet, or stress"
+       },
+       {
+        "heading": "Ayurvedic Hacks for maintaining Balanced Skin",
+        "body": "Food: Eat warm, seasonal, balanced meals — avoid extremes (too spicy, oily, dry, or cold)\nRoutine: Stick to regular sleep and meal times; adapt with seasons\nSkincare: Use gentle, all-dosha balancing products (rose, aloe, sandalwood)\nStress relief: Mix grounding and energizing rituals — yoga, nature, breathwork"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Peau Tridoshique (Équilibrée)",
+      "description": "Bien équilibrée, adaptable, résistante – la peau est généralement saine et harmonieuse, mais elle nécessite des ajustements saisonniers et liés au mode de vie.",
+      "sections": [
+       {
+        "heading": "Défis de la peau",
+        "body": "Peut devenir sèche, grasse ou irritée selon la météo, l’alimentation ou le stress."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour maintenir une peau équilibrée",
+        "body": "Alimentation: Consommez des repas chauds, saisonniers et équilibrés - évitez les extrêmes (trop épicés, gras, secs ou froids)\nRoutine: Respectez des horaires réguliers pour le sommeil et les repas ; adaptez-vous aux saisons\nSoins de la peau: Utilisez des produits doux et équilibrants pour tous les doshas (rose, aloe vera, bois de santal)\nGestion du stress: Alternez rituels d’ancrage et d’activation - yoga, nature, respiration consciente"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "gut-flora",
+   "icon": "leaf",
+   "en": {
+    "title": "Gut Flora Quiz",
+    "description": "Discover how your digestion, energy and gut balance reflect your Ayurvedic constitution.",
+    "instructions": "Choose the option that describes your usual state (not temporary conditions).",
+    "resultTitle": "Your Gut Type",
+    "profileTitle": "Your Gut Profile",
+    "balanceTitle": "Your Dosha Balance"
+   },
+   "fr": {
+    "title": "Quiz sur la flore intestinale",
+    "description": "Découvrez comment votre digestion, votre énergie et l’équilibre de votre intestin reflètent votre constitution ayurvédique.",
+    "instructions": "Choisissez l’option qui décrit votre état habituel (pas les conditions temporaires).",
+    "resultTitle": "Votre type d’intestin",
+    "profileTitle": "Votre profil intestinal",
+    "balanceTitle": "Votre équilibre des doshas"
+   },
+   "questions": [
+    {
+     "en": {
+      "prompt": "Your digestion most often feels:",
+      "answers": [
+       "Irregular, bloating, gas",
+       "Strong appetite, acidity, heat",
+       "Slow, heavy, sluggish"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre digestion se ressent le plus souvent:",
+      "answers": [
+       "Irrégulière, ballonnements, gaz",
+       "Fort appétit, acidité, chaleur",
+       "Lente, lourde, paresseuse"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "After meals you usually feel:",
+      "answers": [
+       "Bloated or airy",
+       "Warm or slightly acidic",
+       "Heavy or sleepy"
+      ]
+     },
+     "fr": {
+      "prompt": "Après les repas, vous vous sentez généralement:",
+      "answers": [
+       "Ballonné ou gonflé",
+       "Chaleureux ou légèrement acide",
+       "Lourd ou fatigué"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Bowel movements are typically:",
+      "answers": [
+       "Dry, hard, variable",
+       "Loose, urgent, sharp smell",
+       "Thick, sticky, sluggish"
+      ]
+     },
+     "fr": {
+      "prompt": "Les selles sont généralement:",
+      "answers": [
+       "Sèches, dures, irrégulières",
+       "Molles, urgentes, odeur forte",
+       "Épaisses, collantes, lentes"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your energy levels:",
+      "answers": [
+       "Up-down, unpredictable",
+       "Strong but may crash",
+       "Steady but low or slow"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre niveau d'énergie:",
+      "answers": [
+       "Montées et descentes, imprévisible",
+       "Fort mais peut chuter brusquement",
+       "Stable mais faible ou lent"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Immunity / recovery:",
+      "answers": [
+       "Easily depleted",
+       "Strong but gets inflamed",
+       "Slow recovery, congestion"
+      ]
+     },
+     "fr": {
+      "prompt": "Immunité / récupération:",
+      "answers": [
+       "Facilement épuisée",
+       "Forte mais sujet à l’inflammation",
+       "Récupération lente, congestion"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Skin & hair indicators:",
+      "answers": [
+       "Dryness, roughness",
+       "Heat, redness, acne",
+       "Oiliness, puffiness"
+      ]
+     },
+     "fr": {
+      "prompt": "Indicateurs de la peau et des cheveux:",
+      "answers": [
+       "Sécheresse, rugosité",
+       "Chaleur, rougeurs, acné",
+       "Gras, gonflement"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your mind usually feels:",
+      "answers": [
+       "Fast, anxious, scattered",
+       "Sharp, intense, reactive",
+       "Calm, steady, slow"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre esprit se ressent généralement:",
+      "answers": [
+       "Rapide, anxieux, dispersé",
+       "Vif, intense, réactif",
+       "Calme, stable, lent"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Stress affects you by:",
+      "answers": [
+       "Worry, overthinking, nervous digestion",
+       "Irritability, heat, acidity",
+       "Withdrawal, emotional eating"
+      ]
+     },
+     "fr": {
+      "prompt": "Le stress vous affecte par:",
+      "answers": [
+       "Inquiétudes, rumination, digestion nerveuse",
+       "Irritabilité, chaleur, acidité",
+       "Retrait, grignotage émotionnel"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Relationship with food:",
+      "answers": [
+       "Often irregular, forget meals",
+       "Strong hunger, gets irritated when hungry",
+       "Eats for comfort, tends to overeat"
+      ]
+     },
+     "fr": {
+      "prompt": "Relation avec la nourriture:",
+      "answers": [
+       "Souvent irrégulière, oublie de manger",
+       "Faim forte, devient irrité(e) quand il/elle a faim",
+       "Mange pour le réconfort, tendance à trop manger"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Body type:",
+      "answers": [
+       "Thin, dry, gets cold",
+       "Medium build, warm",
+       "Larger build, cool, retains water"
+      ]
+     },
+     "fr": {
+      "prompt": "Type de corps:",
+      "answers": [
+       "Mince, sec, a froid facilement",
+       "Moyenne constitution, chaud",
+       "Constitution plus grande, frais, retient l'eau"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Sleep pattern:",
+      "answers": [
+       "Light, disturbed",
+       "Moderate, dreams a lot",
+       "Deep, oversleeps"
+      ]
+     },
+     "fr": {
+      "prompt": "Cycle de sommeil:",
+      "answers": [
+       "Léger, perturbé",
+       "Modéré, rêve beaucoup",
+       "Profond, dort trop"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Daily rhythm:",
+      "answers": [
+       "Variable energy, creative bursts",
+       "Intense mornings, sharp focus",
+       "Slow start, stable pace"
+      ]
+     },
+     "fr": {
+      "prompt": "Rythme quotidien:",
+      "answers": [
+       "Énergie variable, périodes de créativité",
+       "Matins intenses, concentration aiguë",
+       "Début lent, rythme stable"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Foods that disturb you most:",
+      "answers": [
+       "Raw/cold foods, beans",
+       "Spicy, sour, fried",
+       "Dairy, heavy, oily foods"
+      ]
+     },
+     "fr": {
+      "prompt": "Aliments qui vous dérangent le plus:",
+      "answers": [
+       "Aliments crus/froids, haricots",
+       "Épicé, acide, frit",
+       "Produits laitiers, aliments lourds, gras"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Reaction to stress on digestion:",
+      "answers": [
+       "Bloating, irregular bowels",
+       "Acid flare-ups",
+       "Sluggish digestion"
+      ]
+     },
+     "fr": {
+      "prompt": "Réaction du système digestif au stress:",
+      "answers": [
+       "Ballonnements, selles irrégulières",
+       "Flare-ups d’acidité",
+       "Digestion lente"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Common cravings:",
+      "answers": [
+       "Dry, crunchy foods",
+       "Spicy, salty foods",
+       "Sweet, creamy foods"
+      ]
+     },
+     "fr": {
+      "prompt": "Envies fréquentes:",
+      "answers": [
+       "Aliments secs, croquants",
+       "Aliments épicés, salés",
+       "Aliments sucrés, crémeux"
+      ]
+     }
+    }
+   ],
+   "results": [
+    {
+     "matches": "Vata",
+     "en": {
+      "headline": "Vata Dominant Gut (Air + Ether)",
+      "description": "Imaginative, intuitive, fast-moving Vata types have brilliant ideas but their gut is easily thrown off by irregular routines or stress.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Gas, bloating, irregular bowels, Variable appetite, Cold hands/feet, dryness, Energy spikes + crashes"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Warm, oily, simple meals (khichari, porridges, root veggies)\nRoutine: Predictable meal/sleep timings; smaller but regular meals.\nExercise: Slow yoga flows, pilates, leisurely walking.\nStress relief: Daily oil massage, grounding breath (nadi shodhana), warm herbal teas."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Vata (Air + Éther)",
+      "description": "Les types Vata, imaginatifs, intuitifs et toujours en mouvement, ont des idées brillantes, mais leur digestion est facilement perturbée par des routines irrégulières ou le stress.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Gaz, ballonnements, selles irrégulières, appétit variable, mains/pieds froids, sécheresse, pics d'énergie suivis de chutes."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas chauds, gras, simples (khichari, bouillies, légumes racines)\nRoutine: Horaires de repas et de sommeil prévisibles ; repas plus petits mais réguliers.\nExercice: Séquences de yoga lentes, pilates, marche tranquille.\nSoulagement du stress: Massage à l'huile quotidien, respiration de mise à la terre (nadi shodhana), tisanes chaudes."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta",
+     "en": {
+      "headline": "Pitta Dominant Gut (Fire + Water)",
+      "description": "Driven, focused, naturally strong digestion until stress or heat tips Pitta into irritability or inflammation.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Acid reflux, heartburn, loose stools, overheating easily, Irritability when hungry"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Cooling meals—cucumber, coconut, mint, sweet fruits; avoid spicy/sour.\nRoutine: Eat before getting “hangry”; don’t skip meals.\nExercise: Swimming, brisk walking, cooling yoga (moon salutations).\nStress relief: Cooling breath (sheetali), time in nature, soothing music."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Pitta (Feu + Eau)",
+      "description": "Les types Pitta, déterminés, concentrés, ont une digestion naturellement forte, mais celle-ci peut être perturbée par le stress ou la chaleur, ce qui provoque de l'irritabilité ou de l'inflammation.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Reflux acide, brûlures d'estomac, selles molles, tendance à se réchauffer facilement, irritabilité lorsqu'on a faim."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas rafraîchissants — concombre, noix de coco, menthe, fruits sucrés ; éviter les aliments épicés/acides.\nRoutine: Mangez avant de devenir \"hangry\" (irritable de faim) ; ne sautez pas de repas.\nExercice: Natation, marche rapide, yoga rafraîchissant (salutations à la lune).\nSoulagement du stress: Respiration rafraîchissante (sheetali), moments passés dans la nature, musique apaisante."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Kapha",
+     "en": {
+      "headline": "Kapha Dominant Gut (Earth + Water)",
+      "description": "Steady, nurturing, calm but excess Kapha slows digestion and invites heaviness or mucus accumulation.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Sluggish digestion, feeling heavy after meals, water retention, cravings for sweets or comfort foods."
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Light, warm, spiced meals (ginger, black pepper, greens).\nRoutine: Eat your largest meal at midday; limit late dinners.\nExercise: Daily brisk movement, strength training, energizing yoga.\nStress relief: Uplifting breathwork (kapalabhati), invigorating scents (eucalyptus, rosemary)."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Kapha (Terre + Eau)",
+      "description": "Les types Kapha, stables, nourrissants et calmes, ont une digestion généralement lente, et un excès de Kapha peut ralentir la digestion et favoriser l'accumulation de lourdeur ou de mucus.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Digestion paresseuse, sensation de lourdeur après les repas, rétention d'eau, envies de sucreries ou d'aliments réconfortants."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas légers, chauds, épicés (gingembre, poivre noir, légumes verts).\nRoutine: Prenez votre repas principal à midi ; limitez les dîners tardifs.\nExercice: Mouvement rapide quotidien, musculation, yoga énergisant.\nSoulagement du stress: Respiration dynamisante (kapalabhati), parfums revigorants (eucalyptus, romarin)."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Pitta",
+     "en": {
+      "headline": "Vata-Pitta Gut",
+      "description": "Sharp mind, quick digestion but when out of balance this duo creates a mix of gas + acidity and fluctuating moods.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Bloating + burning, variable appetite, irritability under stress, sleep that’s light yet restless"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Warm, mildly spiced meals with cooling herbs (coriander, fennel).\nRoutine: Gentle consistency; avoid fasting and fiery foods.\nExercise: Calm strength work, yoga flows, cycling at a moderate pace.\nStress relief: Alternate-nostril breathing, warm oil on feet before bed."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Vata-Pitta",
+      "description": "Esprit vif, digestion rapide, mais lorsque cet ensemble est déséquilibré, il crée un mélange de gaz, acidité et fluctuations d’humeur.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Ballonnements et sensations de brûlure, appétit variable, irritabilité en cas de stress, sommeil léger mais agité."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas chauds, légèrement épicés avec des herbes rafraîchissantes (coriandre, fenouil).\nRoutine: Consistance douce ; évitez le jeûne et les aliments trop piquants.\nExercice: Travail de force calme, séquences de yoga, cyclisme à un rythme modéré.\nSoulagement du stress: Respiration alternée par les narines, huile chaude sur les pieds avant le coucher."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Kapha",
+     "en": {
+      "headline": "Vata-Kapha Gut",
+      "description": "Grounded yet creative this pairing often experiences bloating & heaviness, or slow digestion that feels unpredictable.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Bloating after small meals, slow mornings, alternating dry + sticky stools, emotional snacking."
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Warm, lightly spiced, easy-to-digest dishes; avoid cold smoothies & dairy.\nRoutine: Light dinners, regular movement after meals.\nExercise: Energizing walks, dynamic yoga, mini workouts.\nStress relief: Belly breathing, warm herbal compress, journaling."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Vata-Kapha",
+      "description": "Ancrée mais créative, cette combinaison vit souvent des ballonnements et une sensation de lourdeur, ou une digestion lente qui semble imprévisible.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Ballonnements après de petits repas, matins lents, selles alternant entre sèches et collantes, grignotage émotionnel."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas chauds, légèrement épicés, faciles à digérer ; évitez les smoothies froids et les produits laitiers.\nRoutine: Dîners légers, mouvement régulier après les repas.\nExercice: Promenades énergisantes, yoga dynamique, mini-entraînements.\nSoulagement du stress: Respiration abdominale, compresse chaude à base de plantes, journalisation."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta+Kapha",
+     "en": {
+      "headline": "Pitta-Kapha Gut",
+      "description": "Strong digestion, strong presence this combination can lead to heat trapped in a slow system, resulting in inflammation & congestion.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Heat with heaviness, acid episodes after rich foods, thick stools or mucus, strong cravings"
+       },
+       {
+        "heading": "Ayurvedic Hacks for Balanced Gut",
+        "body": "Food: Light, cooling, herb-rich meals (cilantro, lime, leafy greens).\nRoutine: Avoid overeating; eat mindfully and stop at 70% fullness.\nExercise: Moderate cardio, swimming, strength training.\nStress relief: Cooling pranayama, guided relaxation, spending time in fresh air."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale dominée par Pitta-Kapha",
+      "description": "Digestion forte, présence marquée : cette combinaison peut entraîner de la chaleur piégée dans un système lent, ce qui mène à de l'inflammation et de la congestion.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Chaleur accompagnée de lourdeur, épisodes acides après des repas riches, selles épaisses ou mucus, envies fortes."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour un intestin équilibré",
+        "body": "Alimentation: Repas légers, rafraîchissants, riches en herbes (coriandre, citron vert, légumes à feuilles vertes).\nRoutine: Évitez de trop manger ; mangez en pleine conscience et arrêtez-vous à 70 % de satiété.\nExercice: Cardio modéré, natation, musculation.\nSoulagement du stress: Pranayama rafraîchissant, relaxation guidée, moments passés en plein air."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "all",
+     "en": {
+      "headline": "Tridoshic Gut (Balanced)",
+      "description": "Balanced constitution with flexible strengths yet lifestyle misalignment easily creates rotating gut symptoms.",
+      "sections": [
+       {
+        "heading": "Gut Challenges",
+        "body": "Symptoms change day to day, digestion reflects stress levels, sensitive to irregular routines, sleep + food choices impact gut dramatically"
+       },
+       {
+        "heading": "Ayurvedic Hacks for maintaining Balanced Gut",
+        "body": "Food: Warm, balanced meals; avoid extreme diets or food rules.\nRoutine: Gentle daily rhythm; prioritize lunch as your main meal.\nExercise: Mix of strength, stretching, and steady cardio.\nStress relief: Breath-led meditation, calming scents, device-free evenings"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Flore intestinale Tridoshique (Équilibrée)",
+      "description": "Constitution équilibrée avec des forces flexibles, mais un désalignement du mode de vie peut facilement provoquer des symptômes intestinaux tournants.",
+      "sections": [
+       {
+        "heading": "Défis digestifs",
+        "body": "Les symptômes varient d’un jour à l’autre, la digestion reflète les niveaux de stress, sensibilité aux routines irrégulières, le sommeil et les choix alimentaires ont un impact considérable sur l’intestin."
+       },
+       {
+        "heading": "Astuces ayurvédiques pour maintenir un intestin équilibré",
+        "body": "Alimentation: Repas chauds, équilibrés ; évitez les régimes extrêmes ou les règles alimentaires strictes.\nRoutine: Rythme quotidien doux ; privilégiez le déjeuner comme repas principal.\nExercice: Mélange de renforcement musculaire, étirements et cardio modéré.\nSoulagement du stress: Méditation guidée par la respiration, senteurs apaisantes, soirées sans appareils."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "hormonal-health",
+   "icon": "heart",
+   "en": {
+    "title": "Hormonal Health Quiz",
+    "description": "Understand the rhythms behind your energy, mood, and cycles — and bring them back into balance.",
+    "instructions": "",
+    "resultTitle": "Your Hormonal Type",
+    "profileTitle": "Your Hormonal Profile",
+    "balanceTitle": "Your Dosha Balance"
+   },
+   "fr": {
+    "title": "Quiz sur la santé hormonale",
+    "description": "Comprenez les rythmes derrière votre énergie, votre humeur et vos cycles, et rétablissez leur équilibre.",
+    "instructions": "",
+    "resultTitle": "Votre profil hormonal",
+    "profileTitle": "Votre profil hormonal",
+    "balanceTitle": "Votre équilibre des doshas"
+   },
+   "questions": [
+    {
+     "en": {
+      "prompt": "What best matches your metabolism?",
+      "answers": [
+       "Fast → crash cycles : random hunger, jittery, shaky if meals delayed",
+       "Consistent & strong : hungry at regular times, rarely fluctuate",
+       "Slow : can skip meals, feel heavy after eating, slow mornings"
+      ]
+     },
+     "fr": {
+      "prompt": "Quel énoncé décrit le mieux votre métabolisme ?",
+      "answers": [
+       "Rapide → cycles de montée/descente : faim soudaine, nervosité, tremblements si les repas tardent",
+       "Régulier et puissant : faim à heures fixes, peu de variations",
+       "Lent : peut sauter des repas, lourdeur après manger, matinées ralenties"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Reaction after eating carbohydrates (bread, rice, sweets):",
+      "answers": [
+       "Brain fog or fatigue quickly after",
+       "Energy spike and mild heat",
+       "Sleepiness or heaviness for hours"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre réaction après avoir consommé des glucides (pain, riz, sucrés):",
+      "answers": [
+       "Brouillard mental ou fatigue immédiate",
+       "Montée d’énergie avec une légère chaleur",
+       "Somnolence ou lourdeur pendant des heures"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your gut-skin axis signs:",
+      "answers": [
+       "Bloating accompanying dry, flaky or sensitive skin",
+       "Acidity with acne, redness, or inflammation",
+       "Constipation with dull or oily skin"
+      ]
+     },
+     "fr": {
+      "prompt": "Signes de votre axe intestin-peau:",
+      "answers": [
+       "Ballonnements accompagnés de peau sèche, sensible ou desquamée",
+       "Acidité avec acné, rougeurs ou inflammation",
+       "Constipation avec peau terne ou tendance huileuse"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How does stress show up in your body?",
+      "answers": [
+       "Insomnia, palpitations, anxiety spikes",
+       "Irritability, headaches, body heat, anger",
+       "Fatigue, emotional eating, overwhelm"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment le stress se manifeste-t-il dans votre corps ?",
+      "answers": [
+       "Insomnie, palpitations, pics d’anxiété",
+       "Irritabilité, maux de tête, chaleur corporelle, colère",
+       "Fatigue, grignotage émotionnel, sentiment de débordement"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How do you recover from emotional stress?",
+      "answers": [
+       "Takes long; nervous system stays wired",
+       "Calm after expressing emotions",
+       "Numbing, retreating, needing comfort food or rest"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment récupérez-vous d’un stress émotionnel ?",
+      "answers": [
+       "Cela prend du temps ; le système nerveux reste en tension",
+       "Calme après avoir exprimé vos émotions",
+       "Engourdissement, repli, besoin de nourriture réconfortante ou de repos"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your hormone-related symptoms look like:",
+      "answers": [
+       "Irregularity, unpredictable cycles, dry hair/skin, low sleep",
+       "Heat: acne, heavy bleeding, anger, body warmth",
+       "Weight gain, water retention, slow cycles, fatigue"
+      ]
+     },
+     "fr": {
+      "prompt": "Vos symptômes d’origine hormonale ressemblent à:",
+      "answers": [
+       "Irrégularités, cycles imprévisibles, sécheresse (cheveux/peau), sommeil faible",
+       "Chaleur : acné, saignements abondants, irritabilité, sensation de chaleur",
+       "Prise de poids, rétention d’eau, cycles lents, fatigue"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Temperature + inflammation clues:",
+      "answers": [
+       "Cold hands/feet, easily chilled, muscle tension",
+       "Prefer cool temperatures, feel hot, inflammation flares",
+       "Prone to swelling, puffiness, humidity intolerance"
+      ]
+     },
+     "fr": {
+      "prompt": "Indices de température + inflammation:",
+      "answers": [
+       "Mains/pieds froids, frilosité, tensions musculaires",
+       "Préférence pour le frais, sensation de chaleur, poussées inflammatoires",
+       "Gonflement, bouffissure, intolérance à l’humidité"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your emotional baseline:",
+      "answers": [
+       "Creative, sensitive, but anxious or overthinking",
+       "Driven, focused, but impatient or intense",
+       "Calm, grounded, but sometimes resistant to change"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre état émotionnel de base:",
+      "answers": [
+       "Créatif·ve, sensible, mais sujet·te à l’anxiété ou au surmenage mental",
+       "Dynamique, concentré·e, mais impatient·e ou intense",
+       "Calme, ancré·e, mais parfois résistant·e au changement"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Under overwhelm, you tend to:",
+      "answers": [
+       "Lose structure → chaos, spiraling thoughts",
+       "Get reactive → sharp words, heat, confrontation",
+       "Slow down → numbness, procrastination, withdrawal"
+      ]
+     },
+     "fr": {
+      "prompt": "En situation de surcharge, vous avez tendance à:",
+      "answers": [
+       "Perdre votre structure → chaos, pensées en spirale",
+       "Réagir vivement → paroles tranchantes, montée de chaleur, confrontation",
+       "Ralentir → engourdissement, procrastination, retrait"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your sleep pattern best resembles:",
+      "answers": [
+       "Light, interrupted, buzzing mind",
+       "Warm, vivid dreams, occasional wakefulness",
+       "Deep sleep, hard to wake, groggy mornings"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre sommeil ressemble le plus à:",
+      "answers": [
+       "Léger, interrompu, esprit agité",
+       "Chaleur, rêves vifs, éveils occasionnels",
+       "Sommeil profond, réveil difficile, matinées brumeuses"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Body structure + tissue tendencies:",
+      "answers": [
+       "Dry hair/skin, cracking joints, thin frame",
+       "Muscular, warm body, sensitive skin",
+       "Soft, rounder, fluid retention, slow lymph"
+      ]
+     },
+     "fr": {
+      "prompt": "Structure corporelle + tendances des tissus:",
+      "answers": [
+       "Cheveux/peau secs, articulations craquantes, silhouette fine",
+       "Corps chaud, musclé, peau sensible",
+       "Tendance moelleuse, plus ronde, rétention de fluides, lymphe lente"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Most common physical tendency:",
+      "answers": [
+       "Anxiety, constipation, dryness, irregular symptoms",
+       "Heat, headaches, irritability, inflammation",
+       "Sluggishness, swelling, weight gain, mucus"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre tendance physique la plus fréquente:",
+      "answers": [
+       "Anxiété, constipation, sécheresse, irrégularités",
+       "Chaleur, maux de tête, irritabilité, inflammation",
+       "Lenteur, gonflement, prise de poids, mucus"
+      ]
+     }
+    }
+   ],
+   "results": [
+    {
+     "matches": "Vata",
+     "en": {
+      "headline": "Vata type “The Sensitive Air Body”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Irregularity in hormones, sleep, digestion\nCortisol spikes → fatigue\nThyroid fluctuations\nDryness, anxiety, insomnia"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Adrenal instability\nThyroid slowing\nIrregular cycles\nEstrogen–progesterone imbalance driven by stress"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: warmth, rhythm, slower mornings, early nights\nFoods: cooked, warm, oily; avoid raw/cold foods\nHerbs: Ashwagandha, Shatavari, Brahmi\nEmotional Work: grounding, somatic calming, breathwork\nScience Support: magnesium glycinate, protein at every meal"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Type Vata « Le Corps Aérien et Sensible »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Fondamental",
+        "body": "Irrégularité hormonale, du sommeil et de la digestion\nPics de cortisol → fatigue\nFluctuations thyroïdiennes\nSécheresse, anxiété, insomnie"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Instabilité des surrénales\nRalentissement thyroïdien\nCycles irréguliers\nDéséquilibre œstrogène–progestérone lié au stress"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: chaleur, régularité, matins lents, soirées tôt\nAlimentation: plats cuits, chauds, onctueux ; éviter les aliments crus ou froids\nPlantes: ashwagandha, shatavari, brahmi\nTravail émotionnel: ancrage, apaisement somatique, respiration consciente\nSoutien scientifique: glycinate de magnésium, protéines à chaque repas"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta",
+     "en": {
+      "headline": "Pitta type “The Fiery Transformer”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Heat, inflammation, intensity\nPMS with irritability\nAcidic digestion\nBreakouts, headaches"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Estrogen dominance\nHigh cortisol → crash\nInflammatory PMS\nAcne/hair changes"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: reduce intensity, stay cool, stop overworking\nFoods: cooling, hydrating, low spice\nHerbs: Shatavari, Guduchi, Neem (briefly)\nEmotional Work: anger processing, grounding self-compassion\nScience Support: liver support, B6 + Zinc for hormones"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Type Pitta « Le Transformateur de Feu »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Fondamental",
+        "body": "Chaleur, inflammation, intensité\nSPM accompagné d’irritabilité\nDigestion acide\nÉruptions cutanées, maux de tête"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Dominance œstrogénique\nCortisol élevé → effondrement ensuite\nSPM inflammatoire\nAcné / changements capillaires"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: réduire l’intensité, rester au frais, arrêter le surmenage\nAlimentation: aliments rafraîchissants, hydratants, peu épicés\nPlantes: shatavari, guduchi, neem (à court terme)\nTravail émotionnel: libération de la colère, ancrage, auto-compassion\nSoutien scientifique: soutien hépatique, vitamine B6 + zinc pour l’équilibre hormonal"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Kapha",
+     "en": {
+      "headline": "Kapha type “The Earth Body”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Sluggish digestion\nWeight gain / water retention\nLow motivation\nMucus, heaviness"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Insulin resistance\nLow thyroid function\nMetabolic PCOS\nLow cortisol responsiveness"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: stimulate mornings, movement, variety\nFoods: light, warm, spicy; avoid dairy/sugar\nHerbs: Guggulu, Triphala, Trikatu\nEmotional Work: activation, dance, emotional release\nScience Support: berberine, chromium, fiber, iodine"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Type Kapha « Le Corps Terre »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Fondamental",
+        "body": "Digestion lente\nPrise de poids / rétention d’eau\nFaible motivation\nMucosités, lourdeur"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Résistance à l’insuline\nFonction thyroïdienne faible\nSOPK métabolique\nFaible réactivité du cortisol"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: stimulation matinale, mouvement, variété\nAlimentation: plats légers, chauds, épicés ; éviter les produits laitiers et le sucre\nPlantes: guggulu, triphala, trikatu\nTravail émotionnel: activation, danse, libération émotionnelle\nSoutien scientifique: berbérine, chrome, fibres, iode"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Pitta",
+     "en": {
+      "headline": "Vata–Pitta “The Wired & Fired Body”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Anxiety + irritability\nHeat + irregularity combo\nGut sensitivity\nBurnout but wired"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "High + unstable cortisol\nEstrogen/progesterone imbalance\nGut-driven inflammatory PMS"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: grounding AND cooling\nFoods: warm but low-spice, anti-inflammatory\nHerbs: Ashwagandha, Shatavari, Turmeric\nEmotional Work: soothe + slow down perfectionism\nScience Support: stabilize blood sugar, sleep regulation"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Vata–Pitta « Le Corps Électrisé et Surmené »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Principal",
+        "body": "Anxiété et irritabilité\nCombinaison chaleur + irrégularité\nSensibilité digestive\nÉpuisement mais hyperactif"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Cortisol élevé et instable\nDéséquilibre œstrogène/progestérone\nSPM inflammatoire d’origine digestive"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: enracinement et refroidissement\nAlimentation: tiède mais peu épicée, anti-inflammatoire\nPlantes: Ashwagandha, Shatavari, Curcuma\nTravail émotionnel: apaiser et ralentir le perfectionnisme\nSoutien scientifique: stabiliser la glycémie, réguler le sommeil"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Kapha",
+     "en": {
+      "headline": "Vata–Kapha “The Frozen Energy Body”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Anxiety + fatigue mix\nCold + sluggish\nWater retention + bloating\nDryness + heaviness alternating"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Thyroid imbalance\nStress + metabolic slowdown combo\nIrregular cycles\nEstrogen–progesterone instability"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: warm, stimulating, structured routine\nFoods: warming but grounding\nHerbs: Triphala, Ginger, Ashwagandha\nEmotional Work: safety + momentum building\nScience Support: thyroid nutrient support, circadian repair"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Vata–Kapha « Le Corps d’Énergie Gelée »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Principal",
+        "body": "Mélange d’anxiété et de fatigue\nFroid et lenteur\nRétention d’eau et ballonnements\nAlternance de sécheresse et de lourdeur"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Déséquilibre thyroïdien\nCombinaison stress et ralentissement métabolique\nCycles irréguliers\nInstabilité œstrogène–progestérone"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: chaleureux, stimulant, routine structurée\nAlimentation: réchauffante mais ancrante\nPlantes: Triphala, Gingembre, Ashwagandha\nTravail émotionnel: sécurité et renforcement de l’élan\nSoutien scientifique: soutien en nutriments pour la thyroïde, régulation du rythme circadien"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta+Kapha",
+     "en": {
+      "headline": "Pitta–Kapha “The Metabolic Flame Body”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "Heat stuck in heaviness\nWeight gain + acne\nHeavy periods\nFluid retention"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Estrogen dominance + insulin resistance\nPCOS (inflammatory + metabolic blend)\nLiver congestion"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: reduce heat + reduce stagnation\nFoods: cooling + light + bitter greens\nHerbs: Guggulu, Neem, Guduchi\nEmotional Work: self-compassion, cooling practices\nScience Support: anti-inflammatory diet + insulin sensitivity"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Pitta–Kapha « Le Corps Flamme Métabolique »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre Principal",
+        "body": "Chaleur bloquée dans la lourdeur\nPrise de poids et acné\nRègles abondantes\nRétention d’eau"
+       },
+       {
+        "heading": "Tendance Hormonale",
+        "body": "Dominance œstrogénique et résistance à l’insuline\nSOPK (syndrome des ovaires polykystiques: combinaison inflammatoire et métabolique)\nCongestion hépatique"
+       },
+       {
+        "heading": "Protocole de Guérison Profonde",
+        "body": "Mode de vie: réduire la chaleur et la stagnation\nAlimentation: rafraîchissante, légère et avec des légumes amers\nPlantes: Guggulu, Neem, Guduchi\nTravail émotionnel: auto-compassion, pratiques apaisantes\nSoutien scientifique: alimentation anti-inflammatoire et amélioration de la sensibilité à l’insuline"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "all",
+     "en": {
+      "headline": "Tridoshic “The Harmonizer”",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Core Imbalance",
+        "body": "When balanced → resilient\nWhen imbalanced → symptoms shift between doshas rapidly\nSensitive to lifestyle changes, environment, stress"
+       },
+       {
+        "heading": "Hormonal Tendency",
+        "body": "Overall stable hormones unless under extreme stress\nSymptoms arise from lifestyle mismatch, not constitution"
+       },
+       {
+        "heading": "Deep Healing Protocol",
+        "body": "Lifestyle: mild structure + seasonal adjustments\nFoods: rotate between grounding, cooling, and warming\nHerbs: adaptogens like Tulsi, Shatavari, Ashwagandha\nEmotional Work: continuous small tuning\nScience Support: maintain sleep, glucose, inflammation prevention"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Tridoshique « L’Harmonisateur »",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Déséquilibre central",
+        "body": "Quand équilibré → résilient\nQuand déséquilibré → les symptômes passent rapidement d’un dosha à l’autre\nSensible aux changements de mode de vie, à l’environnement et au stress"
+       },
+       {
+        "heading": "Tendance hormonale",
+        "body": "Hormones globalement stables sauf en cas de stress extrême\nLes symptômes apparaissent surtout à cause d’un décalage avec le mode de vie, et non de la constitution"
+       },
+       {
+        "heading": "Protocole de guérison profonde",
+        "body": "Mode de vie: structure légère + ajustements saisonniers\nAlimentation: alterner entre aliments enracinants, rafraîchissants et réchauffants\nPlantes: adaptogènes tels que Tulsi, Shatavari, Ashwagandha\nTravail émotionnel: réglages continus et progressifs\nSupport scientifique: maintenir un bon sommeil, la régulation de la glycémie et la prévention de l’inflammation"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "weight-management",
+   "icon": "body",
+   "en": {
+    "title": "Why Isn’t Your Body Managing Weight?",
+    "description": "Discover the real Ayurvedic root cause behind your weight management challenges. Your body isn’t “wrong”, it’s communicating.",
+    "instructions": "Each question has 3 choices. Pick the one that feels MOST true most of the time.",
+    "resultTitle": "Your Weight Pattern",
+    "profileTitle": "Your Pattern",
+    "balanceTitle": "Your Dosha Balance"
+   },
+   "fr": {
+    "title": "Pourquoi votre corps ne gère-t-il pas son poids ?",
+    "description": "Découvrez la vraie cause ayurvédique de vos difficultés à gérer votre poids. Votre corps n’est pas « défaillant », il communique.",
+    "instructions": "Chaque question a 3 choix. Choisissez celui qui vous semble le PLUS vrai la plupart du temps.",
+    "resultTitle": "Votre profil de poids",
+    "profileTitle": "Votre profil",
+    "balanceTitle": "Votre équilibre des doshas"
+   },
+   "questions": [
+    {
+     "en": {
+      "prompt": "When you think of your hunger, what best describes it?",
+      "answers": [
+       "Totally unpredictable — hungry one moment, gone the next",
+       "Strong, urgent, “feed me now” hunger",
+       "Gentle or slow hunger I can go hours without eating"
+      ]
+     },
+     "fr": {
+      "prompt": "Quand vous pensez à votre faim, quelle option la décrit le mieux ?",
+      "answers": [
+       "Totalement imprévisible — j'ai faim un moment, puis plus du tout le suivant",
+       "Forte, urgente, \"il faut me nourrir maintenant\"",
+       "Une faim douce ou lente, je peux passer des heures sans manger"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your energy throughout the day feels…",
+      "answers": [
+       "Spiky: up, down, up, down",
+       "Strong, focused until I crash hard",
+       "Slow to start, steady but sluggish"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment se ressent votre énergie tout au long de la journée ?",
+      "answers": [
+       "En dents de scie : haut, bas, haut, bas",
+       "Forte, concentrée, jusqu'à un gros coup de fatigue",
+       "Lent au démarrage, stable mais paresseux"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What best matches how your body stores weight?",
+      "answers": [
+       "Around the belly when life is stressful",
+       "When I overeat; I get heat or puffiness too",
+       "Lower body thighs, hips, or all over gradually"
+      ]
+     },
+     "fr": {
+      "prompt": "Qu'est-ce qui correspond le mieux à la façon dont votre corps stocke le poids ?",
+      "answers": [
+       "Autour du ventre quand la vie est stressante",
+       "Quand je mange trop ; j'ai aussi de la chaleur ou de la rétention d'eau",
+       "Dans le bas du corps : cuisses, hanches, ou tout doucement sur tout le corps"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What’s your relationship with cravings?",
+      "answers": [
+       "Crispy, crunchy, airy things stress snacks",
+       "Spicy, salty, tangy foods flavor intensity",
+       "Sweet, creamy, carby comfort food"
+      ]
+     },
+     "fr": {
+      "prompt": "Quelle est votre relation avec les envies alimentaires ?",
+      "answers": [
+       "Croustillant, croquant, léger : grignotages stressants",
+       "Aliments épicés, salés, acides : intensité de saveurs",
+       "Aliments sucrés, crémeux, riches : nourriture réconfortante"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "After a meal, you MOST often feel…..",
+      "answers": [
+       "Bloated or gassy",
+       "Hot, thirsty, or acidic",
+       "Heavy or sleepy"
+      ]
+     },
+     "fr": {
+      "prompt": "Après un repas, vous vous sentez LE PLUS souvent…",
+      "answers": [
+       "Ballonné(e) ou gazeux(se)",
+       "Chaud(e), assoiffé(e) ou acide",
+       "Lourd(e) ou somnolent(e)"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What slows your weight-loss progress the most?",
+      "answers": [
+       "An inconsistent routine or chaotic schedule",
+       "Intensity: overeating, overworking, overdoing",
+       "A slow, stubborn metabolism"
+      ]
+     },
+     "fr": {
+      "prompt": "Qu'est-ce qui ralentit le plus votre perte de poids ?",
+      "answers": [
+       "Une routine incohérente ou un emploi du temps chaotique",
+       "L'intensité : manger trop, trop travailler, trop faire",
+       "Un métabolisme lent et têtu"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What describes your digestion speed?",
+      "answers": [
+       "Irregular sometimes fast, sometimes sluggish",
+       "Fast and strong",
+       "Slow and easily overwhelmed"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment décririez-vous la vitesse de votre digestion ?",
+      "answers": [
+       "Irrégulière, parfois rapide, parfois lente",
+       "Rapide et forte",
+       "Lente et facilement débordée"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "What happens to you under stress?",
+      "answers": [
+       "I fluctuate weight up or down",
+       "I overheat or overeat",
+       "I hold onto weight & feel heavier"
+      ]
+     },
+     "fr": {
+      "prompt": "Que se passe-t-il quand vous êtes stressé(e) ?",
+      "answers": [
+       "Je fluctue entre prise et perte de poids",
+       "Je surchauffe ou je mange trop",
+       "Je garde du poids et me sens plus lourd(e)"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your sleep style is closest to…",
+      "answers": [
+       "Light, restless, sensitive sleep",
+       "Intense dreams, overheating, or waking hot",
+       "Deep but hard-to-wake-from sleep"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre style de sommeil se rapproche de…",
+      "answers": [
+       "Un sommeil léger, agité, sensible",
+       "Des rêves intenses, surchauffe, ou réveils chauds",
+       "Un sommeil profond mais difficile à interrompre"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "Your mood around food is mostly…",
+      "answers": [
+       "Anxious or distracted",
+       "Impatient or over-stimulated",
+       "Soothing, comforting, grounding"
+      ]
+     },
+     "fr": {
+      "prompt": "Votre état d'esprit vis-à-vis de la nourriture est principalement…",
+      "answers": [
+       "Anxieux(se) ou distrait(e)",
+       "Impatient(e) ou sur-stimulé(e)",
+       "Apaisant(e), réconfortant(e), rassurant(e)"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "How does your body feel in the morning?",
+      "answers": [
+       "A bit stiff or anxious, mind is active",
+       "Ready to go, but can burn out later",
+       "Heavy, slow, or unmotivated"
+      ]
+     },
+     "fr": {
+      "prompt": "Comment votre corps se sent-il le matin ?",
+      "answers": [
+       "Un peu raide ou anxieux(se), l’esprit actif",
+       "Prêt(e) à partir, mais avec un risque d'épuisement plus tard",
+       "Lourd(e), lent(e), ou démotivé(e)"
+      ]
+     }
+    },
+    {
+     "en": {
+      "prompt": "If your metabolism had a personality…",
+      "answers": [
+       "A creative, inconsistent artist",
+       "A fiery CEO who works hard but overheats",
+       "A loyal friend who needs encouragement to move"
+      ]
+     },
+     "fr": {
+      "prompt": "Si votre métabolisme avait une personnalité…",
+      "answers": [
+       "Un artiste créatif et inconstant",
+       "Un PDG ardent qui travaille dur mais surchauffe",
+       "Un ami loyal qui a besoin de motivation pour se mettre en mouvement"
+      ]
+     }
+    }
+   ],
+   "results": [
+    {
+     "matches": "Vata",
+     "en": {
+      "headline": "Vata weight pattern: The Stress-Responsive Body",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Stress, irregularity, nervous system overload"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Grounding, warm simple meals, routine"
+       },
+       {
+        "heading": "Weight-loss superpower",
+        "body": "Calm → metabolism stabilizes"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Patron de poids Vata: Le Corps Réactif au Stress",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Stress, irrégularité, surcharge du système nerveux"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Ancrage, repas simples et chauds, routine"
+       },
+       {
+        "heading": "Super-pouvoir de perte de poids",
+        "body": "Calme → le métabolisme se stabilise"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta",
+     "en": {
+      "headline": "Pitta weight pattern: The Hot, Hungry Metabolizer",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Heat, inflammation, overeating intensity"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "cooling foods, stable mealtimes"
+       },
+       {
+        "heading": "Weight-loss superpower",
+        "body": "balance → appetite becomes precise"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Patron de poids Pitta: Le Métaboliseur Chaud et Affamé",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Chaleur, inflammation, intensité dans la suralimentation"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Aliments rafraîchissants, horaires de repas stables"
+       },
+       {
+        "heading": "Super-pouvoir de perte de poids",
+        "body": "Équilibre → l’appétit devient précis"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Kapha",
+     "en": {
+      "headline": "Kapha weight pattern: The Steady, Retentive Body",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Slow metabolism, heaviness, water retention"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Warmth, movement, stimulation"
+       },
+       {
+        "heading": "Weight-loss superpower",
+        "body": "Activation → steady fat loss"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Patron de poids Kapha: Le Corps Stable et Rétentif",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Métabolisme lent, lourdeur, rétention d'eau"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Chaleur, mouvement, stimulation"
+       },
+       {
+        "heading": "Super-pouvoir de perte de poids",
+        "body": "Activation → perte de graisse régulière"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Pitta",
+     "en": {
+      "headline": "Vata-Pitta: The Burnout Body",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Stress + heat"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Rhythm + cooling nourishment"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Vata-Pitta: Le Corps en Épuisement",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Stress + chaleur"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Rythme + nourriture rafraîchissante"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Kapha",
+     "en": {
+      "headline": "Vata-Kapha: The Slow Yet Scattered Body",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Sluggish metabolism + chaotic routine"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Grounding + activation"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Vata-Kapha: Le Corps Lent mais Dispersé",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Métabolisme paresseux + routine chaotique"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Ancrage + activation"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta+Kapha",
+     "en": {
+      "headline": "Pitta-Kapha: The Strong Appetite, Slow Burn Body",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Eating strongly but digesting slowly"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Digestive optimization + lightness"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Pitta-Kapha: Le Corps à Fort Appétit, à Brûlure Lente",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Manger de façon intense mais digérer lentement"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Optimisation de la digestion + légèreté"
+       }
+      ]
+     }
+    },
+    {
+     "matches": "all",
+     "en": {
+      "headline": "Tridoshic: The Wise but Over-loaded System",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Root cause",
+        "body": "Mixed habits, mixed triggers"
+       },
+       {
+        "heading": "Your body needs",
+        "body": "Gentle, whole-body realignment"
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Tridoshique: Le Système Sage mais Surchargé",
+      "description": "",
+      "sections": [
+       {
+        "heading": "Cause profonde",
+        "body": "Habitudes mixtes, déclencheurs mixtes"
+       },
+       {
+        "heading": "Ce dont votre corps a besoin",
+        "body": "Réalignement doux et global du corps"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "hair-dosha",
+   "existing": true,
+   "questions": [],
+   "results": [
+    {
+     "matches": "Vata",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Vata",
+      "description": "Your hair type reflects the qualities of « Vata dosha » light, dry, and often a bit unpredictable. You may experience frizz, thin strands, or dryness that worsens in colder seasons. When out of balance, Vata can lead to premature greying, hair fall, or lack of shine.\n\nVata hair is like a delicate plant - it needs warmth, consistency, and nourishment. When grounded with care, it responds beautifully.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Vata Hair",
+        "body": "Warm oil is your best friend — try massaging with almond, sesame, or brahmi oil 2–3 times a week.\nUse a natural, creamy hair mask made with aloe vera, hibiscus, or fenugreek powder to bring back shine.\nSkip daily shampooing — washing 2–3 times a week is ideal to preserve natural oils.\nAlways cover your hair in cold, dry, or windy weather to avoid aggravating Vata dryness."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Vata",
+      "description": "Votre type de cheveux reflète les qualités du « dosha Vata » : légèreté, sécheresse et parfois une certaine imprévisibilité. Vous pouvez remarquer des frisottis, des mèches fines ou une sécheresse qui s’intensifie pendant les saisons froides. Lorsque Vata est en déséquilibre, cela peut entraîner un vieillissement prématuré des cheveux, une chute excessive ou un manque d’éclat.\n\nLes cheveux Vata sont comme une plante délicate — ils ont besoin de chaleur, de régularité et de nutrition. Lorsqu’ils sont soignés avec douceur et constance, ils réagissent magnifiquement.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Vata",
+        "body": "L’huile tiède est votre meilleure alliée — massez votre cuir chevelu avec de l’huile d’amande, de sésame ou de brahmi 2 à 3 fois par semaine.\nUtilisez un masque capillaire naturel et crémeux à base d’aloe vera, d’hibiscus ou de poudre de fenugrec pour raviver la brillance.\nÉvitez le shampoing quotidien — 2 à 3 lavages par semaine suffisent pour préserver les huiles naturelles.\nProtégez toujours vos cheveux par temps froid, sec ou venteux afin d’éviter d’aggraver la sécheresse liée au Vata."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Pitta",
+      "description": "Your hair carries the fiery energy of « Pitta dosha » - sharp, reactive, and quick to heat up. You might notice oiliness, sensitivity, or early thinning. Scalp issues like dandruff or redness are often a sign of excess Pitta.\n\nPitta hair needs cooling, calming rituals that ease both the body and mind — think \"chill mode\" for your scalp.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Pitta Hair",
+        "body": "Use cooling oils like coconut, amla, or bhringraj — apply them slightly warm, never hot.\nWash your hair every 1–2 days using a mild, herbal shampoo with neem or hibiscus.\nAvoid spicy, fried, or sour foods — they can trigger excess heat and inflammation.\nStay away from direct sun exposure or hot styling tools that aggravate the scalp."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Pitta",
+      "description": "Vos cheveux portent l’énergie ardente du « dosha Pitta » - vive, réactive et sujette à la surchauffe. Vous pouvez remarquer un excès de sébum, une sensibilité du cuir chevelu ou un affinement précoce des cheveux. Les pellicules, les rougeurs ou les irritations du cuir chevelu sont souvent des signes d’un excès de Pitta.\n\nLes cheveux Pitta ont besoin de rituels rafraîchissants et apaisants qui calment à la fois le corps et l’esprit - imaginez une mise en mode \"cool\" pour votre cuir chevelu.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Pitta",
+        "body": "Utilisez des huiles rafraîchissantes comme l’huile de coco, d’amla ou de bhringraj — appliquez-les légèrement tiédies, jamais chaudes.\nLavez vos cheveux tous les 1 à 2 jours avec un shampoing doux et à base de plantes comme le neem ou l’hibiscus.\nÉvitez les aliments épicés, frits ou acides — ils peuvent provoquer un excès de chaleur et d’inflammation.\nÉvitez l’exposition directe au soleil et les outils de coiffage chauffants, qui peuvent aggraver l’irritation du cuir chevelu."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Kapha",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Kapha",
+      "description": "Your hair type aligns with « Kapha dosha » thick, full, and naturally strong. While that gives you lush, voluminous strands, it can also mean oiliness, heaviness, and scalp buildup if not properly stimulated.\n\nKapha hair thrives on detoxing and energizing routines that keep things fresh and flowing.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Kapha Hair",
+        "body": "Go light on oils — mustard, rosemary, or tea tree oils are ideal (once a week is enough).\nUse a gentle scalp scrub or clay detox mask weekly to prevent congestion.\nRinse with warm water infused with tulsi, neem, or green tea for clarity and bounce.\nBlow-dry on low heat or towel dry fully — Kapha thrives in warmth and movement."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Kapha",
+      "description": "Votre type de cheveux correspond au « dosha Kapha » - épais, dense et naturellement fort. Cela vous offre une chevelure généreuse et volumineuse, mais cela peut aussi entraîner un excès de sébum, une sensation de lourdeur et une accumulation sur le cuir chevelu si celui-ci n’est pas régulièrement stimulé.\n\nLes cheveux Kapha s’épanouissent grâce à des rituels détoxifiants et dynamisants, qui apportent fraîcheur et légèreté.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Kapha",
+        "body": "Utilisez les huiles avec parcimonie — l’huile de moutarde, de romarin ou d’arbre à thé sont idéales (une fois par semaine suffit).\nFaites un gommage doux du cuir chevelu ou un masque détox à l’argile une fois par semaine pour éviter l’encombrement.\nRincez vos cheveux à l’eau tiède infusée de tulsi, neem ou thé vert pour plus de clarté et de légèreté.\nSéchez vos cheveux à l’air tiède ou avec une serviette jusqu’à ce qu’ils soient complètement secs — Kapha apprécie la chaleur et le mouvement."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Pitta",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Vata-Pitta",
+      "description": "Your hair shows a combination of « dryness and sensitivity » typical of both Vata and Pitta doshas. You might deal with frizz, premature greying, or dryness (Vata), along with scalp irritation, oiliness, or early thinning (Pitta).\n\nYour care goal is to nourish and cool - bringing calm to your scalp while moisturizing your strands.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Vata-Pitta Hair",
+        "body": "Use cooling, slightly warm oils like brahmi + amla or bhringraj + sesame.\nAvoid heat styling and harsh shampoos — opt for gentle, herbal cleansers.\nUse a hydrating herbal hair mask weekly, like aloe vera + hibiscus.\nKeep your diet and lifestyle hydrated, grounded, and calm - both doshas are aggravated by overstimulation."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Vata-Pitta",
+      "description": "Vos cheveux présentent une combinaison de sécheresse et de sensibilité, caractéristiques des doshas Vata et Pitta. Vous pouvez rencontrer des frisottis, des cheveux ternes ou une pousse ralentie (influence Vata), mais aussi un cuir chevelu réactif, irrité ou sujet à la chute (influence Pitta).\n\nL’objectif est de nourrir en profondeur tout en apaisant le cuir chevelu.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Vata-Pitta",
+        "body": "Optez pour une huile légèrement tiède et rafraîchissante, comme un mélange de brahmi + amla ou bhringraj + sésame.\nÉvitez la chaleur excessive (sèche-cheveux, plaques) et les shampoings agressifs — privilégiez des soins doux et naturels.\nAppliquez un masque hydratant hebdomadaire à base d’aloe vera et d’hibiscus.\nAdoptez une routine calme et régulière, avec une alimentation apaisante et hydratante."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Vata+Kapha",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Vata-Kapha",
+      "description": "This combo reflects hair that is dry yet heavy, or frizzy with occasional oiliness. You may feel your scalp is dry, but your strands are dense and slow to respond to treatment. The key here is light but regular care - not overdoing anything, but keeping things gently active and balanced.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Vata-Kapha Hair",
+        "body": "Oil once a week with a balanced blend, like sesame + rosemary or almond + tulsi.\nExfoliate gently — avoid overly drying products, but keep the scalp clear.\nUse light, nourishing masks — aloe vera + fenugreek is a great combo.\nAvoid cold, damp environments and aim for warm, steady routines."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Vata-Kapha",
+      "description": "Vos cheveux présentent un mélange unique de sécheresse et de lourdeur. Le cuir chevelu peut être sec ou inactif, tandis que les longueurs sont épaisses, denses et parfois rebelles. L’équilibre passe par des soins légers mais réguliers, sans excès.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Vata-Kapha",
+        "body": "Faites un bain d’huile une fois par semaine avec un mélange équilibrant comme sésame + romarin ou amande + tulsi.\nGommez délicatement le cuir chevelu sans le dessécher, pour activer la circulation.\nUtilisez des masques nourrissants mais légers — par exemple, aloe vera + fenugrec.\nÉvitez les environnements froids et humides ; favorisez une routine chaude, stable et vivifiante."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "Pitta+Kapha",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Pitta-Kapha",
+      "description": "You have a hair type that’s thick, oily, and sometimes inflamed or congested, reflecting the combination of Pitta’s heat and Kapha’s heaviness. This can show up as scalp sensitivity, buildup, or even hair thinning with excess oil.\n\nFocus on cleansing, circulation, and cooling care.",
+      "sections": [
+       {
+        "heading": "Ayurvedic Hacks for Pitta-Kapha Hair",
+        "body": "Use a light, cooling oil like amla or tea tree and only once a week.\nWash your hair frequently with a clarifying herbal shampoo(neem, tulsi).\nUse clay-based detox masks or scrubs to refresh the scalp.\nRinse with lukewarm water infused with herbs like mint or green tea."
+       }
+      ]
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Pitta-Kapha",
+      "description": "Vos cheveux sont à la fois épais, gras, et parfois congestionnés ou sensibles - un reflet de la chaleur du dosha Pitta et de la densité du Kapha. Cela peut se traduire par des démangeaisons, un cuir chevelu réactif, des pellicules grasses ou une sensation de lourdeur.\n\nL’objectif est de rafraîchir, purifier et stimuler sans agresser.",
+      "sections": [
+       {
+        "heading": "Astuces Ayurvédiques pour les Cheveux Pitta-Kapha",
+        "body": "Utilisez une huile légère et rafraîchissante comme l’huile d’amla ou d’arbre à thé, une fois par semaine seulement.\nLavez vos cheveux régulièrement avec un shampoing clarifiant aux plantes comme le neem ou le tulsi.\nAppliquez un masque détoxifiant à l’argile ou un gommage doux pour purifier le cuir chevelu.\nRincez avec une eau tiède infusée au thé vert ou à la menthe pour plus de légèreté et de fraîcheur."
+       }
+      ]
+     }
+    },
+    {
+     "matches": "all",
+     "en": {
+      "headline": "Your Ayurvedic Hair Type: Tridoshic",
+      "description": "Your results show a balanced influence of all three doshas. This is called a « tridoshic » constitution — a rare and beautiful balance! Still, depending on the season, stress, or diet, one dosha may dominate, so tuning into your body's signals is key.",
+      "sections": []
+     },
+     "fr": {
+      "headline": "Votre Type de Cheveux Ayurvédique: Tridoshique",
+      "description": "Vos réponses indiquent une belle harmonie entre les trois doshas : Vata, Pitta et Kapha. C’est ce qu’on appelle une constitution tridoshique, à la fois rare et précieuse. Votre équilibre naturel est un atout, mais restez à l’écoute de votre corps : selon les saisons, le stress ou votre alimentation, un dosha peut momentanément dominer",
+      "sections": []
+     }
+    }
+   ]
+  }
+ ]
+}

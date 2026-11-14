@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_consultation_date_overrides",
+  "info": { "displayName": "Date override", "icon": "calendar" },
+  "options": {},
+  "attributes": {
+    "date": { "type": "date", "required": true },
+    "closed": { "type": "boolean", "default": true, "description": "On: no slots that day (holiday, leave). Off: use the times below instead of the weekly hours." },
+    "times": { "type": "text", "description": "Only used when Closed is off. Example: 10:00, 11:00" },
+    "note": { "type": "string", "description": "For your own reference." }
+  }
+}

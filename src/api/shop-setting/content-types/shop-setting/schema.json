@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "shop_settings",
+  "info": { "singularName": "shop-setting", "pluralName": "shop-settings", "displayName": "Shop Settings" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "shipToIndia": { "type": "boolean", "default": true },
+    "shippingFeeInr": { "type": "decimal", "default": 99, "min": 0 },
+    "freeShippingOverInr": { "type": "decimal", "default": 1499, "min": 0, "description": "Orders at or above this amount ship free. Use 0 to turn free shipping off." },
+    "shipToFrance": { "type": "boolean", "default": true },
+    "shippingFeeEur": { "type": "decimal", "default": 9, "min": 0 },
+    "freeShippingOverEur": { "type": "decimal", "default": 120, "min": 0, "description": "Orders at or above this amount ship free. Use 0 to turn free shipping off." },
+    "gstPercent": { "type": "decimal", "default": 18, "min": 0, "max": 100, "description": "GST rate included in Indian prices. Confirm the right rate for your products with your accountant." }
+  }
+}
