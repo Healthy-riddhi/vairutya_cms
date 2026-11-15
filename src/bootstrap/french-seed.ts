@@ -9,7 +9,7 @@ const answers = (a: string, b: string, c: string) => [
 const PRODUCTS = [
   { name: 'Cheveux sains, Ayurveda', description: 'Votre consultation capillaire ayurvédique personnalisée.', buttonLabel: 'Acheter', link: '/shop', highlighted: true },
   { name: 'Rééquilibrage digestif', description: 'Votre consultation ayurvédique personnalisée pour rééquilibrer la digestion.', buttonLabel: 'En savoir plus', link: '/consultation', highlighted: false },
-  { name: 'Bilan complet guidé', description: 'Le parcours ayurvédique signature.', buttonLabel: 'Explorer', link: '/quiz', highlighted: false },
+  { name: 'Rejoindre un atelier', description: 'Des expériences guidées, ancrées dans l’Ayurveda et le bien-être moderne.', buttonLabel: 'Explorer', link: '/workshops', highlighted: false },
 ];
 
 /** Creates a French version of one entry, only if it doesn't exist yet. */

@@ -3,7 +3,7 @@ import type { Core } from '@strapi/strapi';
 const SUGGESTIONS = [
   { name: 'Healthy Hair Ayurveda', description: 'Your Personalized Ayurvedic Hair Consultation.', buttonLabel: 'Shop Now', link: '/shop', highlighted: true },
   { name: 'Digestion Reset', description: 'Your Personalized Ayurvedic Consultation for Digestive Rebalancing.', buttonLabel: 'Learn More', link: '/consultation', highlighted: false },
-  { name: 'Guided Full Assessment', description: 'The Signature Ayurvedic Journey.', buttonLabel: 'Explore', link: '/quiz', highlighted: false },
+  { name: 'Join a workshop', description: 'Guided, hands-on sessions rooted in Ayurveda and modern wellness.', buttonLabel: 'Explore', link: '/workshops', highlighted: false },
 ];
 
 const answers = (vata: string, pitta: string, kapha: string) => [

@@ -15,12 +15,12 @@ const PRODUCTS: Record<Lang, any[]> = {
   en: [
     { name: 'Personalised consultation', description: 'A 1-on-1 session that turns your result into a plan made for you.', buttonLabel: 'Book now', link: '/consultation', highlighted: true },
     { name: 'Shop the essentials', description: 'Handcrafted tools and essentials rooted in Ayurveda.', buttonLabel: 'Shop now', link: '/shop', highlighted: false },
-    { name: 'Take another quiz', description: 'Explore another part of your constitution.', buttonLabel: 'Explore', link: '/quiz', highlighted: false },
+    { name: 'Join a workshop', description: 'Guided, hands-on sessions rooted in Ayurveda and modern wellness.', buttonLabel: 'Explore', link: '/workshops', highlighted: false },
   ],
   fr: [
     { name: 'Consultation personnalisée', description: 'Une séance individuelle pour transformer votre résultat en un plan fait pour vous.', buttonLabel: 'Réserver', link: '/consultation', highlighted: true },
     { name: 'Découvrir la boutique', description: 'Des essentiels artisanaux ancrés dans l’Ayurveda.', buttonLabel: 'Acheter', link: '/shop', highlighted: false },
-    { name: 'Faire un autre quiz', description: 'Explorez une autre facette de votre constitution.', buttonLabel: 'Explorer', link: '/quiz', highlighted: false },
+    { name: 'Rejoindre un atelier', description: 'Des expériences guidées, ancrées dans l’Ayurveda et le bien-être moderne.', buttonLabel: 'Explorer', link: '/workshops', highlighted: false },
   ],
 };
 
