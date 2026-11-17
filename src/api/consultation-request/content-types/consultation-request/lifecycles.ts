@@ -1,5 +1,5 @@
 import { errors } from '@strapi/utils';
-import { sendConsultationConfirmed } from '../../../../utils/consultation';
+import { sendConsultationConfirmed, sendConsultationPaid } from '../../../../utils/consultation';
 
 const UID = 'api::consultation-request.consultation-request';
 
@@ -28,7 +28,12 @@ export default {
   /** Emails the customer once, when the status becomes "confirmed". */
   async afterUpdate(event: any) {
     const r = event.result;
-    if (!r || r.requestStatus !== 'confirmed' || r.confirmationEmailSentAt || !r.email) return;
+    if (!r || !r.email) return;
+    // UPI: you set the payment to "paid" in Strapi, so the customer hears about it once
+    if (r.paymentMethod === 'upi_manual' && r.paymentStatus === 'paid' && !r.paidEmailSentAt) {
+      await sendConsultationPaid(strapi, r);
+    }
+    if (r.requestStatus !== 'confirmed' || r.confirmationEmailSentAt) return;
     await sendConsultationConfirmed(strapi, r);
   },
 };

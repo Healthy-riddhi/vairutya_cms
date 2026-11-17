@@ -7,6 +7,8 @@
     "acceptingRequests": { "type": "boolean", "default": true, "description": "Turn off to hide all dates, for example while you are away." },
     "maxDaysAhead": { "type": "integer", "default": 60, "min": 1, "max": 365, "description": "How many days ahead customers can book." },
     "minNoticeHours": { "type": "integer", "default": 24, "min": 0, "max": 720, "description": "A slot disappears this many hours before it starts." },
+    "feeInr": { "type": "decimal", "min": 0, "description": "Consultation fee in rupees, e.g. 999. Leave empty or 0 to skip payment (bookings stay free requests)." },
+    "feeEur": { "type": "decimal", "min": 0, "description": "Consultation fee in euros for visitors on the French site, e.g. 15. Leave empty to skip payment on the French site." },
     "weeklyHours": { "type": "component", "repeatable": true, "component": "consultation.day-hours" },
     "overrides": { "type": "component", "repeatable": true, "component": "consultation.date-override" }
   }

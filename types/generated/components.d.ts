@@ -87,6 +87,7 @@ export interface HeroSlide extends Struct.ComponentSchema {
     buttonLink: Schema.Attribute.String;
     headline: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    mobileImage: Schema.Attribute.Media<'images'>;
     subtext: Schema.Attribute.Text;
     visible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
   };

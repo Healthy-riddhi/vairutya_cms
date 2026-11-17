@@ -18,6 +18,16 @@
     "confirmedAt": { "type": "datetime" },
     "confirmationEmailSentAt": { "type": "datetime", "description": "Clear this and save to send the confirmation email again." },
     "adminNotes": { "type": "text" },
+    "paymentStatus": { "type": "enumeration", "enum": ["pending_payment", "payment_submitted", "paid", "payment_failed"], "description": "Empty on older requests made before payments existed. For UPI: check your bank app, then set this to paid. The customer is emailed once." },
+    "paymentMethod": { "type": "enumeration", "enum": ["upi_manual", "razorpay"] },
+    "currency": { "type": "enumeration", "enum": ["INR", "EUR"] },
+    "amountMinor": { "type": "integer", "description": "Fee in paise/cents, fixed when the booking was made." },
+    "utr": { "type": "string" },
+    "razorpayOrderId": { "type": "string" },
+    "razorpayPaymentId": { "type": "string" },
+    "paymentSubmittedAt": { "type": "datetime" },
+    "paidAt": { "type": "datetime" },
+    "paidEmailSentAt": { "type": "datetime", "description": "Clear this and save to send the payment-received email again." },
     "token": { "type": "string", "unique": true, "description": "Do not change. It is part of the customer's link." }
   }
 }

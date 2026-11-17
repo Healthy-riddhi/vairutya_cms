@@ -19,6 +19,16 @@ const addDays = (iso: string, n: number) =>
   new Date(Date.parse(`${iso}T00:00:00Z`) + n * 86_400_000).toISOString().slice(0, 10);
 const istToday = () => new Date(Date.now() + 330 * 60_000).toISOString().slice(0, 10);
 
+/** Fee per currency in paise/cents (0 = no payment). Set in Strapi under Consultation Availability. */
+export async function getFees(strapi: any): Promise<{ INR: number; EUR: number }> {
+  const cfg = await strapi.documents(AVAIL).findFirst({});
+  const minor = (v: unknown) => (Number(v) > 0 ? Math.round(Number(v) * 100) : 0);
+  return { INR: minor(cfg?.feeInr), EUR: minor(cfg?.feeEur) };
+}
+
+/** An unpaid booking holds its slot for this long, so the page the customer pays on stays valid. */
+const HOLD_MINUTES = 20;
+
 /** { "2026-12-04": ["10:00", "11:00"], … } for every bookable day. */
 export async function computeDays(strapi: any): Promise<Record<string, string[]>> {
   const cfg = await strapi.documents(AVAIL).findFirst({ populate: { weeklyHours: true, overrides: true } });
@@ -38,8 +48,18 @@ export async function computeDays(strapi: any): Promise<Record<string, string[]>
 
   const today = istToday();
   const last = addDays(today, maxDays);
+  const holdSince = new Date(Date.now() - HOLD_MINUTES * 60_000);
   const booked: any[] = await strapi.db.query(REQ).findMany({
-    where: { requestStatus: 'confirmed', date: { $gte: today, $lte: last } },
+    where: {
+      date: { $gte: today, $lte: last },
+      $or: [
+        { requestStatus: 'confirmed' },
+        // paid or "I've paid" bookings keep their slot until you confirm or cancel them
+        { requestStatus: 'requested', paymentStatus: { $in: ['payment_submitted', 'paid'] } },
+        // unpaid bookings hold the slot for a short while
+        { requestStatus: 'requested', paymentStatus: 'pending_payment', createdAt: { $gte: holdSince } },
+      ],
+    },
     select: ['date', 'slot'],
   });
   const taken = new Set(booked.map((r) => `${String(r.date).slice(0, 10)}|${r.slot}`));
@@ -159,5 +179,58 @@ export async function sendConsultationConfirmed(strapi: any, r: any) {
     });
   } catch (err) {
     strapi.log.error(`[consultation] confirmation email for ${r.reference} failed: ${(err as Error).message}. Save the request again to retry.`);
+  }
+}
+
+
+/* ------------------------------ payment received email ------------------------------ */
+
+/** "Payment received, we'll confirm your slot" – sent once, when the payment becomes paid. */
+export function paymentReceivedEmail(r: any) {
+  const fr = r.language === 'fr';
+  const date = String(r.date).slice(0, 10);
+  const slot = String(r.slot);
+  const first = String(r.name ?? '').trim().split(/\s+/)[0] ?? '';
+  const paris = fr ? parisTime(date, slot) : null;
+  const when = fr
+    ? `${longDate(date, 'fr')} à ${timeLabel(slot, 'fr')} (heure de l’Inde, IST)${paris ? `, soit ${paris} à Paris` : ''}`
+    : `${longDate(date, 'en')} at ${timeLabel(slot, 'en')} IST (India Standard Time)`;
+  const money = new Intl.NumberFormat(fr ? 'fr-FR' : 'en-IN', {
+    style: 'currency', currency: r.currency || 'INR',
+    minimumFractionDigits: Number.isInteger((r.amountMinor ?? 0) / 100) ? 0 : 2, maximumFractionDigits: 2,
+  }).format((r.amountMinor ?? 0) / 100);
+  const url = `${frontend()}${fr ? '/fr' : ''}/consultation/confirmed?ref=${encodeURIComponent(r.reference)}&t=${encodeURIComponent(r.token)}`;
+
+  const t = fr
+    ? { subject: `Paiement reçu pour votre consultation (${r.reference})`, heading: 'Merci, nous avons bien reçu votre paiement',
+        hi: first ? `Bonjour ${first},` : 'Bonjour,',
+        line: `Nous avons bien reçu votre paiement de ${money} pour la consultation du :`,
+        next: 'Nous confirmons votre créneau par e-mail très prochainement, avec le lien de l’appel.',
+        view: 'Suivre ma consultation', bye: 'Avec bienveillance,<br>Vairutya', byeText: 'Avec bienveillance,\nVairutya' }
+    : { subject: `Payment received for your consultation (${r.reference})`, heading: 'Thank you, we’ve received your payment',
+        hi: `Hi ${first || 'there'},`,
+        line: `We’ve received your payment of ${money} for your consultation on:`,
+        next: 'We’ll confirm your slot by email very shortly, with the link to your call.',
+        view: 'Check your consultation', bye: 'With care,<br>Vairutya', byeText: 'With care,\nVairutya' };
+
+  const html = shell(
+    t.heading,
+    para(esc(t.hi)) + para(esc(t.line)) + para(`<strong style="color:#003b43;">${esc(when)}</strong>`) + para(esc(t.next)) +
+      button(url, t.view) + para(t.bye)
+  );
+  const text = [t.hi, '', t.line, when, '', t.next, '', `${t.view}: ${url}`, '', t.byeText].join('\n');
+  return { subject: t.subject, html, text };
+}
+
+/** Sends it once. For UPI this runs when you set paymentStatus to paid; for Razorpay, the website does it. */
+export async function sendConsultationPaid(strapi: any, r: any) {
+  try {
+    await strapi.plugin('email').service('email').send({ to: r.email, ...paymentReceivedEmail(r) });
+    await strapi.db.query(REQ).update({
+      where: { id: r.id },
+      data: { paidEmailSentAt: new Date(), paidAt: r.paidAt ?? new Date() },
+    });
+  } catch (err) {
+    strapi.log.error(`[consultation] payment email for ${r.reference} failed: ${(err as Error).message}. Save the request again to retry.`);
   }
 }

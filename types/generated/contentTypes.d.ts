@@ -590,6 +590,20 @@ export interface ApiConsultationAvailabilityConsultationAvailability
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    feeEur: Schema.Attribute.Decimal &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
+    feeInr: Schema.Attribute.Decimal &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -747,12 +761,14 @@ export interface ApiConsultationRequestConsultationRequest
   };
   attributes: {
     adminNotes: Schema.Attribute.Text;
+    amountMinor: Schema.Attribute.Integer;
     concern: Schema.Attribute.Text;
     confirmationEmailSentAt: Schema.Attribute.DateTime;
     confirmedAt: Schema.Attribute.DateTime;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    currency: Schema.Attribute.Enumeration<['INR', 'EUR']>;
     date: Schema.Attribute.Date & Schema.Attribute.Required;
     email: Schema.Attribute.Email;
     language: Schema.Attribute.Enumeration<['en', 'fr']> &
@@ -766,8 +782,17 @@ export interface ApiConsultationRequestConsultationRequest
     meetingLink: Schema.Attribute.String;
     messageToCustomer: Schema.Attribute.Text;
     name: Schema.Attribute.String;
+    paidAt: Schema.Attribute.DateTime;
+    paidEmailSentAt: Schema.Attribute.DateTime;
+    paymentMethod: Schema.Attribute.Enumeration<['upi_manual', 'razorpay']>;
+    paymentStatus: Schema.Attribute.Enumeration<
+      ['pending_payment', 'payment_submitted', 'paid', 'payment_failed']
+    >;
+    paymentSubmittedAt: Schema.Attribute.DateTime;
     phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    razorpayOrderId: Schema.Attribute.String;
+    razorpayPaymentId: Schema.Attribute.String;
     reference: Schema.Attribute.String & Schema.Attribute.Unique;
     requestStatus: Schema.Attribute.Enumeration<
       ['requested', 'confirmed', 'cancelled']
@@ -779,6 +804,7 @@ export interface ApiConsultationRequestConsultationRequest
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    utr: Schema.Attribute.String;
   };
 }
 
