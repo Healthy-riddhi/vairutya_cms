@@ -17,7 +17,7 @@ export default {
       firstName: str(b.firstName, 80),
       sequence,
       language: b.language === 'fr' ? 'fr' : 'en',
-      status: 'active',
+      dripStatus: 'active',
       nextStep: 1,
       startedAt: new Date(),
       lastSentAt: null,
@@ -36,7 +36,7 @@ export default {
   /** Everyone whose next email is ready. The website's daily job asks for this. */
   async due(ctx: any) {
     const limit = Math.min(Math.max(Number(ctx.query.limit) || 100, 1), 300);
-    const rows: any[] = await strapi.db.query(SUB).findMany({ where: { status: 'active' }, orderBy: { startedAt: 'asc' } });
+    const rows: any[] = await strapi.db.query(SUB).findMany({ where: { dripStatus: 'active' }, orderBy: { startedAt: 'asc' } });
     const items = rows
       .filter((s) => isDue(s))
       .slice(0, limit)
@@ -56,11 +56,11 @@ export default {
     const step = Number(ctx.request.body?.step);
     if (!Number.isInteger(id) || !Number.isInteger(step)) return ctx.badRequest('Invalid request');
     const s: any = await strapi.db.query(SUB).findOne({ where: { id } });
-    if (!s || s.status !== 'active' || s.nextStep !== step) { ctx.body = { ok: false }; return; }
+    if (!s || s.dripStatus !== 'active' || s.nextStep !== step) { ctx.body = { ok: false }; return; }
     const previousLastSentAt = s.lastSentAt ?? null;
     const claimed = await strapi.db.query(SUB).updateMany({
-      where: { id, status: 'active', nextStep: step },
-      data: { nextStep: step + 1, status: step >= STEPS ? 'completed' : 'active', lastSentAt: new Date() },
+      where: { id, dripStatus: 'active', nextStep: step },
+      data: { nextStep: step + 1, dripStatus: step >= STEPS ? 'completed' : 'active', lastSentAt: new Date() },
     });
     ctx.body = { ok: (claimed?.count ?? 0) > 0, previousLastSentAt };
   },
@@ -72,7 +72,7 @@ export default {
     if (!Number.isInteger(id) || !Number.isInteger(step)) return ctx.badRequest('Invalid request');
     await strapi.db.query(SUB).updateMany({
       where: { id, nextStep: step + 1 },
-      data: { nextStep: step, status: 'active', lastSentAt: ctx.request.body?.previousLastSentAt ?? null },
+      data: { nextStep: step, dripStatus: 'active', lastSentAt: ctx.request.body?.previousLastSentAt ?? null },
     });
     ctx.body = { ok: true };
   },
@@ -80,9 +80,9 @@ export default {
   /** Stop someone's emails (they asked, or never confirmed their address). */
   async stop(ctx: any) {
     const id = Number(ctx.request.body?.id);
-    const status = ctx.request.body?.status === 'expired' ? 'expired' : 'unsubscribed';
+    const dripStatus = ctx.request.body?.status === 'expired' ? 'expired' : 'unsubscribed';
     if (!Number.isInteger(id)) return ctx.badRequest('Invalid request');
-    await strapi.db.query(SUB).updateMany({ where: { id, status: 'active' }, data: { status } });
+    await strapi.db.query(SUB).updateMany({ where: { id, dripStatus: 'active' }, data: { dripStatus } });
     ctx.body = { ok: true };
   },
 
@@ -92,7 +92,7 @@ export default {
     if (token.length < 16) return ctx.badRequest('Invalid link');
     const s: any = await strapi.db.query(SUB).findOne({ where: { token } });
     if (!s) return ctx.notFound();
-    if (s.status !== 'unsubscribed') await strapi.db.query(SUB).update({ where: { id: s.id }, data: { status: 'unsubscribed' } });
+    if (s.dripStatus !== 'unsubscribed') await strapi.db.query(SUB).update({ where: { id: s.id }, data: { dripStatus: 'unsubscribed' } });
     ctx.body = { ok: true };
   },
 };

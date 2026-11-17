@@ -9,7 +9,7 @@
     "quizSlug": { "type": "string", "required": true },
     "sequence": { "type": "string", "required": true, "description": "Which emails they get: vata, pitta, kapha, vata-pitta, vata-kapha, pitta-kapha or tridoshic." },
     "language": { "type": "enumeration", "enum": ["en", "fr"], "default": "en" },
-    "status": { "type": "enumeration", "enum": ["active", "completed", "unsubscribed", "expired"], "default": "active", "required": true, "description": "Set to unsubscribed to stop their emails. Set back to active to resume." },
+    "dripStatus": { "type": "enumeration", "enum": ["active", "completed", "unsubscribed", "expired"], "default": "active", "required": true, "description": "Set to unsubscribed to stop their emails. Set back to active to resume." },
     "nextStep": { "type": "integer", "default": 1, "min": 1, "max": 6, "description": "The next email to send (1 to 5). 6 means all five were sent." },
     "startedAt": { "type": "datetime", "description": "When they took the quiz. Each email goes out a set number of days after this." },
     "lastSentAt": { "type": "datetime" },

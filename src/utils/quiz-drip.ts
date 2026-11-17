@@ -14,7 +14,7 @@ const DAY_MS = 86_400_000;
 
 /** True when the next email for this subscriber is ready to go. */
 export function isDue(s: any, now = Date.now()): boolean {
-  if (s.status !== 'active' || !(s.nextStep >= 1 && s.nextStep <= STEPS) || !s.startedAt) return false;
+  if (s.dripStatus !== 'active' || !(s.nextStep >= 1 && s.nextStep <= STEPS) || !s.startedAt) return false;
   const dueAt = new Date(s.startedAt).getTime() + DAYS[s.nextStep - 1] * DAY_MS;
   if (now < dueAt - 2 * 3_600_000) return false; // job may run a couple of hours early; fine
   if (s.lastSentAt && now - new Date(s.lastSentAt).getTime() < MIN_GAP_HOURS * 3_600_000) return false;
