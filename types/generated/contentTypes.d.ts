@@ -1078,6 +1078,57 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiQuizSubscriberQuizSubscriber
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'quiz_subscribers';
+  info: {
+    displayName: 'Quiz Subscriber';
+    pluralName: 'quiz-subscribers';
+    singularName: 'quiz-subscriber';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    email: Schema.Attribute.Email & Schema.Attribute.Required;
+    firstName: Schema.Attribute.String;
+    language: Schema.Attribute.Enumeration<['en', 'fr']> &
+      Schema.Attribute.DefaultTo<'en'>;
+    lastSentAt: Schema.Attribute.DateTime;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::quiz-subscriber.quiz-subscriber'
+    > &
+      Schema.Attribute.Private;
+    nextStep: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 6;
+          min: 1;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<1>;
+    publishedAt: Schema.Attribute.DateTime;
+    quizSlug: Schema.Attribute.String & Schema.Attribute.Required;
+    sequence: Schema.Attribute.String & Schema.Attribute.Required;
+    startedAt: Schema.Attribute.DateTime;
+    status: Schema.Attribute.Enumeration<
+      ['active', 'completed', 'unsubscribed', 'expired']
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'active'>;
+    token: Schema.Attribute.String & Schema.Attribute.Private;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiQuizQuiz extends Struct.CollectionTypeSchema {
   collectionName: 'quizzes';
   info: {
@@ -1978,6 +2029,7 @@ declare module '@strapi/strapi' {
       'api::order.order': ApiOrderOrder;
       'api::page.page': ApiPagePage;
       'api::product.product': ApiProductProduct;
+      'api::quiz-subscriber.quiz-subscriber': ApiQuizSubscriberQuizSubscriber;
       'api::quiz.quiz': ApiQuizQuiz;
       'api::recipe.recipe': ApiRecipeRecipe;
       'api::shop-setting.shop-setting': ApiShopSettingShopSetting;
