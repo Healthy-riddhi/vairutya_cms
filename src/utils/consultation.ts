@@ -19,11 +19,59 @@ const addDays = (iso: string, n: number) =>
   new Date(Date.parse(`${iso}T00:00:00Z`) + n * 86_400_000).toISOString().slice(0, 10);
 const istToday = () => new Date(Date.now() + 330 * 60_000).toISOString().slice(0, 10);
 
-/** Fee per currency in paise/cents (0 = no payment). Set in Strapi under Consultation Availability. */
+const PKG = 'api::consultation-package.consultation-package';
+const toMinor = (v: unknown) => (Number(v) > 0 ? Math.round(Number(v) * 100) : 0);
+const toLines = (v: unknown) => (typeof v === 'string' ? v.split(/\r?\n/).map((s) => s.trim()).filter(Boolean) : []);
+
+/**
+ * A single fee per currency in paise/cents (0 = no payment). Only used when there are no packages:
+ * set in Strapi under Consultation Availability.
+ */
 export async function getFees(strapi: any): Promise<{ INR: number; EUR: number }> {
   const cfg = await strapi.documents(AVAIL).findFirst({});
-  const minor = (v: unknown) => (Number(v) > 0 ? Math.round(Number(v) * 100) : 0);
-  return { INR: minor(cfg?.feeInr), EUR: minor(cfg?.feeEur) };
+  return { INR: toMinor(cfg?.feeInr), EUR: toMinor(cfg?.feeEur) };
+}
+
+export type Currency = 'INR' | 'EUR';
+
+/** The active packages for the website, in order. Prices are in paise/cents (0 = not offered in that currency). */
+export async function getPackages(strapi: any) {
+  const rows: any[] = await strapi.db.query(PKG).findMany({});
+  return rows
+    .filter((r) => r.active !== false)
+    .sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0) || a.id - b.id)
+    .map((r) => ({
+      slug: r.slug as string,
+      kind: r.kind as 'base' | 'addon' | 'program',
+      months: r.months ?? null,
+      title: r.title as string,
+      titleFr: r.titleFr || null,
+      idealFor: r.idealFor || null,
+      idealForFr: r.idealForFr || null,
+      includes: toLines(r.includes),
+      includesFr: toLines(r.includesFr),
+      priceMinor: { INR: toMinor(r.priceInr), EUR: toMinor(r.priceEur) },
+    }));
+}
+
+/**
+ * What someone is buying and what it costs, worked out here so the price can't be changed from the browser.
+ * An add-on only goes with the base package, and only one add-on at a time.
+ */
+export function priceSelection(
+  pkgs: Awaited<ReturnType<typeof getPackages>>,
+  currency: Currency,
+  packageSlug: string,
+  addOnSlug: string
+): { error: string } | { amountMinor: number; base: (typeof pkgs)[number]; add: (typeof pkgs)[number] | null } {
+  const base = pkgs.find((p) => p.slug === packageSlug && p.kind !== 'addon');
+  if (!base || !(base.priceMinor[currency] > 0)) return { error: 'package_invalid' };
+  let add: (typeof pkgs)[number] | null = null;
+  if (addOnSlug) {
+    add = pkgs.find((p) => p.slug === addOnSlug && p.kind === 'addon') ?? null;
+    if (!add || base.kind !== 'base' || !(add.priceMinor[currency] > 0)) return { error: 'addon_invalid' };
+  }
+  return { amountMinor: base.priceMinor[currency] + (add?.priceMinor[currency] ?? 0), base, add };
 }
 
 /** An unpaid booking holds its slot for this long, so the page the customer pays on stays valid. */
@@ -199,17 +247,18 @@ export function paymentReceivedEmail(r: any) {
     style: 'currency', currency: r.currency || 'INR',
     minimumFractionDigits: Number.isInteger((r.amountMinor ?? 0) / 100) ? 0 : 2, maximumFractionDigits: 2,
   }).format((r.amountMinor ?? 0) / 100);
+  const pkg = [r.packageTitle, r.addOnTitle].filter(Boolean).join(' + ');
   const url = `${frontend()}${fr ? '/fr' : ''}/consultation/confirmed?ref=${encodeURIComponent(r.reference)}&t=${encodeURIComponent(r.token)}`;
 
   const t = fr
     ? { subject: `Paiement reçu pour votre consultation (${r.reference})`, heading: 'Merci, nous avons bien reçu votre paiement',
         hi: first ? `Bonjour ${first},` : 'Bonjour,',
-        line: `Nous avons bien reçu votre paiement de ${money} pour la consultation du :`,
+        line: `Nous avons bien reçu votre paiement de ${money}${pkg ? ` (${pkg})` : ''} pour la consultation du :`,
         next: 'Nous confirmons votre créneau par e-mail très prochainement, avec le lien de l’appel.',
         view: 'Suivre ma consultation', bye: 'Avec bienveillance,<br>Vairutya', byeText: 'Avec bienveillance,\nVairutya' }
     : { subject: `Payment received for your consultation (${r.reference})`, heading: 'Thank you, we’ve received your payment',
         hi: `Hi ${first || 'there'},`,
-        line: `We’ve received your payment of ${money} for your consultation on:`,
+        line: `We’ve received your payment of ${money}${pkg ? ` (${pkg})` : ''} for your consultation on:`,
         next: 'We’ll confirm your slot by email very shortly, with the link to your call.',
         view: 'Check your consultation', bye: 'With care,<br>Vairutya', byeText: 'With care,\nVairutya' };
 

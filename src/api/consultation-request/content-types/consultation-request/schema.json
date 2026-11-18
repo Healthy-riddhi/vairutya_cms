@@ -18,6 +18,8 @@
     "confirmedAt": { "type": "datetime" },
     "confirmationEmailSentAt": { "type": "datetime", "description": "Clear this and save to send the confirmation email again." },
     "adminNotes": { "type": "text" },
+    "packageTitle": { "type": "string", "description": "The package they chose, as it was named when they booked." },
+    "addOnTitle": { "type": "string", "description": "The add-on they chose, if any." },
     "paymentStatus": { "type": "enumeration", "enum": ["pending_payment", "payment_submitted", "paid", "payment_failed"], "description": "Empty on older requests made before payments existed. For UPI: check your bank app, then set this to paid. The customer is emailed once." },
     "paymentMethod": { "type": "enumeration", "enum": ["upi_manual", "razorpay"] },
     "currency": { "type": "enumeration", "enum": ["INR", "EUR"] },

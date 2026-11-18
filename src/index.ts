@@ -7,6 +7,7 @@ import { seedFrenchConsultation } from './bootstrap/consultation-french-seed';
 import { seedFrenchRecipesAndWorkshops } from './bootstrap/french-seed-2';
 import { seedFrenchArticles } from './bootstrap/articles';
 import { seedConsultationAvailability } from './bootstrap/consultation-availability-seed';
+import { seedConsultationPackages } from './bootstrap/consultation-packages-seed';
 import { seedMoreQuizzes } from './bootstrap/quiz-seed-2';
 import { seedHairQuizQuestions } from './bootstrap/hair-quiz-questions';
 import { seedAntiAcidityProduct } from './bootstrap/anti-acidity-product';
@@ -78,6 +79,7 @@ export default {
     await seedFrenchRecipesAndWorkshops(strapi);
     await seedFrenchArticles(strapi);
     await seedConsultationAvailability(strapi);
+    await seedConsultationPackages(strapi);
     await seedMoreQuizzes(strapi);
     await seedHairQuizQuestions(strapi);
     await seedAntiAcidityProduct(strapi);

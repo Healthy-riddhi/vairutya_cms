@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consultation_packages",
+  "info": {
+    "singularName": "consultation-package",
+    "pluralName": "consultation-packages",
+    "displayName": "Consultation Package",
+    "description": "What people can book and pay for on the consultation page: the base package, its add-ons, and the long-term programs."
+  },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "titleFr": { "type": "string", "description": "Optional. The French site shows the English title if this is empty." },
+    "slug": { "type": "uid", "targetField": "title", "required": true },
+    "kind": {
+      "type": "enumeration",
+      "enum": ["base", "addon", "program"],
+      "required": true,
+      "description": "base: the starter package. addon: an extra people can add to the base package. program: a long-term program (3, 6 or 12 months)."
+    },
+    "months": { "type": "integer", "min": 1, "description": "Programs only: how many months. Shown as a badge and used for the per-month price." },
+    "idealFor": { "type": "string" },
+    "idealForFr": { "type": "string" },
+    "includes": { "type": "text", "description": "What is included. One item per line." },
+    "includesFr": { "type": "text", "description": "French version. One item per line." },
+    "priceInr": { "type": "decimal", "min": 0, "required": true, "description": "Rupees, e.g. 4900. For an add-on, the extra amount." },
+    "priceEur": { "type": "decimal", "min": 0, "description": "Euros, e.g. 165. Leave empty to not offer it on the French site." },
+    "sortOrder": { "type": "integer", "default": 0, "description": "Smaller numbers come first." },
+    "active": { "type": "boolean", "default": true, "description": "Untick to hide it from the website without deleting it." }
+  }
+}

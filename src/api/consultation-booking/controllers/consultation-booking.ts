@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { computeDays, getFees } from '../../../utils/consultation';
+import { computeDays, getFees, getPackages, priceSelection } from '../../../utils/consultation';
 
 const REQ = 'api::consultation-request.consultation-request';
 const str = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
@@ -20,6 +20,8 @@ function view(r: any) {
     date: String(r.date).slice(0, 10),
     slot: r.slot,
     firstName: String(r.name ?? '').trim().split(/\s+/)[0] ?? '',
+    packageTitle: r.packageTitle ?? null,
+    addOnTitle: r.addOnTitle ?? null,
     email: r.email,
     name: r.name,
     phone: r.phone,
@@ -45,7 +47,7 @@ async function byRef(ctx: any) {
 
 export default {
   async availability(ctx: any) {
-    ctx.body = { timezone: 'Asia/Kolkata', days: await computeDays(strapi), fees: await getFees(strapi) };
+    ctx.body = { timezone: 'Asia/Kolkata', days: await computeDays(strapi), fees: await getFees(strapi), packages: await getPackages(strapi) };
   },
 
   /**
@@ -64,12 +66,27 @@ export default {
 
     if (!name || !phone || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return ctx.badRequest('Invalid request');
 
-    // The fee is worked out here from Strapi's own settings. The website only says which currency.
-    const currency = b.currency === 'EUR' ? 'EUR' : 'INR';
-    const fees: any = await getFees(strapi);
-    const amountMinor: number = fees[currency] ?? 0;
+    // The price is worked out here from Strapi's own settings. The website only says what was chosen.
+    const currency: 'INR' | 'EUR' = b.currency === 'EUR' ? 'EUR' : 'INR';
+    const pkgs = await getPackages(strapi);
+    let amountMinor = 0;
+    let packageTitle = '';
+    let addOnTitle = '';
+    if (pkgs.length) {
+      // Packages are set up: one must be chosen
+      const sel = priceSelection(pkgs, currency, str(b.packageSlug, 120), str(b.addOnSlug, 120));
+      if ('error' in sel) return ctx.badRequest(sel.error);
+      amountMinor = sel.amountMinor;
+      const name = (p: { title: string; titleFr: string | null }) => (language === 'fr' && p.titleFr ? p.titleFr : p.title);
+      packageTitle = name(sel.base);
+      addOnTitle = sel.add ? name(sel.add) : '';
+    } else {
+      // No packages: the single fee from Consultation Availability, if any
+      amountMinor = ((await getFees(strapi)) as any)[currency] ?? 0;
+    }
     const paid = amountMinor > 0;
     const method = b.paymentMethod === 'razorpay' ? 'razorpay' : 'upi_manual';
+    const chosen = { packageTitle: packageTitle || null, addOnTitle: addOnTitle || null };
 
     const days = await computeDays(strapi);
     // Same person coming back to their own unpaid booking: let them continue it.
@@ -77,6 +94,12 @@ export default {
       where: { email, date, slot, requestStatus: 'requested', $or: [{ paymentStatus: { $in: ['pending_payment', 'payment_submitted'] } }, { paymentStatus: null }] },
     });
     if (dup) {
+      // They changed their mind about what to buy before paying: update the same booking
+      if (paid && dup.paymentStatus === 'pending_payment' && (dup.amountMinor !== amountMinor || dup.currency !== currency || dup.packageTitle !== chosen.packageTitle || dup.addOnTitle !== chosen.addOnTitle)) {
+        await strapi.db.query(REQ).update({ where: { id: dup.id }, data: { ...chosen, currency, amountMinor, paymentMethod: method } });
+        dup.amountMinor = amountMinor;
+        dup.currency = currency;
+      }
       ctx.body = {
         reference: dup.reference, token: dup.token, payment: dup.paymentStatus ?? null,
         amountMinor: dup.amountMinor ?? null, currency: dup.currency ?? null,
@@ -92,7 +115,7 @@ export default {
     const token = crypto.randomBytes(16).toString('hex');
     const created: any = await strapi.db.query(REQ).create({
       data: {
-        requestStatus: 'requested', name, email, phone, concern, date, slot, language, token,
+        requestStatus: 'requested', name, email, phone, concern, date, slot, language, token, ...chosen,
         ...(paid ? { paymentStatus: 'pending_payment', paymentMethod: method, currency, amountMinor } : {}),
       },
     });
