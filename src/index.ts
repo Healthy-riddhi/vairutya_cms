@@ -11,6 +11,7 @@ import { seedConsultationPackages } from './bootstrap/consultation-packages-seed
 import { seedMoreQuizzes } from './bootstrap/quiz-seed-2';
 import { seedHairQuizQuestions } from './bootstrap/hair-quiz-questions';
 import { seedAntiAcidityProduct } from './bootstrap/anti-acidity-product';
+import { seedMeditationMat } from './bootstrap/meditation-mat-product';
 import { swapQuizCardForWorkshops } from './bootstrap/workshops-card';
 import { migrateMediaToCloudinary } from './bootstrap/media-migrate';
 import { registerContentChecks } from './utils/content-checks';
@@ -83,6 +84,7 @@ export default {
     await seedMoreQuizzes(strapi);
     await seedHairQuizQuestions(strapi);
     await seedAntiAcidityProduct(strapi);
+    await seedMeditationMat(strapi);
     await swapQuizCardForWorkshops(strapi);
     await migrateMediaToCloudinary(strapi);
   },
