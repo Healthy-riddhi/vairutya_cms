@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshop_registrations",
+  "info": {
+    "singularName": "workshop-registration",
+    "pluralName": "workshop-registrations",
+    "displayName": "Workshop Registration",
+    "description": "Everyone who registered for a workshop on the website."
+  },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "reference": { "type": "string", "description": "Shown to the customer, e.g. WR-00012." },
+    "registrationStatus": {
+      "type": "enumeration",
+      "enum": ["new", "confirmed", "waitlist", "cancelled"],
+      "default": "new",
+      "description": "Your own tracking: new, confirmed, waitlist or cancelled. Changing it does not email the customer."
+    },
+    "workshopTitle": { "type": "string", "description": "The workshop, as it was named when they registered." },
+    "workshopSlug": { "type": "string" },
+    "dateLabel": { "type": "string", "description": "The date they chose." },
+    "dateValue": { "type": "string" },
+    "name": { "type": "string", "required": true },
+    "email": { "type": "email", "required": true },
+    "phone": { "type": "string" },
+    "note": { "type": "text", "description": "Anything they wrote for you." },
+    "language": { "type": "enumeration", "enum": ["en", "fr"], "default": "en" },
+    "adminNotes": { "type": "text", "description": "Private notes for you." }
+  }
+}

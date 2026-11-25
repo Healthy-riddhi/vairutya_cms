@@ -7,7 +7,7 @@ import crypto from 'node:crypto';
  *
  * The email-confirmation link is exempt: customers click it straight from their inbox.
  */
-const PROTECTED = [/^\/api\/auth\//, /^\/api\/users/, /^\/api\/account/, /^\/api\/shop\//, /^\/api\/consultation\//];
+const PROTECTED = [/^\/api\/auth\//, /^\/api\/users/, /^\/api\/account/, /^\/api\/shop\//, /^\/api\/consultation\//, /^\/api\/workshop-register\//];
 const EXEMPT = [/^\/api\/auth\/email-confirmation/];
 
 const same = (a: string, b: string) => {

@@ -16,6 +16,8 @@
     "priceLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": false } } },
     "about": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } },
     "menu": { "type": "component", "repeatable": true, "component": "shared.line", "pluginOptions": { "i18n": { "localized": true } } },
+    "menuTitle": { "type": "string", "description": "Optional. The heading of the list below (the Menu list). Empty: the page says Menu, with a food icon. For a non-food workshop write something like The Experience Flow.", "pluginOptions": { "i18n": { "localized": true } } },
+    "menuNumbered": { "type": "boolean", "default": false, "description": "Tick to show 1, 2, 3 beside each line of the list instead of dots. Wrap a lead-in in double asterisks to make it bold, e.g. **The Talk:** the rest of the line.", "pluginOptions": { "i18n": { "localized": false } } },
     "notes": { "type": "component", "repeatable": true, "component": "shared.line", "pluginOptions": { "i18n": { "localized": true } } },
     "dates": { "type": "component", "repeatable": true, "component": "workshop.date", "pluginOptions": { "i18n": { "localized": true } } }
   }
