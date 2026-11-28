@@ -103,10 +103,17 @@ export default {
     }
     const paid = amountMinor > 0;
     const fr = language === 'fr';
-    const dateLabel = slot ? `${date.label} · ${slot.label}` : date.label;
+    // French customers see French wording: the date from the French entry (same code), the French slot label
+    let dateText: string = date.label;
+    if (fr) {
+      const frEntry: any = await (strapi as any).documents(WORKSHOP).findFirst({ filters: { slug }, locale: 'fr', status: 'published', populate: ['dates'] }).catch(() => null);
+      dateText = (frEntry?.dates ?? []).find((d: any) => d.value === dateValue)?.label || date.label;
+    }
+    const slotText: string | null = slot ? (fr && slot.labelFr ? slot.labelFr : slot.label) : null;
+    const dateLabel = slotText ? `${dateText} · ${slotText}` : dateText;
     const passLabel = pass ? (fr && pass.labelFr ? pass.labelFr : pass.label) : null;
     const seats = pass ? Math.max(1, Number(pass.seats) || 1) : 1;
-    const choice = { ...(slot ? { slotLabel: slot.label, slotValue: slot.value } : {}), ...(pass ? { passValue: pass.value, passLabel, seats } : {}) };
+    const choice = { ...(slot ? { slotLabel: slotText, slotValue: slot.value } : {}), ...(pass ? { passValue: pass.value, passLabel, seats } : {}) };
 
     const answer = (r: any, duplicate: boolean) => ({
       reference: r.reference, token: r.token, workshopTitle: r.workshopTitle, dateLabel: r.dateLabel, duplicate,

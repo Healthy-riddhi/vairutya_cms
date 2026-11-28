@@ -4,6 +4,7 @@
   "options": {},
   "attributes": {
     "label": { "type": "string", "required": true, "description": "What people see, e.g. 10:00 AM – 12:00 PM" },
+    "labelFr": { "type": "string", "description": "French label, e.g. 10h00 – 12h00. Empty: the English label is used on the French site." },
     "value": { "type": "string", "required": true, "description": "Short code, e.g. morning. Don't change it after people have registered." }
   }
 }

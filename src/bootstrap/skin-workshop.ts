@@ -154,8 +154,8 @@ async function addSkinSlotsAndPasses(strapi: Core.Strapi) {
         locale: 'en',
         data: {
           slots: [
-            { label: '10:00 AM – 12:00 PM', value: 'morning' },
-            { label: '2:00 PM – 4:00 PM', value: 'afternoon' },
+            { label: '10:00 AM – 12:00 PM', labelFr: '10h00 – 12h00', value: 'morning' },
+            { label: '2:00 PM – 4:00 PM', labelFr: '14h00 – 16h00', value: 'afternoon' },
           ],
           passes: [
             { label: 'Single seat', labelFr: 'Place individuelle', value: 'single', seats: 1, priceInr: 1499 },
@@ -171,7 +171,31 @@ async function addSkinSlotsAndPasses(strapi: Core.Strapi) {
   }
 }
 
+/** Adds the French time labels to slots that were created before the French label existed. Only fills empty ones. */
+async function addSkinSlotFrenchLabels(strapi: Core.Strapi) {
+  try {
+    const store = strapi.store({ type: 'plugin', name: 'vairutya', key: 'workshop-skin-slots-fr-labels' });
+    if (await store.get()) return;
+    const docs = (strapi as any).documents(UID);
+    const entry = await docs.findFirst({ filters: { slug: SLUG }, locale: 'en', status: 'draft', populate: ['slots'] });
+    if (!entry?.slots?.length) return; // slots not added yet: try again at the next start
+    const fr: Record<string, string> = { morning: '10h00 – 12h00', afternoon: '14h00 – 16h00' };
+    if (entry.slots.some((s: any) => !s.labelFr && fr[s.value])) {
+      await docs.update({
+        documentId: entry.documentId,
+        locale: 'en',
+        data: { slots: entry.slots.map((s: any) => ({ label: s.label, value: s.value, labelFr: s.labelFr || fr[s.value] || null })) },
+      });
+      strapi.log.info('[workshop] added French time labels to the Skin Masterclass slots. Press Publish again on the English entry to put them live.');
+    }
+    await store.set({ value: true });
+  } catch (err) {
+    strapi.log.error(`[workshop] could not add French slot labels: ${(err as Error).message}`);
+  }
+}
+
 export async function seedSkinWorkshop(strapi: Core.Strapi) {
   await createSkinWorkshop(strapi);
   await addSkinSlotsAndPasses(strapi);
+  await addSkinSlotFrenchLabels(strapi);
 }
