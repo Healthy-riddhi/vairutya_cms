@@ -15,6 +15,7 @@ import { seedMeditationMat } from './bootstrap/meditation-mat-product';
 import { seedGiftHampers } from './bootstrap/gift-hampers-product';
 import { seedPlantablePen } from './bootstrap/plantable-pen-product';
 import { seedSkinWorkshop } from './bootstrap/skin-workshop';
+import { seedChristmasHamper } from './bootstrap/christmas-hamper-product';
 import { swapQuizCardForWorkshops } from './bootstrap/workshops-card';
 import { migrateMediaToCloudinary } from './bootstrap/media-migrate';
 import { registerContentChecks } from './utils/content-checks';
@@ -90,6 +91,7 @@ export default {
     await seedMeditationMat(strapi);
     await seedGiftHampers(strapi);
     await seedPlantablePen(strapi);
+    await seedChristmasHamper(strapi);
     await seedSkinWorkshop(strapi);
     await swapQuizCardForWorkshops(strapi);
     await migrateMediaToCloudinary(strapi);

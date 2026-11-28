@@ -166,6 +166,16 @@
       },
       "description": "Price in rupees, GST included. Leave empty to not sell in India."
     },
+    "seoTitle": {
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } },
+      "description": "Optional. The title shown in Google results and the browser tab. Empty: the product name is used."
+    },
+    "seoDescription": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } },
+      "description": "Optional. The short text shown under the title in Google results. Empty: the product description is used."
+    },
     "priceEur": {
       "type": "decimal",
       "min": 0,
