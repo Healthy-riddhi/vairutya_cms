@@ -4,6 +4,7 @@ const open = { auth: false as const };
 export default {
   routes: [
     { method: 'POST', path: '/workshop-register', handler: 'workshop-register.create', config: open },
+    { method: 'GET', path: '/workshop-register-list', handler: 'workshop-register.list', config: open },
     { method: 'GET', path: '/workshop-register/:reference', handler: 'workshop-register.status', config: open },
     { method: 'POST', path: '/workshop-register/:reference/payment', handler: 'workshop-register.attachPayment', config: open },
     { method: 'POST', path: '/workshop-register/:reference/utr', handler: 'workshop-register.submitUtr', config: open },

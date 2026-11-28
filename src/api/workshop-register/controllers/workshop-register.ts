@@ -147,6 +147,17 @@ export default {
     ctx.body = answer({ ...created, ...saved, reference }, false);
   },
 
+  /**
+   * Everything one customer has registered for, newest first. The website asks with the signed-in customer's own
+   * (confirmed) email, so people only ever see their own registrations in My account.
+   */
+  async list(ctx: any) {
+    const email = str(ctx.query.email, 254).toLowerCase();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return ctx.badRequest('invalid');
+    const rows: any[] = await strapi.db.query(REG).findMany({ where: { email }, orderBy: { createdAt: 'desc' }, limit: 50 });
+    ctx.body = { registrations: rows.map(view) };
+  },
+
   async status(ctx: any) {
     const r = await byRef(ctx);
     if (!r) return ctx.notFound();
