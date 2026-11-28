@@ -21,6 +21,8 @@
     "menuTitle": { "type": "string", "description": "Optional. The heading of the list below (the Menu list). Empty: the page says Menu, with a food icon. For a non-food workshop write something like The Experience Flow.", "pluginOptions": { "i18n": { "localized": true } } },
     "menuNumbered": { "type": "boolean", "default": false, "description": "Tick to show 1, 2, 3 beside each line of the list instead of dots. Wrap a lead-in in double asterisks to make it bold, e.g. **The Talk:** the rest of the line.", "pluginOptions": { "i18n": { "localized": false } } },
     "notes": { "type": "component", "repeatable": true, "component": "shared.line", "pluginOptions": { "i18n": { "localized": true } } },
-    "dates": { "type": "component", "repeatable": true, "component": "workshop.date", "pluginOptions": { "i18n": { "localized": true } } }
+    "dates": { "type": "component", "repeatable": true, "component": "workshop.date", "pluginOptions": { "i18n": { "localized": true } } },
+    "slots": { "type": "component", "repeatable": true, "component": "workshop.slot", "description": "Optional. Time slots offered on every date, e.g. 10:00 AM – 12:00 PM and 2:00 PM – 4:00 PM. People pick a date, then a slot.", "pluginOptions": { "i18n": { "localized": false } } },
+    "passes": { "type": "component", "repeatable": true, "component": "workshop.pass", "description": "Optional. Ticket types, e.g. Single seat and Duo pass, each with its own price. When you add passes, they set the price (the priceInr and priceEur above are ignored).", "pluginOptions": { "i18n": { "localized": false } } }
   }
 }

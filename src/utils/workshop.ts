@@ -14,6 +14,8 @@ export function paymentReceivedEmail(r: any) {
     style: 'currency', currency: r.currency || 'INR',
     minimumFractionDigits: Number.isInteger((r.amountMinor ?? 0) / 100) ? 0 : 2, maximumFractionDigits: 2,
   }).format((r.amountMinor ?? 0) / 100);
+  const seats = Number(r.seats) > 0 ? Number(r.seats) : 1;
+  const passText = r.passLabel ? (fr ? `${r.passLabel} (${seats} ${seats > 1 ? 'places' : 'place'})` : `${r.passLabel} (${seats} ${seats > 1 ? 'seats' : 'seat'})`) : '';
   const url = `${frontend()}${fr ? '/fr' : ''}/workshop-registration/confirmed?ref=${encodeURIComponent(r.reference)}&t=${encodeURIComponent(r.token)}`;
 
   const t = fr
@@ -30,10 +32,10 @@ export function paymentReceivedEmail(r: any) {
 
   const html = shell(
     t.heading,
-    para(esc(t.hi)) + para(esc(t.line)) + para(`<strong style="color:#003b43;">${esc(r.dateLabel)}</strong>`) + para(esc(t.next)) +
+    para(esc(t.hi)) + para(esc(t.line)) + para(`<strong style="color:#003b43;">${esc(r.dateLabel)}</strong>`) + (passText ? para(esc(passText)) : '') + para(esc(t.next)) +
       button(url, t.view) + para(t.bye)
   );
-  const text = [t.hi, '', t.line, r.dateLabel, '', t.next, '', `${t.view}: ${url}`, '', t.byeText].join('\n');
+  const text = [t.hi, '', t.line, r.dateLabel, ...(passText ? [passText] : []), '', t.next, '', `${t.view}: ${url}`, '', t.byeText].join('\n');
   return { subject: t.subject, html, text };
 }
 

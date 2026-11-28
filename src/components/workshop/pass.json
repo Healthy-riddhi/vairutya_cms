@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_workshop_passes",
+  "info": { "displayName": "Pass", "icon": "ticket" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true, "description": "e.g. Single seat, Duo pass" },
+    "labelFr": { "type": "string", "description": "French name, e.g. Place individuelle. Empty: the English name is used on the French site." },
+    "value": { "type": "string", "required": true, "description": "Short code, e.g. single or duo. Don't change it after people have registered." },
+    "seats": { "type": "integer", "min": 1, "default": 1, "required": true, "description": "How many people it admits: 1 for a single seat, 2 for a duo pass." },
+    "priceInr": { "type": "decimal", "min": 0, "description": "Price in rupees for the whole pass, e.g. 2499." },
+    "priceEur": { "type": "decimal", "min": 0, "description": "Price in euros for the French site. Empty: this pass is not offered on the French site." }
+  }
+}

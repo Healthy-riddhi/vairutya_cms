@@ -109,7 +109,7 @@ async function moveFlowIntoList(strapi: Core.Strapi, docs: any) {
  * add them in Content Manager → Workshop, then press Publish on the English entry.
  * The French version is already published, so it goes live in French at the same moment.
  */
-export async function seedSkinWorkshop(strapi: Core.Strapi) {
+async function createSkinWorkshop(strapi: Core.Strapi) {
   try {
     const docs = (strapi as any).documents(UID);
     await moveFlowIntoList(strapi, docs);
@@ -135,4 +135,43 @@ export async function seedSkinWorkshop(strapi: Core.Strapi) {
   } catch (err) {
     strapi.log.error(`[workshop] could not create the Skin Masterclass: ${(err as Error).message}`);
   }
+}
+
+/**
+ * The Skin Masterclass runs in two time slots a day and sells two passes. Added once, only if you haven't set any yet:
+ * edit or remove them any time in Content Manager → Workshop → Healthy, Happy Skin. The workshop's dates are still yours to add.
+ */
+async function addSkinSlotsAndPasses(strapi: Core.Strapi) {
+  try {
+    const store = strapi.store({ type: 'plugin', name: 'vairutya', key: 'workshop-skin-slots-passes-seeded' });
+    if (await store.get()) return;
+    const docs = (strapi as any).documents(UID);
+    const entry = await docs.findFirst({ filters: { slug: SLUG }, locale: 'en', status: 'draft', populate: ['slots', 'passes'] });
+    if (!entry) return; // not created yet: try again at the next start
+    if (!(entry.slots?.length) && !(entry.passes?.length)) {
+      await docs.update({
+        documentId: entry.documentId,
+        locale: 'en',
+        data: {
+          slots: [
+            { label: '10:00 AM – 12:00 PM', value: 'morning' },
+            { label: '2:00 PM – 4:00 PM', value: 'afternoon' },
+          ],
+          passes: [
+            { label: 'Single seat', labelFr: 'Place individuelle', value: 'single', seats: 1, priceInr: 1499 },
+            { label: 'Duo pass', labelFr: 'Pass duo', value: 'duo', seats: 2, priceInr: 2499 },
+          ],
+        },
+      });
+      strapi.log.info('[workshop] added the two time slots and the Single seat (₹1,499) / Duo pass (₹2,499) to the Skin Masterclass. Add the dates, then press Publish (again, if it was already published).');
+    }
+    await store.set({ value: true });
+  } catch (err) {
+    strapi.log.error(`[workshop] could not add the Skin Masterclass slots and passes: ${(err as Error).message}`);
+  }
+}
+
+export async function seedSkinWorkshop(strapi: Core.Strapi) {
+  await createSkinWorkshop(strapi);
+  await addSkinSlotsAndPasses(strapi);
 }

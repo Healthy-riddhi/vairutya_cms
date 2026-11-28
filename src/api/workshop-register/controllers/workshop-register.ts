@@ -18,6 +18,9 @@ function view(r: any) {
     workshopTitle: r.workshopTitle,
     workshopSlug: r.workshopSlug,
     dateLabel: r.dateLabel,
+    slotLabel: r.slotLabel ?? null,
+    passLabel: r.passLabel ?? null,
+    seats: r.seats ?? 1,
     name: r.name,
     email: r.email,
     phone: r.phone,
@@ -51,6 +54,8 @@ export default {
     const b = ctx.request.body ?? {};
     const slug = str(b.slug, 120);
     const dateValue = str(b.dateValue, 60);
+    const slotValue = str(b.slotValue, 60);
+    const passValue = str(b.passValue, 60);
     const name = str(b.name, 80);
     const email = str(b.email, 254).toLowerCase();
     const phone = str(b.phone, 40);
@@ -66,7 +71,7 @@ export default {
       filters: { slug },
       locale: 'en',
       status: 'published',
-      populate: ['dates'],
+      populate: ['dates', 'slots', 'passes'],
     });
     if (!workshop) return ctx.notFound();
     const date = (workshop.dates ?? []).find((d: any) => d.value === dateValue);
@@ -75,22 +80,47 @@ export default {
       ctx.body = { error: 'date_unavailable' };
       return;
     }
-    const amountMinor = toMinor(currency === 'EUR' ? workshop.priceEur : workshop.priceInr);
+
+    // Time slots: when the workshop offers them, one must be chosen
+    const slots: any[] = workshop.slots ?? [];
+    const slot = slots.length ? slots.find((s: any) => s.value === slotValue) : null;
+    if (slots.length && !slot) {
+      ctx.status = 409;
+      ctx.body = { error: 'slot_unavailable' };
+      return;
+    }
+
+    // Passes (single seat, duo pass...): when the workshop has them, the chosen pass sets the price.
+    // Otherwise the workshop's own price applies, as before.
+    const passes: any[] = workshop.passes ?? [];
+    const pass = passes.length ? passes.find((p: any) => p.value === passValue) : null;
+    const amountMinor = toMinor(pass ? (currency === 'EUR' ? pass.priceEur : pass.priceInr) : currency === 'EUR' ? workshop.priceEur : workshop.priceInr);
+    if (passes.length && (!pass || amountMinor <= 0)) {
+      // Unknown pass, or one with no price in this currency: never fall through to a free registration
+      ctx.status = 409;
+      ctx.body = { error: 'pass_unavailable' };
+      return;
+    }
     const paid = amountMinor > 0;
+    const fr = language === 'fr';
+    const dateLabel = slot ? `${date.label} · ${slot.label}` : date.label;
+    const passLabel = pass ? (fr && pass.labelFr ? pass.labelFr : pass.label) : null;
+    const seats = pass ? Math.max(1, Number(pass.seats) || 1) : 1;
+    const choice = { ...(slot ? { slotLabel: slot.label, slotValue: slot.value } : {}), ...(pass ? { passValue: pass.value, passLabel, seats } : {}) };
 
     const answer = (r: any, duplicate: boolean) => ({
       reference: r.reference, token: r.token, workshopTitle: r.workshopTitle, dateLabel: r.dateLabel, duplicate,
       payment: r.paymentStatus ?? null, amountMinor: r.amountMinor ?? null, currency: r.currency ?? null,
     });
 
-    // The same person registering again for the same date
-    const dup: any = await strapi.db.query(REG).findOne({ where: { email, workshopSlug: slug, dateValue } });
+    // The same person registering again for the same date (and time slot)
+    const dup: any = await strapi.db.query(REG).findOne({ where: { email, workshopSlug: slug, dateValue, ...(slot ? { slotValue: slot.value } : {}) } });
     if (dup) {
       // Not paid yet (or the payment failed): let them continue, with today's price
       if (paid && ['pending_payment', 'payment_failed'].includes(dup.paymentStatus)) {
         const updated = await strapi.db.query(REG).update({
           where: { id: dup.id },
-          data: { paymentStatus: 'pending_payment', currency, amountMinor, paymentMethod: method },
+          data: { paymentStatus: 'pending_payment', currency, amountMinor, paymentMethod: method, ...choice },
         });
         ctx.body = answer({ ...dup, ...updated }, false);
         return;
@@ -105,8 +135,9 @@ export default {
         registrationStatus: 'new',
         workshopTitle: workshop.title,
         workshopSlug: slug,
-        dateLabel: date.label,
+        dateLabel,
         dateValue,
+        ...choice,
         name, email, phone, note, language, token,
         ...(paid ? { paymentStatus: 'pending_payment', paymentMethod: method, currency, amountMinor } : {}),
       },
